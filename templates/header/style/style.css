@@ -14,6 +14,7 @@
 }
 :root {
   --link-c-grey: rgba(113, 105, 105, 1);
+  --link-c-black: rgba(43, 41, 41, 1);
 }
 .logo {
   display: flex;
@@ -68,4 +69,28 @@
 }
 .fa-chevron-down {
   margin-left: 8px;
+}
+.categories {
+  display: flex;
+  justify-content: space-between;
+}
+.categories-ul {
+  display: flex;
+}
+.categories-ul-a {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22.4px;
+  letter-spacing: 0.01em;
+  color: var(--link-c-black);
+  margin: 0 20px;
+}
+.categories-ul-second {
+  display: flex;
+}
+.categories-ul-second-a {
+  font-size: 20px;
+  color: var(--link-c-black);
+  margin: 0 10px;
 }
