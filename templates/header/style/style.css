@@ -1,0 +1,71 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+.container {
+  margin: 0 100px;
+}
+:root {
+  --link-c-grey: rgba(113, 105, 105, 1);
+}
+.logo {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  margin: 24px 0;
+}
+.classes__wrapper {
+  display: flex;
+}
+.logo__img__box {
+  margin-right: 48px;
+}
+.header__logo-ul {
+  display: flex;
+}
+.header__logo-a {
+  color: var(--link-c-grey);
+  font-family: "Inter";
+  font-weight: 400;
+}
+.header__wrapper__ul {
+  display: flex;
+  justify-content: space-between;
+}
+.header__logo-ul-li {
+  margin: 0 20px;
+  display: flex;
+  align-items: end;
+}
+.wrapper-li {
+  margin: 0 20px;
+  color: var(--link-c-grey);
+  display: flex;
+  align-items: end;
+  font-family: "Inter";
+  font-weight: 400;
+}
+.wrapper-li-a {
+  color: var(--link-c-grey);
+}
+.fa-whatsapp,
+.fa-telegram,
+.fa-envelope,
+.fa-phone-flip {
+  border: 1px solid var(--link-c-grey);
+  padding: 7px;
+  border-radius: 50%;
+}
+.none {
+  display: none;
+}
+.fa-chevron-down {
+  margin-left: 8px;
+}
