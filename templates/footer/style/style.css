@@ -46,7 +46,7 @@
   width: 35px;
   display: block;
   text-align: center;
-  border: 1px solid var(--grey);
+  /* border: 1px solid var(--grey); */
   border-radius: 50%;
 }
 .footer-last {
