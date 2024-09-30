@@ -72,22 +72,18 @@
 .fa-whatsapp:hover {
   color: var(--whatsup-c);
   border: 1px solid var(--whatsup-c);
-  font-size: 20px;
 }
 .fa-telegram:hover {
   color: var(--tg-c);
   border: 1px solid var(--tg-c);
-  font-size: 20px;
 }
 .fa-envelope:hover {
   color: var(--sms-c);
   border: 1px solid var(--sms-c);
-  font-size: 20px;
 }
 .fa-phone-flip:hover {
   color: var(--phone);
   border: 1px solid var(--phone);
-  font-size: 20px;
 }
 .menu-icon {
   text-align: center;
