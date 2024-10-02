@@ -7,7 +7,9 @@
 body{
     width: 1920px;
     height: 4450px;
-    padding: 100px;
+    padding-top: 100px;
+    padding-left: 120px;
+    padding-right: 50px;
     gap: 160px;
 }
 .container_nike {
@@ -16,7 +18,7 @@ body{
     width: 1720px;
     height: 700px;
     border-radius: 12px;
-    background: radial-gradient(#6E2F9E, #8E9AE1, #DD61AF, #EEF2A8)
+    background: radial-gradient(#6E2F9E, #8E9AE1, #DD61AF, #EEF2A8);
 }
 
 .nike_text {
@@ -52,11 +54,13 @@ p {
 
 #more {
     display: flex;
+    font-size: 22px;
     width: 272px;
     height: 54px;
     border-radius: 12px;
     padding: 16px 80px;
     gap: 10px;
+    border-color: transparent;
     background-color: #ffff;
 }
 
@@ -84,8 +88,8 @@ p {
     position: absolute;
     width: 245px;
     height: 130px;
-    top: 37px;
-    left: 1371px;
+    top: 137px;
+    left: 1471px;
 }
 
 #logos {
