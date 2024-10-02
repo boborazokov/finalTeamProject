@@ -35,3 +35,11 @@ color: #ffff;
     gap: 10px;
     background-color: #ffff;
 }
+#nike_sneakers{
+    width: 647px;
+    height: 650px;
+    top: 12px;
+    left: 953px;
+    motion-rotation: -0deg;
+    scale: crop;
+}
