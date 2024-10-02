@@ -15,6 +15,12 @@
     width: 801px;
     height: 335x;
     top: 182px;
+    left: 80px;
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
 }
 .nike_text, h2{
     font-family: Inter;
@@ -41,10 +47,12 @@ color: #ffff;
     background-color: #ffff;
 }
 #nike_sneakers{
-    width: 647px;
-    height: 650px;
     top: 12px;
     left: 953px;
+}
+#main_logo{
+    width: 647px;
+    height: 650px;
     motion-rotation: -0deg;
     scale: crop;
 }
