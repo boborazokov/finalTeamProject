@@ -11,6 +11,11 @@
     border-radius: 12px;
     background:radial-gradient(#6E2F9E , #8E9AE1, #DD61AF, #EEF2A8)
 }
+.nike_text{
+    width: 801px;
+    height: 335x;
+    top: 182px;
+}
 .nike_text, h2{
     font-family: Inter;
     size: 48px;
