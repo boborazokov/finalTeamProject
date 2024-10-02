@@ -13,4 +13,7 @@
 }
 .nike_text{
     font-family: Inter;
+    size: 48px;
+    line-height: 52.8px;
+    letter-spacing: 1%;
 }
