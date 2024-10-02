@@ -4,6 +4,8 @@
     padding: 0;
 }
 .container_nike{
+    display: flex;
+    justify-content: space-around;
     width: 1720px;
     height: 700px;
     border-radius: 12px;
