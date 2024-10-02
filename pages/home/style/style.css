@@ -26,7 +26,6 @@
     font-family: Inter;
     size: 48px;
     line-height: 52.8px;
-    letter-spacing: 1%;
     color: #ffff;
     font-weight: 700;
 }
@@ -46,6 +45,9 @@ color: #ffff;
     gap: 10px;
     background-color: #ffff;
 }
+#more:hover{
+background-color: #EFEFEF;
+}
 #nike_sneakers{
     top: 12px;
     left: 953px;
@@ -55,6 +57,13 @@ color: #ffff;
     height: 650px;
     motion-rotation: -0deg;
     scale: crop;
+}
+#nike_logo_main{
+    position: absolute;
+    width: 245px;
+    height: 130px;
+    top: 37px;
+    left: 1371px;
 }
 #logos{
     width: 1720px;
