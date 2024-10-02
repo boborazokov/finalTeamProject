@@ -33,21 +33,21 @@ body{
 
 .nike_text,
 h2 {
-    font-family: Inter;
-    size: 48px;
-    line-height: 52.8px;
-    color: #ffff;
+    font-family: Inter, sans-serif;
+    font-size: 2vw;
+    line-height: 1.1;
+    color: #ffffff;
     font-weight: 700;
 }
 
 .nike_text,
 p {
     font-weight: 400;
-    font-family: Inter;
-    size: 24px;
-    line-height: 36px;
+    font-family: Inter, sans-serif;
+    font-size: 1.5vw;
+    line-height: 1.5;
     letter-spacing: 1%;
-    color: #ffff;
+    color: #ffffff;
 }
 
 #more {
