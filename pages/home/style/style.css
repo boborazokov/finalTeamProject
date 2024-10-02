@@ -43,3 +43,10 @@ color: #ffff;
     motion-rotation: -0deg;
     scale: crop;
 }
+#logos{
+    width: 1720px;
+    height: 140px;
+    gap: 20px;
+    display: flex;
+    justify-content: space-around;
+}
