@@ -1,17 +1,19 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-.container_nike{
+
+.container_nike {
     display: flex;
     justify-content: space-around;
     width: 1720px;
     height: 700px;
     border-radius: 12px;
-    background:radial-gradient(#6E2F9E , #8E9AE1, #DD61AF, #EEF2A8)
+    background: radial-gradient(#6E2F9E, #8E9AE1, #DD61AF, #EEF2A8)
 }
-.nike_text{
+
+.nike_text {
     width: 801px;
     height: 335x;
     top: 182px;
@@ -22,22 +24,28 @@
     justify-content: center;
     align-items: left;
 }
-.nike_text, h2{
+
+.nike_text,
+h2 {
     font-family: Inter;
     size: 48px;
     line-height: 52.8px;
     color: #ffff;
     font-weight: 700;
 }
-.nike_text, p{
-font-weight: 400;
-font-family: Inter;
-size: 24px;
-line-height: 36px;
-letter-spacing: 1%;
-color: #ffff;
+
+.nike_text,
+p {
+    font-weight: 400;
+    font-family: Inter;
+    size: 24px;
+    line-height: 36px;
+    letter-spacing: 1%;
+    color: #ffff;
 }
-#more{
+
+#more {
+    display: flex;
     width: 272px;
     height: 54px;
     border-radius: 12px;
@@ -45,34 +53,45 @@ color: #ffff;
     gap: 10px;
     background-color: #ffff;
 }
-#more:hover{
-background-color: #EFEFEF;
+
+#more:hover {
+    background-color: #EFEFEF;
 }
-#nike_sneakers{
+
+#more:active {
+    background-color: #FF4F4F;
+}
+
+#nike_sneakers {
     top: 12px;
     left: 953px;
 }
-#main_logo{
+
+#main_logo {
     width: 647px;
     height: 650px;
     motion-rotation: -0deg;
     scale: crop;
 }
-#nike_logo_main{
+
+#nike_logo_main {
     position: absolute;
     width: 245px;
     height: 130px;
     top: 37px;
     left: 1371px;
 }
-#logos{
+
+#logos {
     width: 1720px;
     height: 140px;
     gap: 20px;
     display: flex;
     justify-content: space-around;
 }
-#logos, img{
+
+#logos,
+img {
     width: 270px;
     height: 140px;
     border-radius: 12px;
