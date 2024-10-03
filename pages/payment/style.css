@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+.container {
+  max-width: 1250px;
+  width: 100%;
+  padding: 0 15px;
+  margin: auto;
+}
+
+.main__header-text {
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 44px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+
+.payment__type {
+  display: flex;
+  justify-content: space-around;
+}
