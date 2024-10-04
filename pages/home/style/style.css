@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font: inter;
 }
 
 body {
@@ -116,4 +117,6 @@ img {
 
 .cards, p{
     color: black;
+    size: 20px;
+    line-height: 22px;
 }
