@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-body{
+body {
     width: 1920px;
     height: 4450px;
     padding-top: 100px;
@@ -12,6 +12,7 @@ body{
     padding-right: 50px;
     gap: 160px;
 }
+
 .container_nike {
     display: flex;
     justify-content: space-around;
@@ -105,4 +106,10 @@ img {
     width: 270px;
     height: 140px;
     border-radius: 12px;
+}
+
+.cards {
+    width: 415px;
+    height: 430px;
+    gap: 20px;
 }
