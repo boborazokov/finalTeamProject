@@ -120,6 +120,9 @@ img {
     height: 430px;
     gap: 20px;
 }
+.arrow{
+    color: black;
+}
 
 .pro_text{
     color: black;
