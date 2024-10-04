@@ -167,6 +167,7 @@
   width: 50%;
 }
 .main__part__img {
+  width: 90%;
   display: flex;
 }
 .main__part__two {
@@ -211,6 +212,9 @@
 }
 .mbox-one {
   width: 50%;
+}
+.mbox-two {
+  width: 29%;
 }
 .mbox-one-h3 {
   margin: 8px 0;
