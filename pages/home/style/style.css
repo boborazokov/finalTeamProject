@@ -109,7 +109,11 @@ img {
     border-radius: 12px;
 }
 
-
+.favourite_cards{
+    width: 1720px;
+    height: 506px;
+    gap: 32px;
+}
 
 .cards {
     width: 415px;
