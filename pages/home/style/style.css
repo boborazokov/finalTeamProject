@@ -113,6 +113,11 @@ img {
     width: 1720px;
     height: 506px;
     gap: 32px;
+    margin-top: 250px;
+}
+.popular{
+    color: black;
+    margin-bottom: 100px;
 }
 
 .cards {
