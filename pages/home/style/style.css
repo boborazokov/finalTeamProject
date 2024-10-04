@@ -109,6 +109,8 @@ img {
     border-radius: 12px;
 }
 
+
+
 .cards {
     width: 415px;
     height: 430px;
@@ -118,7 +120,14 @@ img {
 .pro_text{
     color: black;
     size: 20px;
-    line-height: 22px;
+    line-height: 52px;
+}
+
+#discount{
+    background-color: #F1BF5D;
+    color: black;
+    border-radius: 8px;
+    padding: 4px 8px;
 }
 
 .pro_item{
