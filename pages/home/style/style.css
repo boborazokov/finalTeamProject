@@ -290,6 +290,14 @@ img {
     size: 20px;
 }
 
+#sign{
+    width: 203px;
+    height: 78px;
+    position: relative;
+    top: 133px;
+    left: 28px;
+}
+
 
 .sale {
     margin-top: 100px;
