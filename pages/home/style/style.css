@@ -269,7 +269,57 @@ img {
 }
 
 
-/* place for tel part */
+.about__mark {
+    background: linear-gradient(266.93deg, #FFF385 -12.52%, rgba(255, 240, 186, 0.3) 137.39%);
+    height: 400px;
+    border-radius: 12px;
+    margin-bottom: 160px;
+}
+
+.about__markidflex {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    gap: 48px;
+    align-items: center;
+}
+
+.about__mark--title {
+    max-width: 609px;
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 38.4px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #2B2929;
+}
+
+.about__mark--title-span {
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 38.4px;
+    letter-spacing: 0.01em;
+    text-align: left;
+}
+
+.Smartphone {
+    position: relative;
+    left: 40%;
+    transform: translateY(13%);
+}
+
+.Smartphone-div {
+    align-items: end;
+}
+
+.mark {
+    position: absolute;
+    bottom: 25%;
+    left: 19%;
+}
+
 
 .sale {
     margin-top: 100px;
