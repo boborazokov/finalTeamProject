@@ -166,11 +166,13 @@ img {
     position: absolute;
     top: 10px; /* Положение от верхнего края */
     left: 10px; /* Положение от левого края */
-    background-color: #F1BF5D;
     padding: 4px 8px;
     border-radius: 8px;
     font-weight: bold;
     z-index: 2;
+}
+#event1{
+    background-color: #5ED270;
 }
 
 .icons {
