@@ -437,3 +437,10 @@ span {
     left: 128px;
     top: -75px;
 }
+
+.shirt{
+    width: 490px;
+    height: 326px;
+    border-radius: 12px;
+    background-color: #EFEFEF;
+}
