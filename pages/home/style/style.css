@@ -429,3 +429,11 @@ span {
     top: 222px;
     left: 24px;
 }
+
+#shoe{
+    position: relative;
+    width: 179px;
+    height: 226px;
+    left: 128px;
+    top: -75px;
+}
