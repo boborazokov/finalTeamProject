@@ -1,0 +1,247 @@
+{
+    "products" : [
+        {
+            "name" : "Nike Defy All Day",
+            "newPrice" : "9 000 ₽",
+            "oldPrice" : "12 990 ₽",
+            "discount" : "-32%",
+            "img" : "1.png",
+            "rate" : "Топ продаж",
+            "color" : "blue"
+        },
+        {
+            "name" : "Кроссовки Nike Air Max 97",
+            "newPrice" : "25 500 ₽",
+            "oldPrice" : "22 990 ₽",
+            "discount" : "-17%",
+            "img" : "2.png",
+            "rate" : "Хит сезона",
+            "color" : "red"
+        },
+        {
+            "name" : "Кроссовки Nike Air Max TW SE",
+            "newPrice" : "13 095 ₽",
+            "oldPrice" : "15 990 ₽",
+            "discount" : "-10%",
+            "img" : "4.png",
+            "rate" : "none",
+            "color" : "none"
+        },
+        {
+            "name" : "Кроссовки Nike Varsity Royal",
+            "newPrice" : "24 000 ₽",
+            "oldPrice" : "29 990 ₽",
+            "discount" : "-18%",
+            "img" : "3.png",
+            "rate" : "Топ продаж",
+            "color" : "blue"
+        },
+        {
+            "name" : "Кроссовки Nike Air Max TW SE",
+            "newPrice" : "13 095 ₽",
+            "oldPrice" : "15 990 ₽",
+            "discount" : "-10%",
+            "img" : "4.png",
+            "rate" : "Лучшая цена",
+            "color" : "yellow"
+        },
+        {
+            "name" : "Nike Defy All Day",
+            "newPrice" : "9 000 ₽",
+            "oldPrice" : "12 990 ₽",
+            "discount" : "-32%",
+            "img" : "1.png",
+            "rate" : "Топ продаж",
+            "color" : "blue"
+        },
+        {
+            "name" : "Nike Defy All Day",
+            "newPrice" : "9 000 ₽",
+            "oldPrice" : "12 990 ₽",
+            "discount" : "-32%",
+            "img" : "1.png",
+            "rate" : "Топ продаж",
+            "color" : "blue"
+        },
+        {
+            "name" : "Кроссовки Nike Air Max 97",
+            "newPrice" : "25 500 ₽",
+            "oldPrice" : "22 990 ₽",
+            "discount" : "-17%",
+            "img" : "2.png",
+            "rate" : "Хит сезона",
+            "color" : "red"
+        },
+        {
+            "name" : "Кроссовки Nike Air Max TW SE",
+            "newPrice" : "13 095 ₽",
+            "oldPrice" : "15 990 ₽",
+            "discount" : "-10%",
+            "img" : "4.png",
+            "rate" : "none",
+            "color" : "none"
+        },
+        {
+            "name" : "Nike Defy All Day",
+            "newPrice" : "9 000 ₽",
+            "oldPrice" : "12 990 ₽",
+            "discount" : "-32%",
+            "img" : "1.png",
+            "rate" : "Топ продаж",
+            "color" : "blue"
+        },
+        {
+            "name" : "Кроссовки Nike Air Max 97",
+            "newPrice" : "25 500 ₽",
+            "oldPrice" : "22 990 ₽",
+            "discount" : "-17%",
+            "img" : "2.png",
+            "rate" : "Хит сезона",
+            "color" : "red"
+        },
+        {
+            "name" : "Кроссовки Nike Air Max TW SE",
+            "newPrice" : "13 095 ₽",
+            "oldPrice" : "15 990 ₽",
+            "discount" : "-10%",
+            "img" : "4.png",
+            "rate" : "none",
+            "color" : "none"
+        },
+        {
+            "name" : "Кроссовки Nike Varsity Royal",
+            "newPrice" : "24 000 ₽",
+            "oldPrice" : "29 990 ₽",
+            "discount" : "-18%",
+            "img" : "3.png",
+            "rate" : "Топ продаж",
+            "color" : "blue"
+        },
+        {
+            "name" : "Кроссовки Nike Air Max TW SE",
+            "newPrice" : "13 095 ₽",
+            "oldPrice" : "15 990 ₽",
+            "discount" : "-10%",
+            "img" : "4.png",
+            "rate" : "Лучшая цена",
+            "color" : "yellow"
+        },
+        {
+            "name" : "Nike Defy All Day",
+            "newPrice" : "9 000 ₽",
+            "oldPrice" : "12 990 ₽",
+            "discount" : "-32%",
+            "img" : "1.png",
+            "rate" : "Топ продаж",
+            "color" : "blue"
+        },
+        {
+            "name" : "Nike Defy All Day",
+            "newPrice" : "9 000 ₽",
+            "oldPrice" : "12 990 ₽",
+            "discount" : "-32%",
+            "img" : "1.png",
+            "rate" : "Топ продаж",
+            "color" : "blue"
+        },
+        {
+            "name" : "Кроссовки Nike Air Max 97",
+            "newPrice" : "25 500 ₽",
+            "oldPrice" : "22 990 ₽",
+            "discount" : "-17%",
+            "img" : "2.png",
+            "rate" : "Хит сезона",
+            "color" : "red"
+        },
+        {
+            "name" : "Кроссовки Nike Air Max TW SE",
+            "newPrice" : "13 095 ₽",
+            "oldPrice" : "15 990 ₽",
+            "discount" : "-10%",
+            "img" : "4.png",
+            "rate" : "none",
+            "color" : "none"
+        },
+        {
+            "name" : "Nike Defy All Day",
+            "newPrice" : "9 000 ₽",
+            "oldPrice" : "12 990 ₽",
+            "discount" : "-32%",
+            "img" : "1.png",
+            "rate" : "Топ продаж",
+            "color" : "blue"
+        },
+        {
+            "name" : "Кроссовки Nike Air Max 97",
+            "newPrice" : "25 500 ₽",
+            "oldPrice" : "22 990 ₽",
+            "discount" : "-17%",
+            "img" : "2.png",
+            "rate" : "Хит сезона",
+            "color" : "red"
+        },
+        {
+            "name" : "Кроссовки Nike Air Max TW SE",
+            "newPrice" : "13 095 ₽",
+            "oldPrice" : "15 990 ₽",
+            "discount" : "-10%",
+            "img" : "4.png",
+            "rate" : "none",
+            "color" : "none"
+        },
+        {
+            "name" : "Кроссовки Nike Varsity Royal",
+            "newPrice" : "24 000 ₽",
+            "oldPrice" : "29 990 ₽",
+            "discount" : "-18%",
+            "img" : "3.png",
+            "rate" : "Топ продаж",
+            "color" : "blue"
+        },
+        {
+            "name" : "Кроссовки Nike Air Max TW SE",
+            "newPrice" : "13 095 ₽",
+            "oldPrice" : "15 990 ₽",
+            "discount" : "-10%",
+            "img" : "4.png",
+            "rate" : "Лучшая цена",
+            "color" : "yellow"
+        },
+        {
+            "name" : "Nike Defy All Day",
+            "newPrice" : "9 000 ₽",
+            "oldPrice" : "12 990 ₽",
+            "discount" : "-32%",
+            "img" : "1.png",
+            "rate" : "Топ продаж",
+            "color" : "blue"
+        },
+        {
+            "name" : "Nike Defy All Day",
+            "newPrice" : "9 000 ₽",
+            "oldPrice" : "12 990 ₽",
+            "discount" : "-32%",
+            "img" : "1.png",
+            "rate" : "Топ продаж",
+            "color" : "blue"
+        },
+        {
+            "name" : "Кроссовки Nike Air Max 97",
+            "newPrice" : "25 500 ₽",
+            "oldPrice" : "22 990 ₽",
+            "discount" : "-17%",
+            "img" : "2.png",
+            "rate" : "Хит сезона",
+            "color" : "red"
+        },
+        {
+            "name" : "Кроссовки Nike Air Max TW SE",
+            "newPrice" : "13 095 ₽",
+            "oldPrice" : "15 990 ₽",
+            "discount" : "-10%",
+            "img" : "4.png",
+            "rate" : "none",
+            "color" : "none"
+        }
+    ]
+}
