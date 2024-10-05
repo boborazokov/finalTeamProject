@@ -140,7 +140,7 @@ img {
     display: flex;
     justify-content: space-around; /* Расположим карточки в строку */
     flex-wrap: wrap; /* Позволяет переносить карточки на следующую строку */
-    gap: 10px; /* Расстояние между карточками */
+    gap: 10px; 
 }
 
 .card {
@@ -165,32 +165,32 @@ img {
     flex-direction: column; /* Элементы карточки располагаются в колонку */
 }
 
-#event1, #even2, #even3, #even4 {
+#event1 {
     position: absolute;
-    top: 10px; 
-    left: 10px; 
+    top: 16px; 
+    left: 20px; 
     background-color: #F1BF5D;
-    padding: 4px 8px;
+    padding: 4px 12px;
     border-radius: 8px;
     font-weight: bold;
     z-index: 2;
 }
 #event2{
     position: absolute;
-    top: 10px; 
-    left: 10px; 
+    top: 16px; 
+    left: 20px; 
     background-color: #F15D5D;
-    padding: 4px 8px;
+    padding: 4px 12px;
     border-radius: 8px;
     font-weight: bold;
     z-index: 2;
 }
 #event3{
     position: absolute;
-    top: 10px; 
-    left: 10px; 
+    top: 16px; 
+    left: 20px; 
     background-color: #5D7EF1;
-    padding: 4px 8px;
+    padding: 4px 12px;
     border-radius: 8px;
     font-weight: bold;
     z-index: 2;
