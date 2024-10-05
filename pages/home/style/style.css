@@ -277,7 +277,7 @@ img {
     height: 788px;
     gap: 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space  ;
 }
 
 .left {
@@ -399,8 +399,8 @@ span {
 }
 
 .shoes {
-    width: 290px;
-    height: 226px;
+    width: 490px;
+    height: 326px;
     border-radius: 12px;
     background-color: #EFEFEF;
 }
@@ -414,8 +414,18 @@ span {
     line-height: 36px;
 }
 
-.cost{
+.cost2{
+    width: 151px;
+    height: 40px;
+    padding: 8px 20px;
+    gap: 10px;
+    font-family: Inter;
+    font-size: 20px;
+    line-height: 30px;
+    color: #2B2929;
+    background-color: #FFFFFF;
+    border-radius: 12px;
     position: relative;
-    top: 162px;
+    top: 222px;
     left: 24px;
 }
