@@ -466,6 +466,22 @@ span {
     font-family: Inter;
 }
 
+.cost3{
+    width: 151px;
+    height: 40px;
+    padding: 8px 20px;
+    gap: 10px;
+    font-family: Inter;
+    font-size: 20px;
+    line-height: 30px;
+    color: #2B2929;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    position: relative;
+    top: 342px;
+    left: 24px;
+}
+
 #brown_img{
     width: 459px;
     height: 550px;
