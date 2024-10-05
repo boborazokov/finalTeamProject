@@ -274,56 +274,21 @@ img {
     height: 400px;
     border-radius: 12px;
     margin-bottom: 160px;
-}
-
-.about__mark-id-flex {
-    position: relative;
     display: flex;
     justify-content: space-around;
-    gap: 48px;
-    align-items: center;   
 }
 
-.about__mark--title {
-    max-width: 809px;
-    font-family: "Inter";
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 38.4px;
-    letter-spacing: 0.01em;
-    text-align: left;
-    color: #2B2929;
-    margin-top: 100px;
-}
-
-.about__mark--title-span {
-    font-family: "Inter";
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 38.4px;
-    letter-spacing: 0.01em;
-    text-align: left;
-}
-
-.Smartphone {
+.tel_text{
+    width: 839px;
+    height: 128px;
     position: relative;
-    left: 50%;
-    transform: translate(-50%, 13%);
-    
-    
+    top: 70px;
 }
 
-.Smartphone-div {
-    display: flex;
-    align-items: flex-end;
+.sub_text{
+    color: black;
+    size: 20px;
 }
-
-.mark {
-    position: absolute;
-    bottom: 25%;
-    left: 19%;
-}
-
 
 
 .sale {
