@@ -305,3 +305,12 @@ img {
     background-color: #FFFFFF;
     border-radius: 12px;
 }
+
+.road{
+    width: 850px;
+    height: 320px;
+    border-radius: 12px;
+    background-color: #FFF0BA;
+    display: flex;
+    justify-content: space-between;
+}
