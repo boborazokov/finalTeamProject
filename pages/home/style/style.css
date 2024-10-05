@@ -277,7 +277,6 @@ img {
     height: 788px;
     display: flex;
     gap: 10px;
-    font-family: Inter;
 }
 
 .left {
@@ -296,6 +295,7 @@ img {
     border: 1px solid transparent;
     overflow: hidden;
     margin-bottom: 10px;
+    font-family: Inter;
 }
 
 .sneak_title {
@@ -404,6 +404,7 @@ span {
     height: 326px;
     border-radius: 12px;
     background-color: #EFEFEF;
+    font-family: Inter;
 }
 
 .shoe {
@@ -454,6 +455,7 @@ span {
     background-color: #EFEFEF;
     position: relative;
     top: 110px;
+    overflow: hidden;
 }
 
 .brown_title{
@@ -461,4 +463,13 @@ span {
     top: 24px;
     left: 24px;
     font-size: 24px;
+    font-family: Inter;
+}
+
+#brown_img{
+    width: 459px;
+    height: 550px;
+    position: relative;
+    top: -124px;
+    left: 413px;
 }
