@@ -453,6 +453,8 @@ span {
     height: 440px;
     border-radius: 12px;
     background-color: #EFEFEF;
+    background-image: url(../assets/svg/Vector\ 1.svg);
+    background-size: cover;
     position: relative;
     top: 110px;
     overflow: hidden;
