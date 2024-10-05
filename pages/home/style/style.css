@@ -256,3 +256,10 @@ img {
     display: flex;
     justify-content: space-between;
 }
+
+.left{
+    width: 850px;
+    height: 788px;
+    gap: 20px;
+    display: block;
+}
