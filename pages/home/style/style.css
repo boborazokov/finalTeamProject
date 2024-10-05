@@ -362,3 +362,12 @@ img {
     right: 32px;
     position: relative;
 }
+
+.head_right{
+    width: 600px;
+    height: 226px;
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
