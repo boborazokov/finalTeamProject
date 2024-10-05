@@ -314,3 +314,15 @@ img {
     display: flex;
     justify-content: space-between;
 }
+
+.road_text{
+    color: #2B2929;
+}
+.road_text, h2{
+    position: relative;
+    font-family: Inter;
+    font-size: 32px;
+    line-height: 35.2px;
+    color: #2B2929;
+    top: 50px;
+}
