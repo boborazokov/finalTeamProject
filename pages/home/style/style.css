@@ -109,13 +109,14 @@ img {
     border-radius: 12px;
 }
 
-.favourite_cards{
+.favourite_cards {
     width: 1720px;
     height: 506px;
     gap: 32px;
     margin-top: 250px;
 }
-.popular{
+
+.popular {
     color: black;
     margin-bottom: 100px;
 }
@@ -123,28 +124,73 @@ img {
 .cards {
     width: 415px;
     height: 430px;
+    position: relative;
     gap: 20px;
 }
-.arrow{
+
+#head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.arrow {
     color: black;
 }
 
-.pro_text{
-    color: black;
-    size: 20px;
-    line-height: 52px;
+#card {
+    position: relative;
 }
 
-#discount{
+.card-content {
+    position: relative;
+}
+
+#event {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #F1BF5D;
+    padding: 4px 8px;
+    border-radius: 8px;
+    font-weight: bold;
+    z-index: 2;
+}
+
+.icons {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    gap: 10px; /* Расстояние между иконками */
+    z-index: 2;
+}
+
+.heart-icon,
+.bug-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.pro_item {
+    width: 415px;
+    height: 340px;
+    border-radius: 12px;
+    object-fit: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.pro_text {
+    color: black;
+    font-size: 20px;
+    line-height: 32px;
+    margin-top: 10px;
+}
+
+#discount {
     background-color: #F1BF5D;
     color: black;
     border-radius: 8px;
     padding: 4px 8px;
-}
-
-.pro_item{
-    width: 415px;
-    height: 340px;
-    border-radius: 12px;
-    z-index: -1;
 }
