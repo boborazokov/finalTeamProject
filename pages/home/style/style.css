@@ -146,11 +146,21 @@ img {
     position: relative;
 }
 
-#event {
+#event1 {
     position: absolute;
     top: 10px;
     left: 10px;
     background-color: #5ED270;
+    padding: 4px 8px;
+    border-radius: 8px;
+    font-weight: bold;
+    z-index: 2;
+}
+#event2 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #F15D5D;
     padding: 4px 8px;
     border-radius: 8px;
     font-weight: bold;
