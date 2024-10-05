@@ -263,3 +263,18 @@ img {
     gap: 20px;
     display: block;
 }
+
+.sneakers{
+    width: 850px;
+    height: 448px;
+    border-radius: 12px;
+    background-color: #EFEFEF;
+}
+title{
+    position: absolute;
+    size: 24px;
+    line-height: 36px;
+    font-family: Inter;
+    top: 32px;
+    left: 32px;
+}
