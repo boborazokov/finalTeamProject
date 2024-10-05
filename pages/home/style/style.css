@@ -150,7 +150,7 @@ img {
     position: absolute;
     top: 10px;
     left: 10px;
-    background-color: #F1BF5D;
+    background-color: #5df164;
     padding: 4px 8px;
     border-radius: 8px;
     font-weight: bold;
@@ -162,7 +162,7 @@ img {
     top: 10px;
     right: 10px;
     display: flex;
-    gap: 10px; /* Расстояние между иконками */
+    gap: 10px; 
     z-index: 2;
 }
 
