@@ -446,3 +446,13 @@ span {
     border-radius: 12px;
     background-color: #EFEFEF;
 }
+
+.bottom_right{
+    width: 890px;
+    height: 440px;
+    border-radius: 12px;
+    background-color: #EFEFEF;
+    position: relative;
+    top: 110px;
+}
+
