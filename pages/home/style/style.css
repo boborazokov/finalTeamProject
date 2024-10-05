@@ -332,4 +332,12 @@ img {
     font-size: 16px;
     line-height: 22.4px;
     position: relative;
+    width: 384px;
+    height: 44px;
+    top: 60px;
+    left: 32px;
+    color: #2B2929;
+}
+.road_text, span{
+    font-family: bold;
 }
