@@ -277,6 +277,7 @@ img {
     height: 788px;
     display: flex;
     gap: 10px;
+    font-family: Inter;
     /* justify-content: space-; */
 }
 
@@ -456,3 +457,9 @@ span {
     top: 110px;
 }
 
+.brown_title{
+    position: relative;
+    top: 24px;
+    left: 24px;
+    font-size: 24px;
+}
