@@ -249,3 +249,10 @@ img {
 
 /* place for tel part */
 
+.sale{
+    width: 1720px;
+    height: 788px;
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+}
