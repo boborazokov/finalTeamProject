@@ -269,13 +269,17 @@ img {
     height: 448px;
     border-radius: 12px;
     background-color: #EFEFEF;
+    border: 1px solid transparent;
+    overflow: hidden;
 }
 .sneak_title{
+    position: relative;
     size: 24px;
     line-height: 36px;
     font-family: Inter;
     top: 32px;
     left: 32px;
+    color: #2B2929;
 }
 
 #sneak{
@@ -284,5 +288,13 @@ img {
     height: 387px;
     top: 12px;
     left: 162px;
+}
+
+.cost{
+    position: relative;
+    width: 144px;
+    height: 46px;
+    left: 32px;
+    top: -50px;
     
 }
