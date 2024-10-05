@@ -110,49 +110,62 @@ img {
 }
 
 .favourite_cards {
-    display: flex; 
-    justify-content: flex-start; 
-    gap: 32px; 
-    margin-top: 50px;
-    width: 100%;
+    display: flex;
+    flex-direction: column; /* Сделаем расположение элементов вертикальным */
+    margin-top: 50px; /* Отступ сверху */
+}
+
+#head {
+    display: flex;
+    flex-direction: column; /* Элементы в колонку: заголовок, линия, стрелки */
+    position: relative; /* Для позиционирования линии */
+    margin-bottom: 20px; /* Отступ между заголовком и карточками */
+}
+
+.horizontal-line {
+    height: 2px; /* Высота линии */
+    background-color: black; /* Цвет линии */
+    width: 100%; /* Полная ширина */
+    margin: 10px 0; /* Отступ сверху и снизу */
 }
 
 .popular {
     color: black;
-    margin-bottom: 20px;
+    margin: 0; /* Убираем отступы для точного позиционирования */
 }
 
 .cards {
-    display: flex;
-    flex-direction: row; 
-    flex-wrap: nowrap; 
-    gap: 32px; 
+    display: flex; /* Расположим карточки в строку */
+    flex-wrap: wrap; /* Позволяет переносить карточки на следующую строку */
+    gap: 32px; /* Расстояние между карточками */
 }
 
-#card {
-    width: 415px;
-    height: 430px;
+.card {
+    width: 300px; /* Ширина карточки */
+    height: 450px; /* Высота карточки */
     border: 1px solid #ddd;
     border-radius: 12px;
-    border-color: transparent;
     position: relative;
     overflow: hidden;
     transition: transform 0.3s ease-in-out;
-    gap: 20px;
+    cursor: pointer; /* Указатель при наведении */
 }
 
-#card:hover {
-    transform: translateY(-5px);
+.card:hover {
+    transform: translateY(-5px); /* Эффект поднятия карточки при наведении */
 }
 
 .card-content {
     position: relative;
+    height: 100%; /* Устанавливаем высоту на 100% */
+    display: flex;
+    flex-direction: column; /* Элементы карточки располагаются в колонку */
 }
 
 #event1, #even2, #even3, #even4 {
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: 10px; /* Положение от верхнего края */
+    left: 10px; /* Положение от левого края */
     background-color: #F1BF5D;
     padding: 4px 8px;
     border-radius: 8px;
@@ -162,13 +175,13 @@ img {
 
 .icons {
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: 10px; /* Положение от верхнего края */
+    right: 10px; /* Положение от правого края */
     display: none; /* Прячем иконки по умолчанию */
     gap: 10px; /* Расстояние между иконками */
 }
 
-#card:hover .icons {
+.card:hover .icons {
     display: flex; /* Показываем иконки при наведении на карточку */
 }
 
@@ -178,6 +191,7 @@ img {
     cursor: pointer;
 }
 
+/* Лайкнутое состояние сердечка */
 .heart-icon.liked {
     content: url('./assets/svg/heart-filled.svg'); /* Заменяем иконку на "лайкнутое" сердечко */
     transition: all 0.3s ease;
@@ -185,25 +199,25 @@ img {
 
 .pro_item {
     width: 100%;
-    height: 250px;
+    height: 250px; /* Высота изображения */
     border-radius: 12px;
-    object-fit: cover;
+    object-fit: cover; /* Объект подходит по размеру */
     position: relative;
     z-index: 1;
 }
 
 .pro_text {
     color: black;
-    font-size: 20px;
-    line-height: 32px;
-    margin-top: 10px;
-    padding: 0 10px;
+    font-size: 20px; /* Размер шрифта */
+    line-height: 32px; /* Высота строки */
+    margin-top: 10px; /* Отступ сверху */
+    padding: 0 10px; /* Отступы по бокам */
 }
 
 #discount {
     background-color: #F1BF5D;
-    color: black;
+    color: black; /* Цвет текста */
     border-radius: 8px;
-    padding: 4px 8px;
-    margin-left: 10px;
+    padding: 4px 8px; /* Отступы внутри метки */
+    margin-left: 10px; /* Отступ слева */
 }
