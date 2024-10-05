@@ -270,11 +270,19 @@ img {
     border-radius: 12px;
     background-color: #EFEFEF;
 }
-title{
-    position: absolute;
+.sneak_title{
     size: 24px;
     line-height: 36px;
     font-family: Inter;
     top: 32px;
     left: 32px;
+}
+
+#sneak{
+    position: relative;
+    width: 804px;
+    height: 387px;
+    top: 12px;
+    left: 162px;
+    
 }
