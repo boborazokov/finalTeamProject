@@ -122,28 +122,28 @@ img {
     margin-bottom: 20px; /* Отступ между заголовком и карточками */
 }
 
-.horizontal-line {
-    height: 2px; /* Высота линии */
-    background-color: black; /* Цвет линии */
-    width: 100%; /* Полная ширина */
-    margin: 10px 0; /* Отступ сверху и снизу */
-}
+
 
 .popular {
     color: black;
     margin: 0; /* Убираем отступы для точного позиционирования */
 }
 
+.arrow{
+    color: black;
+}
+
 .cards {
-    display: flex; /* Расположим карточки в строку */
+    display: flex;
+    justify-content: space-around; /* Расположим карточки в строку */
     flex-wrap: wrap; /* Позволяет переносить карточки на следующую строку */
-    gap: 32px; /* Расстояние между карточками */
+    gap: 10px; /* Расстояние между карточками */
 }
 
 .card {
-    width: 300px; /* Ширина карточки */
-    height: 450px; /* Высота карточки */
-    border: 1px solid #ddd;
+    width: 415px; /* Ширина карточки */
+    height: 430px; /* Высота карточки */
+    border: 1px solid transparent;
     border-radius: 12px;
     position: relative;
     overflow: hidden;
