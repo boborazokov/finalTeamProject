@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font: inter;
+    font-family: inter;
 }
 
 body {
@@ -111,15 +111,16 @@ img {
 
 .favourite_cards {
     display: flex;
-    flex-direction: column; /* Сделаем расположение элементов вертикальным */
-    margin-top: 50px; /* Отступ сверху */
+    flex-direction: column; 
+    margin-top: 50px; 
 }
 
 #head {
     display: flex;
-    flex-direction: column; /* Элементы в колонку: заголовок, линия, стрелки */
-    position: relative; /* Для позиционирования линии */
-    margin-bottom: 20px; /* Отступ между заголовком и карточками */
+    flex-direction: row; 
+    justify-content: space-between;
+    position: relative; 
+    margin-bottom: 20px; 
 }
 
 
@@ -131,6 +132,8 @@ img {
 
 .arrow{
     color: black;
+    width: 40px;
+    height: 40px;
 }
 
 .cards {
@@ -195,14 +198,14 @@ img {
 
 .icons {
     position: absolute;
-    top: 10px; /* Положение от верхнего края */
-    right: 10px; /* Положение от правого края */
-    display: none; /* Прячем иконки по умолчанию */
-    gap: 10px; /* Расстояние между иконками */
+    top: 10px; 
+    right: 10px; 
+    display: none; 
+    gap: 10px; 
 }
 
 .card:hover .icons {
-    display: flex; /* Показываем иконки при наведении на карточку */
+    display: flex; 
 }
 
 .heart-icon, .bug-icon {
