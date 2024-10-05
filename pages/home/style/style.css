@@ -413,3 +413,9 @@ span {
     font-size: 24px;
     line-height: 36px;
 }
+
+.cost{
+    position: relative;
+    top: 162px;
+    left: 24px;
+}
