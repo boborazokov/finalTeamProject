@@ -120,7 +120,7 @@ img {
     flex-direction: row; 
     justify-content: space-between;
     position: relative; 
-    margin-bottom: 20px; 
+    margin-bottom: 80px; 
 }
 
 
@@ -250,6 +250,7 @@ img {
 /* place for tel part */
 
 .sale{
+    margin-top: 100px;
     width: 1720px;
     height: 788px;
     gap: 20px;
@@ -318,7 +319,7 @@ img {
 .road_text{
     color: #2B2929;
 }
-.road_text, h2{
+.to_home{
     position: relative;
     font-family: Inter;
     font-size: 32px;
@@ -327,7 +328,7 @@ img {
     top: 50px;
     left: 32px;
 }
-.road_text, p{
+.exp{
     font-family: Inter;
     font-size: 16px;
     line-height: 22.4px;
@@ -352,4 +353,12 @@ img {
     padding: 12px 32px;
     gap: 10px;
     border-color: transparent;
+}
+
+#gps{
+    width: 280px;
+    height: 280px;
+    top: 17.5px;
+    right: 32px;
+    position: relative;
 }
