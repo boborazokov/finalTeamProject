@@ -325,4 +325,11 @@ img {
     line-height: 35.2px;
     color: #2B2929;
     top: 50px;
+    left: 32px;
+}
+.road_text, p{
+    font-family: Inter;
+    font-size: 16px;
+    line-height: 22.4px;
+    position: relative;
 }
