@@ -276,6 +276,7 @@ img {
     margin-bottom: 160px;
     display: flex;
     justify-content: space-around;
+    overflow: hidden;
 }
 
 .tel_text{
@@ -291,20 +292,23 @@ img {
 }
 
 #sign{
-    width: 203px;
-    height: 78px;
+    width: 253px;
+    height: 103px;
     position: relative;
-    top: 133px;
-    left: 28px;
+    top: 293px;
+    left: 58px;
 }
 
 .telephone{
-    width: 260px;
-    height: 529px;
+    width: 368px;
+    height: 629px;
     position: relative;
-    top: 32px;
+    top: -80px;
     left: 126px;
-    
+    background-image: url(../assets/svg/Smart\ Phone.I01.svg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 
