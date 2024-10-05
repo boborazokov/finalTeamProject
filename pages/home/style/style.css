@@ -371,3 +371,9 @@ img {
     justify-content: space-between;
 }
 
+.shoes{
+    width: 290px;
+    height: 226px;
+    border-radius: 12px;
+    background-color: #EFEFEF;
+}
