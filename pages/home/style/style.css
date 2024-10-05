@@ -278,7 +278,6 @@ img {
     display: flex;
     gap: 10px;
     font-family: Inter;
-    /* justify-content: space-; */
 }
 
 .left {
