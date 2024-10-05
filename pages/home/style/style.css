@@ -276,16 +276,16 @@ img {
     margin-bottom: 160px;
 }
 
-.about__markidflex {
+.about__mark-id-flex {
     position: relative;
     display: flex;
     justify-content: space-around;
     gap: 48px;
-    align-items: center;
+    align-items: center;   
 }
 
 .about__mark--title {
-    max-width: 609px;
+    max-width: 809px;
     font-family: "Inter";
     font-size: 24px;
     font-weight: 400;
@@ -293,6 +293,7 @@ img {
     letter-spacing: 0.01em;
     text-align: left;
     color: #2B2929;
+    margin-top: 100px;
 }
 
 .about__mark--title-span {
@@ -306,12 +307,15 @@ img {
 
 .Smartphone {
     position: relative;
-    left: 40%;
-    transform: translateY(13%);
+    left: 50%;
+    transform: translate(-50%, 13%);
+    
+    
 }
 
 .Smartphone-div {
-    align-items: end;
+    display: flex;
+    align-items: flex-end;
 }
 
 .mark {
@@ -319,6 +323,7 @@ img {
     bottom: 25%;
     left: 19%;
 }
+
 
 
 .sale {
