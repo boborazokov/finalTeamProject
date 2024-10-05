@@ -296,5 +296,12 @@ img {
     height: 46px;
     left: 32px;
     top: -50px;
-    
+    padding: 8px 20px;
+    gap: 10px;
+    font-family: Inter;
+    font-size: 20px;
+    line-height: 30px;
+    color: #2B2929;
+    background-color: #FFFFFF;
+    border-radius: 12px;
 }
