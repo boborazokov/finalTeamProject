@@ -298,6 +298,15 @@ img {
     left: 28px;
 }
 
+.telephone{
+    width: 260px;
+    height: 529px;
+    position: relative;
+    top: 32px;
+    left: 126px;
+    
+}
+
 
 .sale {
     margin-top: 100px;
