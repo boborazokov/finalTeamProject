@@ -164,21 +164,23 @@ img {
 
 #event1, #even2, #even3, #even4 {
     position: absolute;
-    top: 10px; /* Положение от верхнего края */
-    left: 10px; /* Положение от левого края */
+    top: 10px; 
+    left: 10px; 
+    background-color: #F1BF5D;
     padding: 4px 8px;
     border-radius: 8px;
     font-weight: bold;
     z-index: 2;
 }
-#event1{
-    background-color: #5ED270;
-}
 #event2{
+    position: absolute;
+    top: 10px; /* Положение от верхнего края */
+    left: 10px; /* Положение от левого края */
     background-color: #F15D5D;
-}
-#event3{
-    background-color: #5D7EF1;
+    padding: 4px 8px;
+    border-radius: 8px;
+    font-weight: bold;
+    z-index: 2;
 }
 
 .icons {
