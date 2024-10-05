@@ -111,26 +111,27 @@ img {
 
 .favourite_cards {
     display: flex;
-    flex-direction: column; 
-    margin-top: 50px; 
+    flex-direction: column;
+    margin-top: 50px;
 }
 
 #head {
     display: flex;
-    flex-direction: row; 
+    flex-direction: row;
     justify-content: space-between;
-    position: relative; 
-    margin-bottom: 80px; 
+    position: relative;
+    margin-bottom: 80px;
 }
 
 
 
 .popular {
     color: black;
-    margin: 0; /* Убираем отступы для точного позиционирования */
+    margin: 0;
+    /* Убираем отступы для точного позиционирования */
 }
 
-.arrow{
+.arrow {
     color: black;
     width: 40px;
     height: 40px;
@@ -138,57 +139,67 @@ img {
 
 .cards {
     display: flex;
-    justify-content: space-around; /* Расположим карточки в строку */
-    flex-wrap: wrap; /* Позволяет переносить карточки на следующую строку */
-    gap: 10px; 
+    justify-content: space-around;
+    /* Расположим карточки в строку */
+    flex-wrap: wrap;
+    /* Позволяет переносить карточки на следующую строку */
+    gap: 10px;
 }
 
 .card {
-    width: 415px; /* Ширина карточки */
-    height: 430px; /* Высота карточки */
+    width: 415px;
+    /* Ширина карточки */
+    height: 430px;
+    /* Высота карточки */
     border: 1px solid transparent;
     border-radius: 12px;
     position: relative;
     overflow: hidden;
     transition: transform 0.3s ease-in-out;
-    cursor: pointer; /* Указатель при наведении */
+    cursor: pointer;
+    /* Указатель при наведении */
 }
 
 .card:hover {
-    transform: translateY(-5px); /* Эффект поднятия карточки при наведении */
+    transform: translateY(-5px);
+    /* Эффект поднятия карточки при наведении */
 }
 
 .card-content {
     position: relative;
-    height: 100%; /* Устанавливаем высоту на 100% */
+    height: 100%;
+    /* Устанавливаем высоту на 100% */
     display: flex;
-    flex-direction: column; /* Элементы карточки располагаются в колонку */
+    flex-direction: column;
+    /* Элементы карточки располагаются в колонку */
 }
 
 #event1 {
     position: absolute;
-    top: 16px; 
-    left: 20px; 
+    top: 16px;
+    left: 20px;
     background-color: #F1BF5D;
     padding: 4px 12px;
     border-radius: 8px;
     font-weight: bold;
     z-index: 2;
 }
-#event2{
+
+#event2 {
     position: absolute;
-    top: 16px; 
-    left: 20px; 
+    top: 16px;
+    left: 20px;
     background-color: #F15D5D;
     padding: 4px 12px;
     border-radius: 8px;
     font-weight: bold;
     z-index: 2;
 }
-#event3{
+
+#event3 {
     position: absolute;
-    top: 16px; 
-    left: 20px; 
+    top: 16px;
+    left: 20px;
     background-color: #5D7EF1;
     padding: 4px 12px;
     border-radius: 8px;
@@ -198,18 +209,19 @@ img {
 
 .icons {
     position: absolute;
-    top: 16px; 
-    right: 20px; 
-    display: none; 
-    gap: 10px; 
+    top: 16px;
+    right: 20px;
+    display: none;
+    gap: 10px;
 }
 
 .card:hover .icons {
     display: flex;
-    z-index: 5; 
+    z-index: 5;
 }
 
-.heart-icon, .bug-icon {
+.heart-icon,
+.bug-icon {
     width: 24px;
     height: 24px;
     cursor: pointer;
@@ -217,39 +229,49 @@ img {
 
 /* Лайкнутое состояние сердечка */
 .heart-icon.liked {
-    content: url('./assets/svg/heart-filled.svg'); /* Заменяем иконку на "лайкнутое" сердечко */
+    content: url('./assets/svg/heart-filled.svg');
+    /* Заменяем иконку на "лайкнутое" сердечко */
     transition: all 0.3s ease;
 }
 
 .pro_item {
     width: 100%;
-    height: 250px; /* Высота изображения */
+    height: 250px;
+    /* Высота изображения */
     border-radius: 12px;
-    object-fit: cover; /* Объект подходит по размеру */
+    object-fit: cover;
+    /* Объект подходит по размеру */
     position: relative;
     z-index: 1;
 }
 
 .pro_text {
     color: black;
-    font-size: 20px; /* Размер шрифта */
-    line-height: 32px; /* Высота строки */
-    margin-top: 10px; /* Отступ сверху */
-    padding: 0 10px; /* Отступы по бокам */
+    font-size: 20px;
+    /* Размер шрифта */
+    line-height: 32px;
+    /* Высота строки */
+    margin-top: 10px;
+    /* Отступ сверху */
+    padding: 0 10px;
+    /* Отступы по бокам */
 }
 
 #discount {
     background-color: #F1BF5D;
-    color: black; /* Цвет текста */
+    color: black;
+    /* Цвет текста */
     border-radius: 8px;
-    padding: 4px 8px; /* Отступы внутри метки */
-    margin-left: 10px; /* Отступ слева */
+    padding: 4px 8px;
+    /* Отступы внутри метки */
+    margin-left: 10px;
+    /* Отступ слева */
 }
 
 
 /* place for tel part */
 
-.sale{
+.sale {
     margin-top: 100px;
     width: 1720px;
     height: 788px;
@@ -258,14 +280,14 @@ img {
     justify-content: space-between;
 }
 
-.left{
+.left {
     width: 850px;
     height: 788px;
     gap: 20px;
     display: block;
 }
 
-.sneakers{
+.sneakers {
     width: 850px;
     height: 448px;
     border-radius: 12px;
@@ -273,7 +295,8 @@ img {
     border: 1px solid transparent;
     overflow: hidden;
 }
-.sneak_title{
+
+.sneak_title {
     position: relative;
     size: 24px;
     line-height: 36px;
@@ -283,7 +306,7 @@ img {
     color: #2B2929;
 }
 
-#sneak{
+#sneak {
     position: relative;
     width: 804px;
     height: 387px;
@@ -291,7 +314,7 @@ img {
     left: 162px;
 }
 
-.cost{
+.cost {
     position: relative;
     width: 144px;
     height: 46px;
@@ -307,7 +330,7 @@ img {
     border-radius: 12px;
 }
 
-.road{
+.road {
     width: 850px;
     height: 320px;
     border-radius: 12px;
@@ -316,10 +339,11 @@ img {
     justify-content: space-between;
 }
 
-.road_text{
+.road_text {
     color: #2B2929;
 }
-.to_home{
+
+.to_home {
     position: relative;
     font-family: Inter;
     font-size: 32px;
@@ -328,7 +352,8 @@ img {
     top: 50px;
     left: 32px;
 }
-.exp{
+
+.exp {
     font-family: Inter;
     font-size: 16px;
     line-height: 22.4px;
@@ -339,11 +364,13 @@ img {
     left: 32px;
     color: #2B2929;
 }
-.road_text, span{
+
+.road_text,
+span {
     font-family: bold;
 }
 
-.choice{
+.choice {
     position: relative;
     top: 95px;
     left: 32px;
@@ -355,7 +382,7 @@ img {
     border-color: transparent;
 }
 
-#gps{
+#gps {
     width: 280px;
     height: 280px;
     top: 17.5px;
@@ -363,7 +390,7 @@ img {
     position: relative;
 }
 
-.head_right{
+.head_right {
     width: 600px;
     height: 226px;
     gap: 20px;
@@ -371,9 +398,18 @@ img {
     justify-content: space-between;
 }
 
-.shoes{
+.shoes {
     width: 290px;
     height: 226px;
     border-radius: 12px;
     background-color: #EFEFEF;
+}
+
+.shoe {
+    position: relative;
+    top: 24px;
+    left: 24px;
+    font-family: Inter;
+    font-size: 24px;
+    line-height: 36px;
 }
