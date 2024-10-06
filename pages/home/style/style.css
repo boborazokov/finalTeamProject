@@ -597,3 +597,11 @@ span {
 }
 
 
+.subscribe {
+    font-size: 14px;
+    text-align: center;
+}
+
+#email_check {
+    margin-right: 10px;
+}
