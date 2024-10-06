@@ -158,10 +158,12 @@ a {
   text-align: center;
 }
 .search-container {
+  display: flex;
+  justify-content: center;
   margin-top: 30px;
 }
 .search-container input[type="text"] {
-  width: 850px;
+  width: 750px;
   height: 54px;
   padding: 16px;
   font-size: 16px;
@@ -177,10 +179,10 @@ a {
 }
 
 .search-container .search-btn {
-  width: 270px;
+  width: 210px;
   height: 54px;
   margin-left: 10px;
-  padding: 16px 80px;
+  padding: 16px 50px;
   font-size: 16px;
   background-color: #2b2929;
   color: white;
@@ -191,6 +193,143 @@ a {
 }
 .search-container .search-btn:hover {
   background-color: #444;
+}
+main {
+  margin-top: 80px;
+}
+.result-of-search p {
+  font-weight: 400;
+  font-size: 24px;
+  color: #2b2929;
+  text-transform: uppercase;
+}
+.result-of-search {
+  margin-left: 20px;
+  font-family: sans-serif;
+}
+.products {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.nike {
+  width: 315px;
+  height: 330px;
+}
+.nike img {
+  position: relative;
+  width: 315px;
+  height: 240px;
+  border-radius: 12px;
+}
+.products {
+  margin-top: 30px;
+}
+.rating {
+  position: absolute;
+  z-index: 999;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 14px;
+  border-radius: 8px;
+  padding: 4px 10px;
+  color: white;
+}
+.product-name {
+  line-height: 30px;
+}
+.product-name span {
+  font-size: 14px;
+  color: #464646;
+  line-height: 40px;
+}
+.cost {
+  font-weight: 600;
+  color: #2b2929;
+  font-size: 20px;
+  padding: 0px 5px 0px 0px;
+}
+.previous-cost {
+  font-weight: 400;
+  font-size: 14px;
+  color: #716969;
+  text-decoration: line-through;
+  padding: 0px 5px 0px 0px;
+}
+.discount {
+  background-color: #f1bf5d;
+  color: white;
+  border-radius: 8px;
+  padding: 4px 8px;
+  font-size: 12px;
+}
+
+.green {
+  background-color: #5ed270;
+}
+.red {
+  background-color: #f15d5d;
+}
+.blue {
+  background-color: #5d7ef1;
+}
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+:root {
+  --grey: #464646;
+  --white: #e1e1e1;
+}
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+.container {
+  margin: 0 50px;
+}
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  padding: 48px 0;
+  border-top: 1px solid var(--white);
+  border-bottom: 1px solid var(--white);
+  flex-wrap: wrap;
+}
+.footer-a {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  letter-spacing: 0.01em;
+  text-align: left;
+
+  color: var(--grey);
+  margin: 8px 0;
+  display: inline-block;
+}
+.footer-icon-wrapper {
+  display: flex;
+}
+.footer-icon {
+  margin: 3px;
+  padding: 5px;
+  width: 35px;
+  display: block;
+  text-align: center;
+  /* border: 1px solid var(--grey); */
+  border-radius: 50%;
+}
+.footer-last {
+  display: flex;
+  justify-content: space-between;
+  margin: 16px 0;
+  flex-wrap: wrap;
 }
 @media screen and (max-width: 1200px) {
   .wrapper-li-flex {
@@ -204,5 +343,104 @@ a {
   }
   .wrapper-li-sms {
     display: flex;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .search-container input[type="text"] {
+    width: 450px;
+    height: 54px;
+    padding: 8px;
+  }
+}
+@media screen and (max-width: 776px) {
+  .search-container input[type="text"] {
+    width: 300px;
+    height: 54px;
+    padding: 8px;
+  }
+  .search-container .search-btn {
+    width: 110px;
+    height: 54px;
+    margin-left: 10px;
+    padding: 10px 25px;
+    font-size: 16px;
+    background-color: #2b2929;
+  }
+  .elemets h1 {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 470px) {
+  .search-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 10px;
+  }
+  .search-container input[type="text"] {
+    width: 280px;
+    height: 54px;
+    padding: 8px;
+  }
+  .search-container .search-btn {
+    width: 280px;
+    height: 54px;
+    padding: 8px;
+    font-size: 16px;
+    background-color: #2b2929;
+    margin-right: 10px;
+  }
+  .elemets h1 {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .products {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .nike {
+    width: 100px;
+    height: 230px;
+  }
+  .nike img {
+    position: relative;
+    width: 100px;
+    height: 140px;
+    border-radius: 12px;
+  }
+  .rating {
+    font-size: 8px;
+    padding: 4px 5px;
+    margin-left: 5px;
+    margin-top: 10px;
+  }
+
+  .product-name span {
+    font-size: 10px;
+    color: #464646;
+    line-height: 40px;
+  }
+  .cost {
+    font-weight: 600;
+    color: #2b2929;
+    font-size: 9px;
+    padding: 0px 3px 0px 0px;
+  }
+  .previous-cost {
+    font-weight: 400;
+    font-size: 8px;
+    color: #716969;
+    text-decoration: line-through;
+    padding: 0px 3px 0px 0px;
+  }
+  .discount {
+    background-color: #f1bf5d;
+    color: white;
+    border-radius: 8px;
+    padding: 1px 1px;
+    font-size: 7px;
   }
 }
