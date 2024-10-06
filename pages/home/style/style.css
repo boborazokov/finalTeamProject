@@ -573,6 +573,7 @@ span {
     margin-bottom: 20px;
     line-height: 19px;
     font-family: Inter;
+    color: #FFFFFF;
 }
 
 #email_input {
@@ -585,6 +586,10 @@ span {
     border: 1px solid #ccc;
     border-radius: 8px;
     background-color: transparent;
+    color: #FFFFFF;
+}
+
+#email_input::placeholder{
     color: #FFFFFF;
 }
 
@@ -607,10 +612,13 @@ span {
 
 .subscribe {
     font-size: 14px;
-    text-align: center;
+    text-align: start;
     color: #ffffff;
 }
 
 #email_check {
     margin-right: 10px;
+    width: 18px;
+    height: 18px;
+    background-color: transparent;
 }
