@@ -908,12 +908,13 @@ span {
   }
 
 
-  
+
   .container_nike{
     width: 1220px;
     height: 560px;
 }
 }
+
 @media (max-width: 768px) {
     .container_nike{
         width: 328px;
@@ -928,5 +929,11 @@ span {
     }
     #nike_sneakers {
         display: none; 
+    }
+
+    #more{
+        width: 280px;
+        height: 42px;
+        padding: 12px 64px;
     }
 }
