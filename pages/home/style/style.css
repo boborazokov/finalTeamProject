@@ -881,5 +881,17 @@ span {
         margin-right: 24px;
     }
 
+    .header__logo-ul-li {
+        margin: 0 10px;
+    }
+
+    .wrapper-li {
+        margin: 0 10px;
+    }
+
+    .categories-ul-a {
+        margin: 0 10px;
+    }
+
     
 }
