@@ -128,7 +128,6 @@ img {
 .popular {
     color: black;
     margin: 0;
-    /* Убираем отступы для точного позиционирования */
 }
 
 .arrow {
@@ -227,10 +226,14 @@ img {
     cursor: pointer;
 }
 
-/* Лайкнутое состояние сердечка */
+
 .heart-icon.liked {
-    content: url('./assets/svg/heart-filled.svg');
-    /* Заменяем иконку на "лайкнутое" сердечко */
+    content: url(../assets/svg/heart-filled.svg);
+    transition: all 0.3s ease;
+}
+
+.bug-icon.liked {
+    content: url(../assets/svg/basket-filled.svg); 
     transition: all 0.3s ease;
 }
 
@@ -534,7 +537,8 @@ span {
 }
 
 .email {
-    width: 1720px;
+    margin-top: 150px;
+    width: 1750px;
     height: 482px;
     border-radius: 12px;
     background: linear-gradient(to left,
@@ -563,8 +567,8 @@ span {
 .email_title {
     font-family: 'Inter', sans-serif;
     font-size: 48px;
-    text-align: center;       /* Центрирование текста */
-    margin-bottom: 20px;      /* Добавим немного пространства между заголовком и остальными элементами */
+    text-align: center;       
+    margin-bottom: 20px;      
 }
 
 .sub_title {
