@@ -317,6 +317,10 @@ img {
     /* Указатель при наведении */
 }
 
+#mobile{
+    display: none;
+}
+
 .card:hover {
     transform: translateY(-5px);
     /* Эффект поднятия карточки при наведении */
@@ -920,6 +924,13 @@ span {
         width: 328px;
         height: 422px;
         justify-content: center;
+        display: flex;
+    }
+    .nike_text{
+        width: 280px;
+        height: 216px;
+        top: 80px;
+        left: 16px;
     }
     .nike_text, h2{
         font-size: 24px;
@@ -937,5 +948,21 @@ span {
         padding: 12px 64px;
     }
 
-    
+    #logos{
+        width: 328px;
+        height: 68px;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+    #logos img{
+        display: inline-block;
+        width: 96px;
+        height: 50px;
+    }
+    .favourite_cards{
+        width: 360px;
+        height: 305px;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
 }
