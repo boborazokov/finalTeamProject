@@ -437,14 +437,14 @@ span {
 }
 
 .head_right {
-    width: 600px;
+    width: 1000px;
     height: 226px;
     gap: 10px;
     display: flex;
 }
 
 .shoes {
-    width: 390px;
+    width: 450px;
     height: 326px;
     border-radius: 12px;
     background-color: #EFEFEF;
@@ -474,22 +474,36 @@ span {
     position: relative;
     top: 222px;
     left: 24px;
+    z-index: 5;
 }
 
 #shoe {
     position: relative;
-    width: 179px;
-    height: 226px;
-    left: 108px;
+    width: 254px;
+    height: 320px;
+    left: 176px;
     top: -75px;
+    object-fit: contain;
 }
+
+#shirt{
+    position: relative;
+    top: -110px;
+    left: 102px;
+    width: 336px;
+    height: 421px;
+    object-fit: contain;
+}
+
+
 
 .shirt {
     position: relative;
-    width: 390px;
+    width: 430px;
     height: 326px;
     border-radius: 12px;
     background-color: #EFEFEF;
+    overflow: hidden;
 }
 
 .bottom_right {
