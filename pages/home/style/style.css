@@ -545,7 +545,43 @@ span {
             rgba(30, 145, 144, 1),
             rgba(74, 89, 118, 1),
             rgba(95, 63, 107, 1));
-    
+
     display: flex;
-    flex-direction: column;
+    justify-content: center;  /* Центрирование по вертикали */
+    align-items: center;      /* Центрирование по горизонтали */
 }
+
+.email_body {
+    width: 806px;
+    height: auto;            /* Убираем фиксированную высоту для адаптивности */
+    display: flex;
+    flex-direction: column;   /* Вертикальное расположение элементов */
+    justify-content: center;  /* Центрирование элементов внутри блока */
+    align-items: center;      /* Центрирование по горизонтали */
+}
+
+.email_title {
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    text-align: center;       /* Центрирование текста */
+    margin-bottom: 20px;      /* Добавим немного пространства между заголовком и остальными элементами */
+}
+
+.sub_title {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#email_input {
+    width: 560px;
+    padding: 54px;
+    border-radius: 12px;
+    padding: 16px 24px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: transparent;
+}
+
