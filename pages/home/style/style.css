@@ -585,3 +585,22 @@ span {
     background-color: transparent;
 }
 
+.email_button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #4a5986;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.subscribe {
+    font-size: 14px;
+    text-align: center;
+}
+
+#email_check {
+    margin-right: 10px;
+}
