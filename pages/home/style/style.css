@@ -893,5 +893,17 @@ span {
         margin: 0 10px;
     }
 
-    
+    .categories-ul-second-a {
+        margin: 0 5px;
+    }
+    .fa-whatsapp,
+  .fa-telegram,
+  .fa-envelope,
+  .fa-phone-flip {
+    padding: 5px;
+    font-size: 18px;
+  }
+  .fa-phone-flip {
+    display: inline-block;
+  }
 }
