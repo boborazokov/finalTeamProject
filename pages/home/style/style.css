@@ -920,6 +920,10 @@ span {
 }
 
 @media (max-width: 768px) {
+    body{
+        width: 360px;
+        height: 3997px;
+    }
     .container_nike{
         width: 328px;
         height: 422px;
@@ -966,12 +970,34 @@ span {
         white-space: nowrap;
     }
 
-    
+    #arrow{
+        display: none;
+    }
+
+    .cards{
+        width: 360px;
+        height: 365px;
+        position: relative;
+
+    }
 
     .card{
         width: 154px;
         height: 255px;
         display: inline-block;
+    }
+    #event1, #event2, #event3{
+        width: 89px;
+        height: 22px;
+        position: relative;
+        top: 12px;
+        left: 12px;
+        border-radius: 8px;
+        padding-inline: 4px 12px;
+        font-size: 10px;
+    }
+    .bug-icon{
+        display: none;
     }
 
     #mobile{
