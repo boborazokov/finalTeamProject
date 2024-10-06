@@ -568,9 +568,11 @@ span {
 }
 
 .sub_title {
-    font-size: 16px;
+    font-size: 18px;
     text-align: center;
     margin-bottom: 20px;
+    line-height: 19px;
+    font-family: Inter;
 }
 
 #email_input {
