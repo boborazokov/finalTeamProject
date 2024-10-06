@@ -585,18 +585,20 @@ span {
     border: 1px solid #ccc;
     border-radius: 8px;
     background-color: transparent;
-    
+    color: #FFFFFF;
 }
 
 .email_button {
     padding: 10px 20px;
     font-size: 18px;
     background-color: #4a5986;
-    color: white;
+    color: #2B2929;
+    background-color: #FFFFFF;
     border: none;
     border-radius: 8px;
     cursor: pointer;
     margin-bottom: 20px;
+    
 }
 
 
