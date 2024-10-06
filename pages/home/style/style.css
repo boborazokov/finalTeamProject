@@ -1,624 +1,625 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: inter;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: inter;
 }
 
 body {
-    width: 1920px;
-    height: 4450px;
-    padding-top: 100px;
-    padding-left: 120px;
-    padding-right: 50px;
-    gap: 160px;
+  width: 1920px;
+  height: 4450px;
+  padding-top: 100px;
+  padding-left: 120px;
+  padding-right: 50px;
+  gap: 160px;
 }
 
 .container_nike {
-    display: flex;
-    justify-content: space-around;
-    width: 1720px;
-    height: 700px;
-    border-radius: 12px;
-    background: radial-gradient(#6E2F9E, #8E9AE1, #DD61AF, #EEF2A8);
+  display: flex;
+  justify-content: space-around;
+  width: 1720px;
+  height: 700px;
+  border-radius: 12px;
+  background: radial-gradient(#6e2f9e, #8e9ae1, #dd61af, #eef2a8);
 }
 
 .nike_text {
-    width: 801px;
-    height: 335x;
-    top: 182px;
-    left: 80px;
-    gap: 24px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: left;
+  width: 801px;
+  height: 335x;
+  top: 182px;
+  left: 80px;
+  gap: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
 }
 
 .nike_text,
 h2 {
-    font-family: Inter, sans-serif;
-    font-size: 2vw;
-    line-height: 1.1;
-    color: #ffffff;
-    font-weight: 700;
+  font-family: Inter, sans-serif;
+  font-size: 2vw;
+  line-height: 1.1;
+  color: #ffffff;
+  font-weight: 700;
 }
 
 .nike_text,
 p {
-    font-weight: 400;
-    font-family: Inter, sans-serif;
-    font-size: 1.5vw;
-    line-height: 1.5;
-    letter-spacing: 1%;
-    color: #ffffff;
+  font-weight: 400;
+  font-family: Inter, sans-serif;
+  font-size: 1.5vw;
+  line-height: 1.5;
+  letter-spacing: 1%;
+  color: #ffffff;
 }
 
 #more {
-    display: flex;
-    font-size: 22px;
-    width: 272px;
-    height: 54px;
-    border-radius: 12px;
-    padding: 16px 80px;
-    gap: 10px;
-    border-color: transparent;
-    background-color: #ffff;
+  display: flex;
+  font-size: 22px;
+  width: 272px;
+  height: 54px;
+  border-radius: 12px;
+  padding: 16px 80px;
+  gap: 10px;
+  border-color: transparent;
+  background-color: #ffff;
 }
 
 #more:hover {
-    background-color: #EFEFEF;
+  background-color: #efefef;
 }
 
 #more:active {
-    background-color: #FF4F4F;
+  background-color: #ff4f4f;
 }
 
 #nike_sneakers {
-    top: 12px;
-    left: 953px;
+  top: 12px;
+  left: 953px;
 }
 
 #main_logo {
-    width: 647px;
-    height: 650px;
-    motion-rotation: -0deg;
-    scale: crop;
+  width: 647px;
+  height: 650px;
+  motion-rotation: -0deg;
+  scale: crop;
 }
 
 #nike_logo_main {
-    position: absolute;
-    width: 245px;
-    height: 130px;
-    top: 137px;
-    left: 1471px;
+  position: absolute;
+  width: 245px;
+  height: 130px;
+  top: 137px;
+  left: 1471px;
 }
 
 #logos {
-    width: 1720px;
-    height: 140px;
-    gap: 20px;
-    display: flex;
-    justify-content: space-around;
+  width: 1720px;
+  height: 140px;
+  gap: 20px;
+  display: flex;
+  justify-content: space-around;
 }
 
 #logos,
 img {
-    width: 270px;
-    height: 140px;
-    border-radius: 12px;
+  width: 270px;
+  height: 140px;
+  border-radius: 12px;
 }
 
 .favourite_cards {
-    display: flex;
-    flex-direction: column;
-    margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
 }
 
 #head {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    position: relative;
-    margin-bottom: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+  margin-bottom: 80px;
 }
 
-
-
 .popular {
-    color: black;
-    margin: 0;
-    /* Убираем отступы для точного позиционирования */
+  color: black;
+  margin: 0;
+  /* Убираем отступы для точного позиционирования */
 }
 
 .arrow {
-    color: black;
-    width: 40px;
-    height: 40px;
+  color: black;
+  width: 40px;
+  height: 40px;
 }
 
 .cards {
-    display: flex;
-    justify-content: space-around;
-    /* Расположим карточки в строку */
-    flex-wrap: wrap;
-    /* Позволяет переносить карточки на следующую строку */
-    gap: 10px;
+  display: flex;
+  justify-content: space-around;
+  /* Расположим карточки в строку */
+  flex-wrap: wrap;
+  /* Позволяет переносить карточки на следующую строку */
+  gap: 10px;
 }
 
 .card {
-    width: 415px;
-    /* Ширина карточки */
-    height: 430px;
-    /* Высота карточки */
-    border: 1px solid transparent;
-    border-radius: 12px;
-    position: relative;
-    overflow: hidden;
-    transition: transform 0.3s ease-in-out;
-    cursor: pointer;
-    /* Указатель при наведении */
+  width: 415px;
+  /* Ширина карточки */
+  height: 430px;
+  /* Высота карточки */
+  border: 1px solid transparent;
+  border-radius: 12px;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+  /* Указатель при наведении */
 }
 
 .card:hover {
-    transform: translateY(-5px);
-    /* Эффект поднятия карточки при наведении */
+  transform: translateY(-5px);
+  /* Эффект поднятия карточки при наведении */
 }
 
 .card-content {
-    position: relative;
-    height: 100%;
-    /* Устанавливаем высоту на 100% */
-    display: flex;
-    flex-direction: column;
-    /* Элементы карточки располагаются в колонку */
+  position: relative;
+  height: 100%;
+  /* Устанавливаем высоту на 100% */
+  display: flex;
+  flex-direction: column;
+  /* Элементы карточки располагаются в колонку */
 }
 
 #event1 {
-    position: absolute;
-    top: 16px;
-    left: 20px;
-    background-color: #F1BF5D;
-    padding: 4px 12px;
-    border-radius: 8px;
-    font-weight: bold;
-    z-index: 2;
+  position: absolute;
+  top: 16px;
+  left: 20px;
+  background-color: #f1bf5d;
+  padding: 4px 12px;
+  border-radius: 8px;
+  font-weight: bold;
+  z-index: 2;
 }
 
 #event2 {
-    position: absolute;
-    top: 16px;
-    left: 20px;
-    background-color: #F15D5D;
-    padding: 4px 12px;
-    border-radius: 8px;
-    font-weight: bold;
-    z-index: 2;
+  position: absolute;
+  top: 16px;
+  left: 20px;
+  background-color: #f15d5d;
+  padding: 4px 12px;
+  border-radius: 8px;
+  font-weight: bold;
+  z-index: 2;
 }
 
 #event3 {
-    position: absolute;
-    top: 16px;
-    left: 20px;
-    background-color: #5D7EF1;
-    padding: 4px 12px;
-    border-radius: 8px;
-    font-weight: bold;
-    z-index: 2;
+  position: absolute;
+  top: 16px;
+  left: 20px;
+  background-color: #5d7ef1;
+  padding: 4px 12px;
+  border-radius: 8px;
+  font-weight: bold;
+  z-index: 2;
 }
 
 .icons {
-    position: absolute;
-    top: 16px;
-    right: 20px;
-    display: none;
-    gap: 10px;
+  position: absolute;
+  top: 16px;
+  right: 20px;
+  display: none;
+  gap: 10px;
 }
 
 .card:hover .icons {
-    display: flex;
-    z-index: 5;
+  display: flex;
+  z-index: 5;
 }
 
 .heart-icon,
 .bug-icon {
-    width: 24px;
-    height: 24px;
-    cursor: pointer;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
 }
 
 /* Лайкнутое состояние сердечка */
 .heart-icon.liked {
-    content: url('./assets/svg/heart-filled.svg');
-    /* Заменяем иконку на "лайкнутое" сердечко */
-    transition: all 0.3s ease;
+  content: url("./assets/svg/heart-filled.svg");
+  /* Заменяем иконку на "лайкнутое" сердечко */
+  transition: all 0.3s ease;
 }
 
 .pro_item {
-    width: 100%;
-    height: 250px;
-    /* Высота изображения */
-    border-radius: 12px;
-    object-fit: cover;
-    /* Объект подходит по размеру */
-    position: relative;
-    z-index: 1;
+  width: 100%;
+  height: 250px;
+  /* Высота изображения */
+  border-radius: 12px;
+  object-fit: cover;
+  /* Объект подходит по размеру */
+  position: relative;
+  z-index: 1;
 }
 
 .pro_text {
-    color: black;
-    font-size: 20px;
-    /* Размер шрифта */
-    line-height: 32px;
-    /* Высота строки */
-    margin-top: 10px;
-    /* Отступ сверху */
-    padding: 0 10px;
-    /* Отступы по бокам */
+  color: black;
+  font-size: 20px;
+  /* Размер шрифта */
+  line-height: 32px;
+  /* Высота строки */
+  margin-top: 10px;
+  /* Отступ сверху */
+  padding: 0 10px;
+  /* Отступы по бокам */
 }
 
 #discount {
-    background-color: #F1BF5D;
-    color: black;
-    /* Цвет текста */
-    border-radius: 8px;
-    padding: 4px 8px;
-    /* Отступы внутри метки */
-    margin-left: 10px;
-    /* Отступ слева */
+  background-color: #f1bf5d;
+  color: black;
+  /* Цвет текста */
+  border-radius: 8px;
+  padding: 4px 8px;
+  /* Отступы внутри метки */
+  margin-left: 10px;
+  /* Отступ слева */
 }
 
-
 .about__mark {
-    background: linear-gradient(266.93deg, #FFF385 -12.52%, rgba(255, 240, 186, 0.3) 137.39%);
-    height: 400px;
-    border-radius: 12px;
-    margin-bottom: 160px;
-    display: flex;
-    justify-content: space-around;
-    overflow: hidden;
+  background: linear-gradient(
+    266.93deg,
+    #fff385 -12.52%,
+    rgba(255, 240, 186, 0.3) 137.39%
+  );
+  height: 400px;
+  border-radius: 12px;
+  margin-bottom: 160px;
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
 }
 
 .tel_text {
-    width: 839px;
-    height: 128px;
-    position: relative;
-    top: 70px;
+  width: 839px;
+  height: 128px;
+  position: relative;
+  top: 70px;
 }
 
 .sub_text {
-    color: black;
-    size: 20px;
+  color: black;
+  size: 20px;
 }
 
 #sign {
-    width: 253px;
-    height: 103px;
-    position: relative;
-    top: 293px;
-    left: 58px;
+  width: 253px;
+  height: 103px;
+  position: relative;
+  top: 293px;
+  left: 58px;
 }
 
 .telephone {
-    width: 368px;
-    height: 629px;
-    position: relative;
-    top: -80px;
-    left: 126px;
-    background-image: url(../assets/svg/Smart\ Phone.I01.svg);
-    background-size: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
+  width: 368px;
+  height: 629px;
+  position: relative;
+  top: -80px;
+  left: 126px;
+  background-image: url(../assets/svg/Smart\ Phone.I01.svg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-
 .sale {
-    margin-top: 100px;
-    width: 1720px;
-    height: 788px;
-    display: flex;
-    gap: 10px;
+  margin-top: 100px;
+  width: 1720px;
+  height: 788px;
+  display: flex;
+  gap: 10px;
 }
 
 .left {
-    width: 850px;
-    height: 788px;
-    gap: 20px;
-    display: block;
-    line-height: 20px;
+  width: 850px;
+  height: 788px;
+  gap: 20px;
+  display: block;
+  line-height: 20px;
 }
 
 .sneakers {
-    width: 850px;
-    height: 448px;
-    border-radius: 12px;
-    background-color: #EFEFEF;
-    border: 1px solid transparent;
-    overflow: hidden;
-    margin-bottom: 10px;
-    font-family: Inter;
+  width: 850px;
+  height: 448px;
+  border-radius: 12px;
+  background-color: #efefef;
+  border: 1px solid transparent;
+  overflow: hidden;
+  margin-bottom: 10px;
+  font-family: Inter;
 }
 
 .sneak_title {
-    position: relative;
-    size: 24px;
-    line-height: 36px;
-    font-family: Inter;
-    top: 32px;
-    left: 32px;
-    color: #2B2929;
+  position: relative;
+  size: 24px;
+  line-height: 36px;
+  font-family: Inter;
+  top: 32px;
+  left: 32px;
+  color: #2b2929;
 }
 
 #sneak {
-    position: relative;
-    width: 804px;
-    height: 387px;
-    top: 12px;
-    left: 162px;
+  position: relative;
+  width: 804px;
+  height: 387px;
+  top: 12px;
+  left: 162px;
 }
 
 .cost {
-    position: relative;
-    width: 144px;
-    height: 46px;
-    left: 32px;
-    top: -50px;
-    padding: 8px 20px;
-    gap: 10px;
-    font-family: Inter;
-    font-size: 20px;
-    line-height: 30px;
-    color: #2B2929;
-    background-color: #FFFFFF;
-    border-radius: 12px;
+  position: relative;
+  width: 144px;
+  height: 46px;
+  left: 32px;
+  top: -50px;
+  padding: 8px 20px;
+  gap: 10px;
+  font-family: Inter;
+  font-size: 20px;
+  line-height: 30px;
+  color: #2b2929;
+  background-color: #ffffff;
+  border-radius: 12px;
 }
 
 .road {
-    width: 850px;
-    height: 320px;
-    border-radius: 12px;
-    background-color: #FFF0BA;
-    display: flex;
-    justify-content: space-between;
+  width: 850px;
+  height: 320px;
+  border-radius: 12px;
+  background-color: #fff0ba;
+  display: flex;
+  justify-content: space-between;
 }
 
 .road_text {
-    color: #2B2929;
+  color: #2b2929;
 }
 
 .to_home {
-    position: relative;
-    font-family: Inter;
-    font-size: 32px;
-    line-height: 35.2px;
-    color: #2B2929;
-    top: 50px;
-    left: 32px;
+  position: relative;
+  font-family: Inter;
+  font-size: 32px;
+  line-height: 35.2px;
+  color: #2b2929;
+  top: 50px;
+  left: 32px;
 }
 
 .exp {
-    font-family: Inter;
-    font-size: 16px;
-    line-height: 22.4px;
-    position: relative;
-    width: 384px;
-    height: 44px;
-    top: 60px;
-    left: 32px;
-    color: #2B2929;
+  font-family: Inter;
+  font-size: 16px;
+  line-height: 22.4px;
+  position: relative;
+  width: 384px;
+  height: 44px;
+  top: 60px;
+  left: 32px;
+  color: #2b2929;
 }
 
 .road_text,
 span {
-    font-family: bold;
+  font-family: bold;
 }
 
 .choice {
-    position: relative;
-    top: 95px;
-    left: 32px;
-    width: 134px;
-    height: 42px;
-    border-radius: 12px;
-    padding: 12px 32px;
-    gap: 10px;
-    border-color: transparent;
+  position: relative;
+  top: 95px;
+  left: 32px;
+  width: 134px;
+  height: 42px;
+  border-radius: 12px;
+  padding: 12px 32px;
+  gap: 10px;
+  border-color: transparent;
 }
 
 #gps {
-    width: 280px;
-    height: 280px;
-    top: 17.5px;
-    right: 32px;
-    position: relative;
+  width: 280px;
+  height: 280px;
+  top: 17.5px;
+  right: 32px;
+  position: relative;
 }
 
 .head_right {
-    width: 600px;
-    height: 226px;
-    gap: 10px;
-    display: flex;
+  width: 600px;
+  height: 226px;
+  gap: 10px;
+  display: flex;
 }
 
 .shoes {
-    width: 390px;
-    height: 326px;
-    border-radius: 12px;
-    background-color: #EFEFEF;
-    font-family: Inter;
+  width: 390px;
+  height: 326px;
+  border-radius: 12px;
+  background-color: #efefef;
+  font-family: Inter;
 }
 
 .shoe {
-    position: relative;
-    top: 24px;
-    left: 24px;
-    font-family: Inter;
-    font-size: 24px;
-    line-height: 36px;
+  position: relative;
+  top: 24px;
+  left: 24px;
+  font-family: Inter;
+  font-size: 24px;
+  line-height: 36px;
 }
 
 .cost2 {
-    width: 151px;
-    height: 40px;
-    padding: 8px 20px;
-    gap: 10px;
-    font-family: Inter;
-    font-size: 20px;
-    line-height: 30px;
-    color: #2B2929;
-    background-color: #FFFFFF;
-    border-radius: 12px;
-    position: relative;
-    top: 222px;
-    left: 24px;
+  width: 151px;
+  height: 40px;
+  padding: 8px 20px;
+  gap: 10px;
+  font-family: Inter;
+  font-size: 20px;
+  line-height: 30px;
+  color: #2b2929;
+  background-color: #ffffff;
+  border-radius: 12px;
+  position: relative;
+  top: 222px;
+  left: 24px;
 }
 
 #shoe {
-    position: relative;
-    width: 179px;
-    height: 226px;
-    left: 108px;
-    top: -75px;
+  position: relative;
+  width: 179px;
+  height: 226px;
+  left: 108px;
+  top: -75px;
 }
 
 .shirt {
-    position: relative;
-    width: 390px;
-    height: 326px;
-    border-radius: 12px;
-    background-color: #EFEFEF;
+  position: relative;
+  width: 390px;
+  height: 326px;
+  border-radius: 12px;
+  background-color: #efefef;
 }
 
 .bottom_right {
-    width: 890px;
-    height: 440px;
-    border-radius: 12px;
-    background-color: #EFEFEF;
-    background-image: url(../assets/svg/Vector\ 1.svg);
-    background-size: cover;
-    position: relative;
-    top: 110px;
-    overflow: hidden;
+  width: 890px;
+  height: 440px;
+  border-radius: 12px;
+  background-color: #efefef;
+  background-image: url(../assets/svg/Vector\ 1.svg);
+  background-size: cover;
+  position: relative;
+  top: 110px;
+  overflow: hidden;
 }
 
 .brown_title {
-    position: relative;
-    top: 24px;
-    left: 24px;
-    font-size: 24px;
-    font-family: Inter;
+  position: relative;
+  top: 24px;
+  left: 24px;
+  font-size: 24px;
+  font-family: Inter;
 }
 
 .cost3 {
-    width: 151px;
-    height: 40px;
-    padding: 8px 20px;
-    gap: 10px;
-    font-family: Inter;
-    font-size: 20px;
-    line-height: 30px;
-    color: #2B2929;
-    background-color: #FFFFFF;
-    border-radius: 12px;
-    position: relative;
-    top: 342px;
-    left: 24px;
+  width: 151px;
+  height: 40px;
+  padding: 8px 20px;
+  gap: 10px;
+  font-family: Inter;
+  font-size: 20px;
+  line-height: 30px;
+  color: #2b2929;
+  background-color: #ffffff;
+  border-radius: 12px;
+  position: relative;
+  top: 342px;
+  left: 24px;
 }
 
 #brown_img {
-    width: 459px;
-    height: 550px;
-    position: relative;
-    top: -124px;
-    left: 413px;
+  width: 459px;
+  height: 550px;
+  position: relative;
+  top: -124px;
+  left: 413px;
 }
 
 .email {
-    width: 1720px;
-    height: 482px;
-    border-radius: 12px;
-    background: linear-gradient(to left,
-            rgba(239, 239, 239, 1),
-            rgba(203, 154, 99, 1),
-            rgba(215, 101, 152, 1),
-            rgba(70, 82, 127, 1),
-            rgba(30, 145, 144, 1),
-            rgba(74, 89, 118, 1),
-            rgba(95, 63, 107, 1));
+  width: 1720px;
+  height: 482px;
+  border-radius: 12px;
+  background: linear-gradient(
+    to left,
+    rgba(239, 239, 239, 1),
+    rgba(203, 154, 99, 1),
+    rgba(215, 101, 152, 1),
+    rgba(70, 82, 127, 1),
+    rgba(30, 145, 144, 1),
+    rgba(74, 89, 118, 1),
+    rgba(95, 63, 107, 1)
+  );
 
-    display: flex;
-    justify-content: center;  /* Центрирование по вертикали */
-    align-items: center;      /* Центрирование по горизонтали */
+  display: flex;
+  justify-content: center; /* Центрирование по вертикали */
+  align-items: center; /* Центрирование по горизонтали */
 }
 
 .email_body {
-    width: 806px;
-    height: auto;            /* Убираем фиксированную высоту для адаптивности */
-    display: flex;
-    flex-direction: column;   /* Вертикальное расположение элементов */
-    justify-content: center;  /* Центрирование элементов внутри блока */
-    align-items: center;      /* Центрирование по горизонтали */
+  width: 806px;
+  height: auto; /* Убираем фиксированную высоту для адаптивности */
+  display: flex;
+  flex-direction: column; /* Вертикальное расположение элементов */
+  justify-content: center; /* Центрирование элементов внутри блока */
+  align-items: center; /* Центрирование по горизонтали */
 }
 
 .email_title {
-    font-family: 'Inter', sans-serif;
-    font-size: 48px;
-    text-align: center;       /* Центрирование текста */
-    margin-bottom: 20px;      /* Добавим немного пространства между заголовком и остальными элементами */
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+  text-align: center; /* Центрирование текста */
+  margin-bottom: 20px; /* Добавим немного пространства между заголовком и остальными элементами */
 }
 
 .sub_title {
-    font-size: 18px;
-    text-align: center;
-    margin-bottom: 20px;
-    line-height: 19px;
-    font-family: Inter;
-    color: #FFFFFF;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 20px;
+  line-height: 19px;
+  font-family: Inter;
+  color: #ffffff;
 }
 
 #email_input {
-    width: 560px;
-    padding: 54px;
-    border-radius: 12px;
-    padding: 16px 24px;
-    font-size: 18px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    background-color: transparent;
-    color: #FFFFFF;
+  width: 560px;
+  padding: 54px;
+  border-radius: 12px;
+  padding: 16px 24px;
+  font-size: 18px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: transparent;
+  color: #ffffff;
 }
 
-#email_input::placeholder{
-    color: #FFFFFF;
+#email_input::placeholder {
+  color: #ffffff;
 }
 
 .email_button {
-    padding: 10px 20px;
-    font-size: 18px;
-    background-color: #4a5986;
-    color: #2B2929;
-    background-color: #FFFFFF;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    margin-bottom: 20px;
-    width: 560px;
-    height: 51px;
-    border-radius: 12px;
-    padding: 16px 28px;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #4a5986;
+  color: #2b2929;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  width: 560px;
+  height: 51px;
+  border-radius: 12px;
+  padding: 16px 28px;
 }
 
-
 .subscribe {
-    font-size: 14px;
-    text-align: start;
-    color: #ffffff;
+  font-size: 14px;
+  text-align: start;
+  color: #ffffff;
 }
 
 #email_check {
-    margin-right: 10px;
-    width: 18px;
-    height: 18px;
-    background-color: transparent;
+  margin-right: 10px;
+  width: 18px;
+  height: 18px;
+  background-color: transparent;
 }
