@@ -975,10 +975,14 @@ span {
     }
 
     .cards{
-        width: 360px;
+        width: 860px;
         height: 365px;
         position: relative;
-
+        top: -80px;
+    }
+    .pro_item{
+        width: 164px;
+        height: 160px;
     }
 
     .card{
