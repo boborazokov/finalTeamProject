@@ -906,4 +906,27 @@ span {
   .fa-phone-flip {
     display: inline-block;
   }
+
+
+  
+  .container_nike{
+    width: 1220px;
+    height: 560px;
+}
+}
+@media (max-width: 768px) {
+    .container_nike{
+        width: 328px;
+        height: 422px;
+        justify-content: center;
+    }
+    .nike_text, h2{
+        font-size: 24px;
+    }
+    .nike_text, p{
+        font-size: 15px;
+    }
+    #nike_sneakers {
+        display: none; 
+    }
 }
