@@ -965,4 +965,21 @@ span {
         overflow-x: auto;
         white-space: nowrap;
     }
+
+    
+
+    .card{
+        width: 154px;
+        height: 255px;
+        display: inline-block;
+    }
+
+    #mobile{
+        display: block;
+        width: 96px;
+        height: 33px;
+        border-radius: 8px;
+        padding: 8px 16px;
+        background-color: #464646;
+    }
 }
