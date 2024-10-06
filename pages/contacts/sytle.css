@@ -167,6 +167,7 @@
   width: 50%;
 }
 .main__part__img {
+  width: 100%;
   display: flex;
 }
 .main__part__two {
@@ -378,5 +379,22 @@
   }
   .wrapper-li-sms {
     display: flex;
+  }
+}
+@media screen and (max-width: 1408px) {
+  .header__logo-ul-li {
+    margin: 0 10px;
+  }
+}
+@media screen and (max-width: 1308px) {
+  .header__logo-ul-li {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 1308px) {
+  .main__part {
+    display: flex;
+    justify-content: space-between;
   }
 }
