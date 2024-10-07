@@ -464,7 +464,7 @@ img {
 
 .telephone {
     width: 368px;
-    height: 629px;
+    height: 429px;
     position: relative;
     top: -80px;
     left: 126px;
@@ -1031,10 +1031,32 @@ span {
 
     .tel_text{
         width: 280px;
-        height: 182px;
+        height: 82px;
         position: relative;
         top: 24px;
-        left: 10px;
-        font-size: 16px;
+        left: -60px;
+        font-size: 10px;
     }
+
+    .sub_text{
+        font-size: 12px;
+        width: 208px;
+        height: 182px;
+    }
+
+    .telephone{
+        position: relative;
+        top: 65px;
+        left: 110px;
+        width: 300px;
+    }
+    #sign{
+        position: relative;
+        top: 220px;
+        left: 25px;
+        width: 73px;
+        height: 43px;
+    }
+
+    
 }
