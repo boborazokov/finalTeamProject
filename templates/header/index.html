@@ -27,7 +27,7 @@
                                 <img src="./imgs/image.png" alt="logo-img">
                             </a>
                         </div>
-                        <ul class="header__logo-ul">
+                        <ul id="menu" class="header__logo-ul">
                             <li class="header__logo-ul-li">
                                 <a class="header__logo-a" href="#">
                                     Оплата и доставка
@@ -56,14 +56,8 @@
                             </li>
                         </ul>
                     </div>
-
                     <div class="header__wrapper__logos">
                         <ul class="header__wrapper__ul">
-                            <li class="wrapper-li-bars">
-                                <a href="#">
-                                    <i class="fa-solid fa-bars"></i>
-                                </a>
-                            </li>
                             <li class="wrapper-li">
                                 <a class="wrapper-li-a" href="#">
                                     <i class="fa-brands fa-whatsapp"></i>
@@ -103,12 +97,20 @@
                             <li class="menu-icon wrapper-li-a">
                                 <i class="fa-solid fa-bars"></i>
                             </li>
+
+                            <li id="menu-icon" onclick="menuClick()" class="wrapper-li-bars">
+                                <a href="#">
+                                    <i class="fa-solid fa-bars"></i>
+                                </a>
+                            </li>
+
                         </ul>
+
                     </div>
                 </div>
                 <div class="categories">
                     <div>
-                        <a id="menu" class="kategory-li" href="#">Категории</a>
+                        <a class="kategory-li" href="#">Категории</a>
                         <ul class="categories-ul">
                             <li><a class="categories-ul-a none-left-margin" href="#">Кроссовки</a></li>
                             <li><a class="categories-ul-a" href="#">Тапочки</a></li>
