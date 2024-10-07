@@ -22,6 +22,14 @@
   --phone: #4caf50;
   --grey: #464646;
   --white: #e1e1e1;
+  --link-c-grey: rgba(113, 105, 105, 1);
+  --link-c-black: rgba(43, 41, 41, 1);
+  --whatsup-c: #25d366;
+  --tg-c: #0088cc;
+  --sms-c: #ffcc00;
+  --phone: #4caf50;
+  --grey: #464646;
+  --white: #e1e1e1;
   --slash-c: #716969;
   --color-direction: #2b2929;
   --black: #464646;
@@ -260,10 +268,6 @@
   }
   .wrapper-li {
     margin: 0 10px;
-  }
-  .input,
-  .button {
-    width: 90%;
   }
 }
 
