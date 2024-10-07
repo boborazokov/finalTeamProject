@@ -1104,4 +1104,26 @@ span {
     #gps{
         display: none;
     }
+    .email{
+        width: 328px;
+        height: 321px;
+    }
+    .email_title{
+        font-size: 20px;
+    }
+    .sub_title{
+        font-size: 14px;
+    }
+    #email_input{
+        width: 280px;
+        height: 46px;
+    }
+    .email_button{
+        width: 280px;
+        height: 43px;
+    }
+    .subscribe{
+        width: 254px;
+        height: 28px;
+    }
 }
