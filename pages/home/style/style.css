@@ -627,22 +627,16 @@ img {
 
     display: flex;
     justify-content: center;
-    /* Центрирование по вертикали */
     align-items: center;
-    /* Центрирование по горизонтали */
 }
 
 .email_body {
     width: 806px;
     height: auto;
-    /* Убираем фиксированную высоту для адаптивности */
     display: flex;
     flex-direction: column;
-    /* Вертикальное расположение элементов */
-    justify-content: center;
-    /* Центрирование элементов внутри блока */
+    justify-content: center;  
     align-items: center;
-    /* Центрирование по горизонтали */
 }
 
 .email_title {
