@@ -159,9 +159,8 @@
     margin: 0 10px;
 }
 
-body {
+main{
     width: 1920px;
-    height: 4450px;
     padding-top: 100px;
     padding-left: 120px;
     padding-right: 50px;
@@ -273,7 +272,7 @@ img {
 }
 
 #head {
-    width: 1720px;
+    width: 1520px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -305,16 +304,13 @@ img {
 
 .card {
     width: 405px;
-    /* Ширина карточки */
     height: 420px;
-    /* Высота карточки */
     border: 1px solid transparent;
     border-radius: 12px;
     position: relative;
     overflow: hidden;
     transition: transform 0.3s ease-in-out;
     cursor: pointer;
-    /* Указатель при наведении */
 }
 
 #mobile{
@@ -323,16 +319,13 @@ img {
 
 .card:hover {
     transform: translateY(-5px);
-    /* Эффект поднятия карточки при наведении */
 }
 
 .card-content {
     position: relative;
     height: 100%;
-    /* Устанавливаем высоту на 100% */
     display: flex;
     flex-direction: column;
-    /* Элементы карточки располагаются в колонку */
 }
 
 #event1 {
@@ -340,6 +333,7 @@ img {
     top: 16px;
     left: 20px;
     background-color: #F1BF5D;
+    color: #FFFFFF;
     padding: 4px 12px;
     border-radius: 8px;
     font-weight: bold;
@@ -351,6 +345,7 @@ img {
     top: 16px;
     left: 20px;
     background-color: #F15D5D;
+    color: #FFFFFF;
     padding: 4px 12px;
     border-radius: 8px;
     font-weight: bold;
@@ -362,6 +357,7 @@ img {
     top: 16px;
     left: 20px;
     background-color: #5D7EF1;
+    color: #FFFFFF;
     padding: 4px 12px;
     border-radius: 8px;
     font-weight: bold;
@@ -449,6 +445,8 @@ img {
     height: 128px;
     position: relative;
     top: 70px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .sub_text {
@@ -964,8 +962,8 @@ span {
         height: 50px;
     }
     .favourite_cards{
-        width: 360px;
-        height: 305px;
+        width: 330px;
+        height: 335px;
         overflow-x: auto;
         white-space: nowrap;
     }
@@ -991,10 +989,10 @@ span {
         display: inline-block;
     }
     #event1, #event2, #event3{
-        width: 89px;
+        width: 75px;
         height: 22px;
         position: relative;
-        top: 12px;
+        top: 25px;
         left: 12px;
         border-radius: 8px;
         padding-inline: 4px 12px;
@@ -1011,5 +1009,21 @@ span {
         border-radius: 8px;
         padding: 8px 16px;
         background-color: #464646;
+    }
+
+    .about__mark{
+        width: 328px;
+        height: 376px;
+        position: relative;
+        left: 16px;
+    }
+
+    .tel_text{
+        width: 280px;
+        height: 182px;
+        position: relative;
+        top: 24px;
+        left: 10px;
+        font-size: 16px;
     }
 }
