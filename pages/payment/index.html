@@ -10,12 +10,121 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./style.css" />
     <title>Payment and delivery</title>
   </head>
   <body>
     <header>
-      <!-- add header -->
+      <div class="container">
+        <nav class="navbar">
+          <div class="logo">
+            <div class="classes__wrapper">
+              <div class="logo__img__box">
+                <a href="#">
+                  <img src="./img/image.png" alt="logo-img" />
+                </a>
+              </div>
+              <ul class="header__logo-ul">
+                <li class="header__logo-ul-li">
+                  <a class="header__logo-a" href="#"> Оплата и доставка </a>
+                </li>
+                <li class="header__logo-ul-li">
+                  <a class="header__logo-a" href="#"> Обмен и возврат </a>
+                </li>
+                <li class="header__logo-ul-li">
+                  <a class="header__logo-a" href="#"> О компании </a>
+                </li>
+                <li class="header__logo-ul-li">
+                  <a class="header__logo-a" href="#"> Контакты </a>
+                </li>
+                <li class="header__logo-ul-li">
+                  <a class="header__logo-a" href="#"> Оригинал 100% </a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="header__wrapper__logos">
+              <ul class="header__wrapper__ul">
+                <li class="wrapper-li">
+                  <a class="wrapper-li-a" href="#">
+                    <i class="fa-brands fa-whatsapp"></i>
+                  </a>
+                </li>
+                <li class="wrapper-li">
+                  <a class="wrapper-li-a" href="#">
+                    <i class="fa-brands fa-telegram"></i>
+                  </a>
+                </li>
+                <li class="wrapper-li wrapper-li-sms none">
+                  <a class="wrapper-li-a" href="#">
+                    <i class="fa-solid fa-envelope"></i>
+                  </a>
+                </li>
+                <li class="wrapper-li wrapper-li-mail">
+                  <a class="wrapper-li-a" href="#"> order@ogstyle.ru </a>
+                  <a class="wrapper-li-a" href="#">
+                    <i class="fa-solid fa-chevron-down"></i>
+                  </a>
+                </li>
+                <li class="wrapper-li wrapper-li-flex none">
+                  <a class="wrapper-li-a" href="#">
+                    <i class="fa-solid fa-phone-flip"></i>
+                  </a>
+                </li>
+                <li class="wrapper-li wrapper-li-number">
+                  <a class="wrapper-li-a" href="#"> +7 (902) 041-63-39 </a>
+                  <a class="wrapper-li-a" href="#">
+                    <i class="fa-solid fa-chevron-down"></i>
+                  </a>
+                </li>
+                <li class="menu-icon wrapper-li-a">
+                  <i class="fa-solid fa-bars"></i>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="categories">
+            <ul class="categories-ul">
+              <li>
+                <a class="categories-ul-a none-left-margin" href="#"
+                  >Кроссовки</a
+                >
+              </li>
+              <li><a class="categories-ul-a" href="#">Тапочки</a></li>
+              <li><a class="categories-ul-a" href="#">Куртки</a></li>
+              <li><a class="categories-ul-a" href="#">Футболки</a></li>
+              <li><a class="categories-ul-a" href="#">Штаны</a></li>
+              <li><a class="categories-ul-a" href="#">Шорты</a></li>
+              <li><a class="categories-ul-a" href="#">Толстовки</a></li>
+              <li><a class="categories-ul-a" href="#">Аксессуары</a></li>
+            </ul>
+            <ul class="categories-ul-second">
+              <li>
+                <a class="categories-ul-second-a" href="#"
+                  ><i class="fa-solid fa-magnifying-glass"></i
+                ></a>
+              </li>
+              <li>
+                <a class="categories-ul-second-a" href="#"
+                  ><i class="fa-regular fa-heart"></i
+                ></a>
+              </li>
+              <li>
+                <a class="categories-ul-second-a" href="#"
+                  ><i class="fa-solid fa-suitcase"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
     </header>
     <main>
       <div class="container">
@@ -24,15 +133,11 @@
           <div class="payment__type">
             <div class="payment__type-items">
               <img
-                class="payment__left-img"
-                src="./img/svg/Vector (11).svg"
+                class="payment__all-img"
+                src="./img/icon (4).png"
                 alt="wallet"
               />
-              <img
-                class="payment__left-img1"
-                src="./img/svg/Vector (12).svg"
-                alt="wallet"
-              />
+
               <h2 class="payment__left-text">Оплата онлайн</h2>
               <p class="payment__left-text2">
                 Отплата банковскими картами VISA, MasterCard, платежной системой
@@ -40,16 +145,7 @@
               </p>
             </div>
             <div class="payment__type-items">
-              <img
-                class="payment__middle-img"
-                src="./img/svg/Vector (3).svg"
-                alt="money"
-              />
-              <img
-                class="payment__middle-svg"
-                src="./img/svg/Vector (4).svg"
-                alt="mmoney"
-              />
+              <img class="payment__all-img" src="./img/icon (5).png" alt="#" />
               <h2 class="payment__middle-text">Оплата наличными</h2>
               <p class="payment__middle-text2">
                 Оплатить покупки наличными можно при получении в постомате или
@@ -57,21 +153,7 @@
               </p>
             </div>
             <div class="payment__type-items">
-              <img
-                class="payment__avarage-img"
-                src="./img/svg/Vector (5).svg"
-                alt="#"
-              />
-              <img
-                class="payment__avarage-svg"
-                src="./img/svg/Vector (6).svg"
-                alt="#"
-              />
-              <img
-                class="payment__avarage-svg2"
-                src="./img/svg/Vector (7).svg"
-                alt="#"
-              />
+              <img class="payment__all-img" src="./img/icon (6).png" alt="#" />
               <h2 class="payment__avarage-text">Наложенный платеж</h2>
               <p class="payment__avarage-text2">
                 Оплата наложенным платежом курьеру СДЕК, либо курьеру Почты
@@ -79,18 +161,9 @@
               </p>
             </div>
             <div class="payment__type-items">
-              <img
-                class="payment__right-img"
-                src="./img/svg/Vector (8).svg"
-                alt="#"
-              />
-              <img
-                class="payment__right-svg"
-                src="./img/svg/Vector (9).svg"
-                alt="#"
-              />
-              <h2 class="payment__right-tetx">рассрочка</h2>
-              <p class="payment__right-tetx2">
+              <img class="payment__all-img" src="./img/icon (7).png" alt="#" />
+              <h2 class="payment__right-text">Pассрочка</h2>
+              <p class="payment__right-text2">
                 Вы можете оплатить в рассрочку заказ на сумму от 1000 рублей
               </p>
             </div>
@@ -98,44 +171,49 @@
         </section>
         <section class="delivery-page">
           <div class="delivery__page-information">
-            <div class="delivery__header">
-              <h1 class="delivery__header-text">Условия доставки</h1>
-              <p class="delivery__top-text">
-                Мы передаем заказы в курьерские службы только по будням. Если
-                ваш заказ собран в пятницу после 11:00, мы отправим его в
-                понедельник.
-              </p>
+            <div class="delivery__text-information">
+              <div class="delivery__header">
+                <h1 class="delivery__header-text"><b>Условия доставки</b></h1>
+                <p class="delivery__top-text">
+                  Мы передаем заказы в курьерские службы только по будням. Если
+                  ваш заказ собран в пятницу после 11:00, мы отправим его в
+                  понедельник.
+                </p>
 
-              <div class="delivery__bottom-text">
-                <h2 class="bottom__high-text">1. Почта России</h2>
-                <p class="bottom__avarage-text">
-                  Цена и сроки доставки рассчитываются автоматически при
-                  оформлении заказа и зависят от веса посылки и точного адреса
-                  получателя. При заказе на сумму более 10000 рублей — доставка
-                  бесплатная.
-                </p>
-              </div>
-              <div class="delivery__bottom-text">
-                <h2 class="bottom__high-text">2. Доставка курьером СДЭК</h2>
-                <p class="bottom__avarage-text">
-                  Сроки и цена доставки рассчитываются автоматически при
-                  оформлении заказа и зависят от веса посылки и точного адреса
-                  получателя. Например, в Нижний Новгород СДЭК доставляет за 1-2
-                  дня, а во Владивосток — за 10-13 дней. При заказе на сумму
-                  более 10000 рублей — доставка бесплатная.
-                </p>
-              </div>
-              <div class="delivery__bottom-text">
-                <h2 class="bottom__high-text">3. Доставка в постомат 5Post</h2>
-                <p class="bottom__avarage-text">
-                  При оформлении заказа выбирайте удобный постомат выдачи заказа
-                  на карте города. Сроки и цена доставки рассчитываются
-                  автоматически при оформлении заказа и зависят от веса посылки
-                  и точного адреса получателя. При заказе на сумму более 10000
-                  рублей — доставка бесплатная.
-                </p>
+                <div class="delivery__bottom-text">
+                  <h2 class="bottom__hight-text">1. Почта России</h2>
+                  <p class="bottom__avarage-text">
+                    Цена и сроки доставки рассчитываются автоматически при
+                    оформлении заказа и зависят от веса посылки и точного адреса
+                    получателя. При заказе на сумму более 10000 рублей —
+                    доставка бесплатная.
+                  </p>
+                </div>
+                <div class="delivery__bottom-text">
+                  <h2 class="bottom__high-text">2. Доставка курьером СДЭК</h2>
+                  <p class="bottom__avarage-text">
+                    Сроки и цена доставки рассчитываются автоматически при
+                    оформлении заказа и зависят от веса посылки и точного адреса
+                    получателя. Например, в Нижний Новгород СДЭК доставляет за
+                    1-2 дня, а во Владивосток — за 10-13 дней. При заказе на
+                    сумму более 10000 рублей — доставка бесплатная.
+                  </p>
+                </div>
+                <div class="delivery__bottom-text">
+                  <h2 class="bottom__high-text">
+                    3. Доставка в постомат 5Post
+                  </h2>
+                  <p class="bottom__avarage-text">
+                    При оформлении заказа выбирайте удобный постомат выдачи
+                    заказа на карте города. Сроки и цена доставки рассчитываются
+                    автоматически при оформлении заказа и зависят от веса
+                    посылки и точного адреса получателя.При заказе на сумму
+                    более 10000 рублей — доставка бесплатная.
+                  </p>
+                </div>
               </div>
             </div>
+
             <div>
               <div class="delivery__page-information-img">
                 <div class="delivery-page-tomark">
@@ -162,5 +240,90 @@
         </section>
       </div>
     </main>
+    <footer>
+      <div class="container">
+        <div class="footer__wrapper">
+          <ul class="footer__column__one">
+            <div class="footer__logo">
+              <img src="./img/image.png" alt="logo-img" />
+            </div>
+            <li>
+              <a class="footer-a" href="#"
+                >OGstyle - магазин по продаже оригинальной одежды и обуви
+                мировых брендов</a
+              >
+            </li>
+            <li>
+              <a class="footer-a" href="#">+7 (902) 041-63-39</a>
+            </li>
+            <li>
+              <a class="footer-a" href="#">admin@gmail.com</a>
+            </li>
+            <li class="footer-icon-wrapper">
+              <a class="footer-a footer-icon" href="#"
+                ><i class="fa-brands fa-whatsapp"></i
+              ></a>
+              <a class="footer-a footer-icon" href="#"
+                ><i class="fa-brands fa-telegram"></i
+              ></a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a class="footer-a" href="#">Кроссовки</a>
+            </li>
+            <li>
+              <a class="footer-a" href="#">Футболки</a>
+            </li>
+            <li>
+              <a class="footer-a" href="#">Тапочки</a>
+            </li>
+            <li>
+              <a class="footer-a" href="#">Куртки</a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a class="footer-a" href="#">Кроссовки</a>
+            </li>
+            <li>
+              <a class="footer-a" href="#">Футболки</a>
+            </li>
+            <li>
+              <a class="footer-a" href="#">Тапочки</a>
+            </li>
+            <li>
+              <a class="footer-a" href="#">Куртки</a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a class="footer-a" href="#">Оплата и доставка</a>
+            </li>
+            <li>
+              <a class="footer-a" href="#">Обмен и возврат</a>
+            </li>
+            <li>
+              <a class="footer-a" href="#">Оригинал 100%</a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a class="footer-a" href="#">О компании</a>
+            </li>
+            <li>
+              <a class="footer-a" href="#">Контакты</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-last">
+          <p>© OGstyle 2023</p>
+          <p>Политика конфиденциальности</p>
+          <p>Разработано ООО “Maxocom”</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
   </body>
 </html>
