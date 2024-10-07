@@ -1078,4 +1078,11 @@ span {
         top: 24px;
         left: 16px;
     }
+    .exp{
+        font-size: 14px;
+        top: 24px;
+        left: 16px;
+        width: 282px;
+    }
+    
 }
