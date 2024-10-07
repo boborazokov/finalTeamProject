@@ -1335,16 +1335,18 @@ span {
 
 .shoes {
     width: 290px;
-    height: 326px;
+    height: 220px;
     border-radius: 12px;
     background-color: #EFEFEF;
     font-family: Inter;
+    position: relative;
+    left: -450px;
 }
 
 .shoe {
     position: relative;
-    top: 24px;
-    left: 24px;
+    top: -15px;
+    left: -4px;
     font-family: Inter;
     font-size: 24px;
     line-height: 36px;
@@ -1362,8 +1364,8 @@ span {
     background-color: #FFFFFF;
     border-radius: 12px;
     position: relative;
-    top: 222px;
-    left: 24px;
+    top: 62px;
+    left: 4px;
 }
 
 #shoe{
@@ -1376,22 +1378,24 @@ span {
 
 .shirt{
     position: relative;
-    width: 390px;
-    height: 326px;
+    width: 260px;
+    height: 220px;
     border-radius: 12px;
     background-color: #EFEFEF;
+    position: relative;
+    left: -450px;
 }
 
 .bottom_right{
     width: 490px;
-    height: 240px;
+    height: 300px;
     border-radius: 12px;
     background-color: #EFEFEF;
     background-image: url(../assets/svg/Vector\ 1.svg);
     background-size: cover;
     position: relative;
-    top: 50px;
-    left: -400px;
+    top: -2px;
+    left: -450px;
     overflow: hidden;
 }
 
