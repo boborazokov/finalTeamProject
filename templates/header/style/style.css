@@ -121,6 +121,7 @@
 .categories {
   display: flex;
   justify-content: space-between;
+  z-index: 1;
 }
 .categories-ul {
   display: flex;
@@ -232,6 +233,7 @@
   }
   .header__logo-a {
     color: var(--white);
+    display: none;
   }
   .wrapper-li-bars {
     z-index: 1;
@@ -258,6 +260,10 @@
   }
   .wrapper-li {
     margin: 0 10px;
+  }
+  .input,
+  .button {
+    width: 90%;
   }
 }
 
