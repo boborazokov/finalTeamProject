@@ -1058,6 +1058,20 @@ span {
         height: 43px;
     }
 
+    .sale{
+        width: 328px;
+        height: 874px;
+        flex-direction: column;
+    }
+    .head_right{
+        flex-direction: column;
+    }
+
+    .shoe{
+        position: relative;
+        left: 127px;
+    }
+
     .sneakers, .road, .shoes, .shirt, .bottom_right{
         width: 328px;
         height: 170px;
@@ -1084,5 +1098,10 @@ span {
         left: 16px;
         width: 282px;
     }
-    
+    .choice{
+        display: none;
+    }
+    #gps{
+        display: none;
+    }
 }
