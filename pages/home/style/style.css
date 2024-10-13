@@ -186,32 +186,32 @@ main {
     border-radius: 12px;
     background: radial-gradient(#6e2f9e, #8e9ae1, #dd61af, #eef2a8);
     padding: 0 20px;
-  }
-  
-  .nike_text {
+}
+
+.nike_text {
     font-size: 5vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 16px;
-  }
-  
-  .nike_text h2 {
+}
+
+.nike_text h2 {
     font-family: 'Inter', sans-serif;
     font-size: 2vw;
     line-height: 1.1;
     color: #fff;
     font-weight: 700;
-  }
-  
-  .nike_text p {
+}
+
+.nike_text p {
     font-family: 'Inter', sans-serif;
     font-size: 1.2vw;
     line-height: 1.5;
     color: #fff;
-  }
-  
-  #more {
+}
+
+#more {
     display: inline-block;
     font-size: 16px;
     padding: 12px 24px;
@@ -222,95 +222,95 @@ main {
     cursor: pointer;
     transition: background-color 0.3s ease;
     width: min-content;
-  }
-  
-  #more:hover {
+}
+
+#more:hover {
     background-color: #efefef;
-  }
-  
-  #more:active {
+}
+
+#more:active {
     background-color: #ff4f4f;
-  }
-  
-  #nike_sneakers {
+}
+
+#nike_sneakers {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-  }
-  
-  #main_logo {
+}
+
+#main_logo {
     width: 350px;
     height: auto;
-  }
-  
-  #nike_logo_main {
+}
+
+#nike_logo_main {
     width: 150px;
     height: auto;
-    position: relative; 
+    position: relative;
     top: -350px;
     left: -10px;
-  }
+}
 
-  #logos{
+#logos {
     max-width: 1220px;
     width: 100%;
     display: flex;
     justify-content: space-around;
-  }
+}
 
-  .img_logos{
+.img_logos {
     max-width: 270px;
     width: 15%;
-  }
-    
-  /* Mobile Styles */
-  @media screen and (max-width: 768px) {
+}
+
+/* Mobile Styles */
+@media screen and (max-width: 768px) {
     .container_nike {
-      flex-direction: column;
-      max-width: 450px;
-      width: 100%;
-      
-      max-height: auto;
-      padding: 20px;
-    }
-  
-    .nike_text {
-      max-width: 100%;
-      text-align: center;
-      gap: 12px;
-    }
-  
-    .nike_text h2 {
-      font-size: 2vw;
-    }
-  
-    .nike_text p {
-      font-size: 2.5vw;
-    }
-  
-    #more {
-      width: 100%;
-      padding: 10px;
-      font-size: 2vw;
-    }
-  
-    #nike_sneakers {
-      margin-top: 20px;
-    }
-  
-    #main_logo {
-      width: 80%;
-      height: auto;
+        flex-direction: column;
+        max-width: 450px;
+        width: 100%;
+
+        max-height: auto;
+        padding: 20px;
     }
 
-    #logos{
+    .nike_text {
+        max-width: 100%;
+        text-align: center;
+        gap: 12px;
+    }
+
+    .nike_text h2 {
+        font-size: 2vw;
+    }
+
+    .nike_text p {
+        font-size: 2.5vw;
+    }
+
+    #more {
+        width: 100%;
+        padding: 10px;
+        font-size: 2vw;
+    }
+
+    #nike_sneakers {
+        margin-top: 20px;
+    }
+
+    #main_logo {
+        width: 80%;
+        height: auto;
+    }
+
+    #logos {
         max-width: 328px;
         width: 100%;
         overflow-x: scroll;
     }
-  }
-  
-  /* Small Mobile Styles */
+}
+
+/* Small Mobile Styles */
 /*   
   @media screen and (max-width: 480px) {
     .nike_text h2 {
@@ -371,15 +371,16 @@ main {
 }
 
 .card {
-    width: 255px;
-    height: 320px;
+    max-width: 290px;
+    width: 100%;
+    height: 420px;
     border: 1px solid transparent;
     border-radius: 12px;
     position: relative;
     overflow: hidden;
     transition: transform 0.3s ease-in-out;
     cursor: pointer;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 
 #mobile {
@@ -398,7 +399,9 @@ main {
 }
 
 
-#event1, #event2, #event3 {
+#event1,
+#event2,
+#event3 {
     position: absolute;
     top: 16px;
     left: 20px;
@@ -411,15 +414,15 @@ main {
 }
 
 #event2 {
-    
+
     background-color: #F15D5D;
-    
+
 }
 
 #event3 {
-   
+
     background-color: #5D7EF1;
-    
+
 }
 
 .icons {
@@ -457,10 +460,10 @@ main {
 .pro_item {
     width: 100%;
     height: 250px;
-    
+
     border-radius: 12px;
     object-fit: cover;
-   
+
     position: relative;
     z-index: 1;
 }
@@ -484,12 +487,14 @@ main {
     /* Отступ слева */
 }
 
-@media screen and(max-width: 768px) {
+/* @media screen and(max-width: 768px) {
     .pro_text{
-            /* font-size: 12vw; */
+            font-size: 12vw;
     }
-}
+} */
 
+
+/* for replace */
 .about__mark {
     background: linear-gradient(266.93deg,
             #fff385 -12.52%,
@@ -524,7 +529,8 @@ main {
 }
 
 #sign {
-    width: 553px;
+    max-width: 553px;
+    width: 100%;
     height: 503px;
     max-width: 353px;
     width: 100%;
@@ -538,7 +544,10 @@ main {
     width: 100%;
     height: auto;
     position: relative;
-    top: -90px;
+    background-image: url(../assets/svg/Smart\ Phone.I01.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    top: 90px;
     left: 20px;
 }
 
@@ -563,15 +572,15 @@ main {
 
 .road {
     border-radius: 12px;
-    background-color: #FFF0BA;
+    background-color: transparent;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    /* grid-template-columns: 1fr 1fr; */
     align-items: center;
-    padding: 20px;
+    /* padding: 20px; */
 }
 
 .road_text {
-  color: #2b2929;
+    color: #2b2929;
 }
 
 .to_home {
@@ -597,14 +606,15 @@ main {
     height: auto;
 }
 
-.shoes, .shirt {
+.shoes,
+.shirt {
     border-radius: 12px;
     background-color: #EFEFEF;
     padding: 20px;
     position: relative;
 }
 
-.head_right{
+.head_right {
     width: 600;
     display: flex;
 }
@@ -622,14 +632,15 @@ main {
     margin-top: 10px;
 }
 
-.shoes, .shirt {
+.shoes,
+.shirt {
     height: auto;
     object-fit: contain;
 }
 
 
 .bottom_right {
-    grid-column: span 2; 
+    grid-column: span 2;
     border-radius: 12px;
     background-color: #EFEFEF;
     display: flex;
@@ -659,6 +670,8 @@ main {
     width: 100%;
     height: auto;
 }
+
+/* for there */
 
 /*email*/
 
@@ -722,8 +735,8 @@ main {
 }
 
 .email_button {
-max-width: 560px;
-width: 100%;
+    max-width: 560px;
+    width: 100%;
     padding: 10px 20px;
     font-size: 18px;
     background-color: #4a5986;
@@ -755,6 +768,11 @@ width: 100%;
 
 
 @media screen and (max-width: 768px) {
+    .container_email {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
 
     .email {
         margin-bottom: 80px;
@@ -891,7 +909,7 @@ width: 100%;
         display: inline-block;
     }
 
-    about__mark {
+    .about__mark {
         display: block;
     }
 
@@ -902,11 +920,12 @@ width: 100%;
         height: 500px;
         margin-bottom: 20px;
     }
-    .shadow_card{
+
+    .shadow_card {
         display: none;
     }
 
-/* 
+    /* 
     .container_nike {
         width: 1220px;
         height: 560px;
@@ -922,7 +941,8 @@ width: 100%;
     } */
 
     .container_nike {
-        width: 328px;
+        max-width: 528px;
+        width: 100%;
         height: 422px;
         justify-content: center;
         display: flex;
@@ -957,25 +977,29 @@ width: 100%;
     }
 
     #logos {
-    margin: auto;
-        width: 828px;
+        margin: auto;
+        max-width: 528px;
+        width: 100%;
         height: 68px;
-        overflow-x: auto;
+        overflow-x: scroll;
         white-space: wrap;
     }
 
     .img_logos {
         display: flex;
         max-width: 70px;
-        width: 50%;
+        width: 100%;
     }
 
     .favourite_cards {
-    margin: auto;
-        width: 330px;
+        margin: auto;
+        width: 630px;
         height: 335px;
-        overflow-x: auto;
+        overflow-x: scroll;
         white-space: nowrap;
+    }
+    .icon img{
+        width: 10px;
     }
 
     #arrow {
@@ -983,11 +1007,11 @@ width: 100%;
     }
 
     .cards {
+        margin: auto;
         width: 860px;
         height: 65px;
         position: relative;
         top: -80px;
-        gap: 0px;
     }
 
     .pro_item {
@@ -1028,7 +1052,7 @@ width: 100%;
     }
 
     .about__mark {
-    margin: auto;
+        margin: auto;
         max-width: 328px;
         width: 100%;
         /* height: 376px; */
@@ -1153,37 +1177,39 @@ width: 100%;
         height: 28px;
     }
 }
+
 /** sale **/
 
 
-  
-  .container_sale {
+
+.container_sale {
     display: flex;
     gap: 10px;
     padding: 20px;
-    height: auto; /* Убираем фиксированную высоту */
-  }
-  
-  .left-column {
+    height: auto;
+    /* Убираем фиксированную высоту */
+}
+
+.left-column {
     display: flex;
     flex-direction: column;
     gap: 10px;
     flex: 1;
-  }
-  
-  .right-column {
+}
+
+.right-column {
     display: flex;
     flex-direction: column;
     flex: 1;
-  }
-  
-  .grid-group {
+}
+
+.grid-group {
     display: flex;
     flex-direction: column;
     gap: 10px;
-  }
-  
-  .block {
+}
+
+.block {
     background-color: #f5f5f5;
     border-radius: 10px;
     display: flex;
@@ -1192,17 +1218,17 @@ width: 100%;
     justify-content: space-between;
     overflow: hidden;
     /* padding: 20px; */
-    flex-grow: 1; 
-  }
-  
-  .block img {
+    flex-grow: 1;
+}
+
+.block img {
     width: 100%;
     max-height: 100%;
     border-radius: 10px;
     object-fit: contain;
-  }
-  
-  .titles {
+}
+
+.titles {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -1211,17 +1237,19 @@ width: 100%;
     max-width: 300px;
     width: 100%;
     height: 180px;
-  }
-  .horizontal_blocks{
+}
+
+.horizontal_blocks {
     display: flex;
     flex-direction: row;
     gap: 10px;
-  }
-  .block-title {
+}
+
+.block-title {
     font-size: 2vw;
-  }
-  
-  .price-btn {
+}
+
+.price-btn {
     background-color: #fff;
     color: #000;
     border: none;
@@ -1229,14 +1257,14 @@ width: 100%;
     border-radius: 12px;
     cursor: pointer;
     font-size: 1vw;
-  }
-  
-  .price-btn:hover {
+}
+
+.price-btn:hover {
     background-color: #444;
     color: #fff;
-  }
-  
-  .block5 {
+}
+
+.block5 {
     background-color: #f9e7ad;
     padding: 20px;
     border-radius: 10px;
@@ -1244,106 +1272,113 @@ width: 100%;
     justify-content: space-between;
     flex-direction: row;
     /* max-height: 150px; */
-    flex-grow: 1; 
-  }
-  
-  .delivery-btn {
+    flex-grow: 1;
+}
+
+.delivery-btn {
     background-color: #fff;
     color: #000;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
-  }
-  
-  .delivery-btn:hover {
+}
+
+.delivery-btn:hover {
     background-color: #444;
     color: #fff;
-  }
-  
-  .block4 {
+}
+
+.block4 {
     height: 100%;
     background-image: url(../assets/svg/Vector\ 1.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
-  }
-  
-  .image-container.contain {
+}
+
+.image-container.contain {
     max-width: 505px;
     width: 53%;
-  }
-  .shoe{
+}
+
+.shoe {
     max-width: 320px;
     width: 100%;
     position: relative;
     left: -10px;
-  }
-  
-  @media (max-width: 768px) {
+}
+
+@media (max-width: 768px) {
     .container_sale {
-      flex-direction: column;
-      height: auto;
+        flex-direction: column;
+        height: auto;
     }
-    .sale_title{
+
+    .sale_title {
         font-size: 3vw;
         text-align: center;
     }
-  
+
     .left-column,
     .right-column {
-      width: 100%;
+        width: 100%;
     }
-  
+
     .grid-group {
-      flex-direction: column;
+        flex-direction: column;
     }
-  
+
     .block {
-      width: 100%;
-      height: auto;
+        width: 100%;
+        height: auto;
     }
-  
+
     .block img {
-      max-width: 100%;
-      height: auto;
+        max-width: 100%;
+        height: auto;
     }
-  
+
     .block4 {
-      height: auto;
+        height: auto;
     }
-  
+
     .titles {
-      justify-content: space-between;
-      flex-direction: column;
-      height: auto;
-      padding: 10px;
-      /* height: auto; */
+        justify-content: space-between;
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+        /* height: auto; */
     }
-  .road{
-    display: none;
-  }
+
+    .road {
+        display: none;
+    }
+
     .horizontal_block {
         max-width: 728px;
         width: 100%;
         display: flex;
         flex-direction: column;
     }
-    .titles{
-    height: 100px;
-  
-    .block1 .block2 {
-      max-height: 200px;
-      height: 100%;
-      display: flex;
-      position: relative;
-      left: 0;
+
+    .titles {
+        height: 100px;
+
+        .block1 .block2 {
+            max-height: 200px;
+            height: 100%;
+            display: flex;
+            position: relative;
+            left: 0;
+        }
+
+        .titles p {
+            font-size: 3vw;
+        }
+
+        .shoe {
+            z-index: 5;
+        }
     }
-    .titles p{
-        font-size: 3vw;
-    }
-    .shoe{
-        z-index: 5;
-    }
-  }
 }
