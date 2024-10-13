@@ -257,9 +257,10 @@ main {
     }
 
     .nike_text {
-        max-width: 100%;
+        max-width: 380px;
+        width: 100%;
         text-align: center;
-        gap: 12px;
+        /* gap: 12px; */
     }
 
     .nike_text h2 {
