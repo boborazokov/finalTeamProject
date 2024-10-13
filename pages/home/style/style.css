@@ -966,7 +966,8 @@ main {
 
     .favourite_cards {
         margin: auto;
-        width: 630px;
+        max-width: 630px;
+        width: 100%;
         height: 335px;
         overflow-x: scroll;
         white-space: nowrap;
@@ -1322,6 +1323,14 @@ main {
         height: auto;
         padding: 10px;
         /* height: auto; */
+    }
+    .block-title{
+        font-size: 4vw;
+    }
+    .price-btn{
+        font-size: 4vw;
+        width: 90px;
+        z-index: 2;
     }
 
     .road {
