@@ -393,18 +393,13 @@ s{
         position: relative;
         max-width: 150px;
         z-index: 1;
-        /* position: relative;
-        left: 85px; */
     }
 
     .logo {
-        /* align-items: center; */
         max-width: 100px;
         position: absolute;
         z-index: 2;
         margin-bottom: 150px;
-        /* position: relative;
-        left: -90px; */
     }
 }
 
@@ -426,12 +421,9 @@ s{
     }
     .logo{
         position: absolute;
-        /* left: 10px; */
     }
     .phone{
         position: relative;
-        /* left: 10px;
-        top: 160px; */
     }
 }
 .sneak_title {
@@ -457,9 +449,7 @@ s{
     border-radius: 12px;
     background-color: transparent;
     display: grid;
-    /* grid-template-columns: 1fr 1fr; */
     align-items: center;
-    /* padding: 20px; */
 }
 
 .road_text {
@@ -554,16 +544,12 @@ s{
     height: auto;
 }
 
-/* for there */
-
-/*email*/
 
 .email {
     margin-top: 150px;
     max-width: 1400px;
     width: 100%;
     padding: 103px;
-    /* height: 482px; */
     border-radius: 12px;
     background: linear-gradient(268.03deg, #EFEFEF 0.6%, #CB9A63 29.26%, #D76598 42.57%, #46527F 56.39%, #1E9190 70.21%, #4A5976 85.57%, #5F3F6B 98.87%);
     display: flex;
@@ -630,7 +616,6 @@ s{
     cursor: pointer;
     margin-bottom: 20px;
     max-width: 560px;
-    /* height: 51px; */
     border-radius: 12px;
     padding: 16px 28px;
 }
