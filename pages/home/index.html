@@ -19,52 +19,48 @@
   </head>
   <body>
     <header>
-      <div class="container_header">
+      <div class="container">
           <nav class="navbar">
               <div class="logo">
                   <div class="classes__wrapper">
                       <div class="logo__img__box">
                           <a href="#">
-                              <img src="/templates/header/imgs/image.png" alt="logo-img">
+                              <img src="./imgs/image.png" alt="logo-img">
                           </a>
                       </div>
-                      <ul class="header__logo-ul">
+                      <ul id="header-ul" class="header__logo-ul">
                           <li class="header__logo-ul-li">
-                              <a class="header__logo-a" href="#">
+                              <a class="header__logo-a " href="#">
                                   Оплата и доставка
                               </a>
                           </li>
                           <li class="header__logo-ul-li">
-                              <a class="header__logo-a" href="#">
+                              <a class="header__logo-a " href="#">
                                   Обмен и возврат
                               </a>
                           </li>
                           <li class="header__logo-ul-li">
-                              <a class="header__logo-a" href="#">
+                              <a class="header__logo-a " href="#">
                                   О компании
                               </a>
                           </li>
                           <li class="header__logo-ul-li">
-
-                              <a class="header__logo-a" href="#">
+                              <a class="header__logo-a " href="#">
                                   Контакты
                               </a>
                           </li>
                           <li class="header__logo-ul-li">
-                              <a class="header__logo-a" href="#">
+                              <a class="header__logo-a " href="#">
                                   Оригинал 100%
                               </a>
                           </li>
                       </ul>
+                      <div onclick="menuClick()" class="menu">
+                          <img src="../../svg/image.png" alt="">
+                      </div>
                   </div>
-
                   <div class="header__wrapper__logos">
                       <ul class="header__wrapper__ul">
-                          <li class="wrapper-li-bars">
-                              <a href="#">
-                                  <i class="fa-solid fa-bars"></i>
-                              </a>
-                          </li>
                           <li class="wrapper-li">
                               <a class="wrapper-li-a" href="#">
                                   <i class="fa-brands fa-whatsapp"></i>
@@ -105,11 +101,12 @@
                               <i class="fa-solid fa-bars"></i>
                           </li>
                       </ul>
+
                   </div>
               </div>
               <div class="categories">
                   <div>
-                      <a id="menu" class="kategory-li" href="#">Категории</a>
+                      <a class="kategory-li" href="#">Категории</a>
                       <ul class="categories-ul">
                           <li><a class="categories-ul-a none-left-margin" href="#">Кроссовки</a></li>
                           <li><a class="categories-ul-a" href="#">Тапочки</a></li>
@@ -129,6 +126,8 @@
                   </ul>
               </div>
           </nav>
+      </div>
+      <div id="menu" class="a ">
       </div>
   </header>
   <main>
