@@ -1,10 +1,6 @@
 let menu = document.getElementById('menu');
-let hoverLinks = document.getElementsByClassName('hoverA');
+let element = document.getElementById('header-ul');
 function menuClick() {
-    menu.classList.toggle('active-menu');
-    for (let i = 0; i < hoverLinks.length; i++) {
-        hoverLinks[i].style.display = 'block';
-    }
+    menu.classList.toggle('menu__background');
+    element.classList.toggle('active')
 }
-
-

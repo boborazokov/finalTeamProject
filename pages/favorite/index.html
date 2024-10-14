@@ -1,347 +1,391 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shop</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./style/style.css">
-</head>
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="../../templates/header/style/style.css" />
+    <link rel="stylesheet" href="../../templates/footer/style/style.css" />
+  </head>
 
-<body>
+  <body>
     <header>
-        <div class="container">
-            <nav class="navbar">
-                <div class="logo">
-                    <div class="classes__wrapper">
-                        <div class="logo__img__box">
-                            <a href="#">
-                                <img src="./assets/img/logo.png" alt="logo-img">
-                            </a>
-                        </div>
-                        <ul class="header__logo-ul">
-                            <li class="header__logo-ul-li">
-                                <a class="header__logo-a" href="#">
-                                    Оплата и доставка
-                                </a>
-                            </li>
-                            <li class="header__logo-ul-li">
-                                <a class="header__logo-a" href="#">
-                                    Обмен и возврат
-                                </a>
-                            </li>
-                            <li class="header__logo-ul-li">
-                                <a class="header__logo-a" href="#">
-                                    О компании
-                                </a>
-                            </li>
-                            <li class="header__logo-ul-li">
-
-                                <a class="header__logo-a" href="#">
-                                    Контакты
-                                </a>
-                            </li>
-                            <li class="header__logo-ul-li">
-                                <a class="header__logo-a" href="#">
-                                    Оригинал 100%
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="header__wrapper__logos">
-                        <ul class="header__wrapper__ul">
-                            <li class="wrapper-li">
-                                <a class="wrapper-li-a" href="#">
-                                    <i class="fa-brands fa-whatsapp"></i>
-                                </a>
-                            </li>
-                            <li class="wrapper-li">
-                                <a class="wrapper-li-a" href="#">
-                                    <i class="fa-brands fa-telegram"></i>
-                                </a>
-                            </li>
-                            <li class="wrapper-li wrapper-li-sms none">
-                                <a class="wrapper-li-a" href="#">
-                                    <i class="fa-solid fa-envelope"></i>
-                                </a>
-                            </li>
-                            <li class="wrapper-li wrapper-li-mail">
-                                <a class="wrapper-li-a" href="#">
-                                    order@ogstyle.ru
-                                </a>
-                                <a class="wrapper-li-a" href="#">
-                                    <i class="fa-solid fa-chevron-down"></i>
-                                </a>
-                            </li>
-                            <li class="wrapper-li wrapper-li-flex none">
-                                <a class="wrapper-li-a" href="#">
-                                    <i class="fa-solid fa-phone-flip"></i>
-                                </a>
-                            </li>
-                            <li class="wrapper-li wrapper-li-number">
-                                <a class="wrapper-li-a" href="#">
-                                    +7 (902) 041-63-39
-                                </a>
-                                <a class="wrapper-li-a" href="#">
-                                    <i class="fa-solid fa-chevron-down"></i>
-                                </a>
-                            </li>
-                            <li class="menu-icon wrapper-li-a">
-                                <i class="fa-solid fa-bars"></i>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="categories">
-                    <ul class="categories-ul">
-                        <li><a class="categories-ul-a" href="#">Кроссовки</a></li>
-                        <li><a class="categories-ul-a" href="#">Тапочки</a></li>
-                        <li><a class="categories-ul-a" href="#">Куртки</a></li>
-                        <li><a class="categories-ul-a" href="#">Футболки</a></li>
-                        <li><a class="categories-ul-a" href="#">Штаны</a></li>
-                        <li><a class="categories-ul-a" href="#">Шорты</a></li>
-                        <li><a class="categories-ul-a" href="#">Толстовки</a></li>
-                        <li><a class="categories-ul-a" href="#">Аксессуары</a></li>
-                    </ul>
-                    <ul class="categories-ul-second">
-                        <li><a class="categories-ul-second-a" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
-                        </li>
-                        <li><a class="categories-ul-second-a" href="#"><i class="fa-regular fa-heart"></i></a></li>
-                        <li><a class="categories-ul-second-a" href="#"><i class="fa-solid fa-suitcase"></i></a></li>
-                    </ul>
-                </div>
-            </nav>
-            <div class="searchPage">
-                <div class="link">
-                    <a href="../home/index.html">Главная</a> / <a href="#">Поиск</a>
-                </div>
-                <div class="searchElements">
-                    <div class="elemets">
-                        <h1>Поиск по сайту</h1>
-                        <div class="search-container">
-                            <input type="text" placeholder="🔍 Кроссовки Nike" />
-                            <button class="search-btn">Поиск</button>
-                        </div>
-                    </div>
-
-                </div>
+      <div class="container">
+        <nav class="navbar">
+          <div class="logo">
+            <div class="classes__wrapper">
+              <div class="logo__img__box">
+                <a href="#">
+                  <img
+                    src="../../templates/header/imgs/image.png"
+                    alt="logo-img"
+                  />
+                </a>
+              </div>
+              <ul id="header-ul" class="header__logo-ul">
+                <li class="header__logo-ul-li">
+                  <a class="header__logo-a" href="../orders/index.html">
+                    Оплата и доставка
+                  </a>
+                </li>
+                <li class="header__logo-ul-li">
+                  <a
+                    class="header__logo-a"
+                    href="../exchangeAndReturn/index.html"
+                  >
+                    Обмен и возврат
+                  </a>
+                </li>
+                <li class="header__logo-ul-li">
+                  <a class="header__logo-a" href="../about us/index.html">
+                    О компании
+                  </a>
+                </li>
+                <li class="header__logo-ul-li">
+                  <a class="header__logo-a" href="../contacts/index.html">
+                    Контакты
+                  </a>
+                </li>
+                <li class="header__logo-ul-li">
+                  <a class="header__logo-a" href="../orginal/index.html">
+                    Оригинал 100%
+                  </a>
+                </li>
+              </ul>
+              <div onclick="menuClick()" class="menu">
+                <img src="../../svg/image.png" alt="" />
+              </div>
             </div>
-        </div>
+            <div class="header__wrapper__logos">
+              <ul class="header__wrapper__ul">
+                <li class="wrapper-li">
+                  <a class="wrapper-li-a" href="#">
+                    <i class="fa-brands fa-whatsapp"></i>
+                  </a>
+                </li>
+                <li class="wrapper-li">
+                  <a class="wrapper-li-a" href="#">
+                    <i class="fa-brands fa-telegram"></i>
+                  </a>
+                </li>
+                <li class="wrapper-li wrapper-li-sms none">
+                  <a class="wrapper-li-a" href="#">
+                    <i class="fa-solid fa-envelope"></i>
+                  </a>
+                </li>
+                <li class="wrapper-li wrapper-li-mail">
+                  <a class="wrapper-li-a" href="#"> order@ogstyle.ru </a>
+                  <a class="wrapper-li-a" href="#">
+                    <i class="fa-solid fa-chevron-down"></i>
+                  </a>
+                </li>
+                <li class="wrapper-li wrapper-li-flex none">
+                  <a class="wrapper-li-a" href="#">
+                    <i class="fa-solid fa-phone-flip"></i>
+                  </a>
+                </li>
+                <li class="wrapper-li wrapper-li-number">
+                  <a class="wrapper-li-a" href="#"> +7 (902) 041-63-39 </a>
+                  <a class="wrapper-li-a" href="#">
+                    <i class="fa-solid fa-chevron-down"></i>
+                  </a>
+                </li>
+                <li class="menu-icon wrapper-li-a">
+                  <i class="fa-solid fa-bars"></i>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="categories">
+            <div>
+              <a class="kategory-li" href="#">Категории</a>
+              <ul class="categories-ul">
+                <li>
+                  <a class="categories-ul-a none-left-margin" href="#"
+                    >Кроссовки</a
+                  >
+                </li>
+                <li>
+                  <a class="categories-ul-a" href="../catalog/index.html"
+                    >Тапочки</a
+                  >
+                </li>
+                <li>
+                  <a class="categories-ul-a" href="../catalog/index.html"
+                    >Куртки</a
+                  >
+                </li>
+                <li>
+                  <a class="categories-ul-a" href="../catalog/index.html"
+                    >Футболки</a
+                  >
+                </li>
+                <li>
+                  <a class="categories-ul-a" href="../catalog/index.html"
+                    >Штаны</a
+                  >
+                </li>
+                <li>
+                  <a class="categories-ul-a" href="../catalog/index.html"
+                    >Шорты</a
+                  >
+                </li>
+                <li>
+                  <a class="categories-ul-a" href="../catalog/index.html"
+                    >Толстовки</a
+                  >
+                </li>
+                <li>
+                  <a class="categories-ul-a" href="../catalog/index.html"
+                    >Аксессуары</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <ul class="categories-ul-second">
+              <li>
+                <a class="categories-ul-second-a" href="#"
+                  ><i class="fa-solid fa-magnifying-glass"></i
+                ></a>
+              </li>
+              <li>
+                <a class="categories-ul-second-a" href="../favorite/index.html"
+                  ><i class="fa-regular fa-heart"></i
+                ></a>
+              </li>
+              <li>
+                <a class="categories-ul-second-a" href="#"
+                  ><i class="fa-solid fa-suitcase"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div id="menu" class="a"></div>
     </header>
     <main>
-        <div class="container">
-            <div class="result-of-search">
-                <p>Результаты поиска</p>
-                <div class="products">
-                    <div class="nike nike-defiy">
-                        <span class="rating green">Лучшая цена</span>
-                        <img src="./assets/img/1.png" alt="nike">
-                        <div class="product-name">
-                            <span>Nike Defy All Day</span>
-                        </div>
-                        <span class="cost">9 000 ₽</span>
-                        <span class="previous-cost">12 990 ₽</span>
-                        <span class="discount">-32%</span>
-                    </div>
-                    <div class="nike nike-air-max">
-                        <span class="rating red">Хит сезона</span>
-                        <img src="./assets/img/2.png" alt="nike">
-                        <div class="product-name">
-                            <span>Nike Air Max 97</span>
-                        </div>
-                        <span class="cost">20 500 ₽</span>
-                        <span class="previous-cost">22 000 ₽</span>
-                        <span class="discount">-17%</span>
-                    </div>
-                    <div class="nike nike-varsity">
-                        <span class="rating blue">Топ продаж</span>
-                        <img src="./assets/img/3.png" alt="nike">
-                        <div class="product-name">
-                            <span>Nike Varsity Royal</span>
-                        </div>
-                        <span class="cost">24 000 ₽</span>
-                        <span class="previous-cost">29 990 ₽</span>
-                        <span class="discount">-32%</span>
-                    </div>
-                    <div class="nike nike-air-max-tw">
-                        <img src="./assets/img/4.png" alt="nike">
-                        <div class="product-name">
-                            <span>Nike Air Max TW SE</span>
-                        </div>
-                        <span class="cost">13 950 ₽</span>
-                        <span class="previous-cost">15 500 ₽</span>
-                        <span class="discount">-10%</span>
-                    </div>
-                    <div class="nike nike-varsity">
-                        <span class="rating blue">Топ продаж</span>
-                        <img src="./assets/img/3.png" alt="nike">
-                        <div class="product-name">
-                            <span>Nike Varsity Royal</span>
-                        </div>
-                        <span class="cost">24 000 ₽</span>
-                        <span class="previous-cost">29 990 ₽</span>
-                        <span class="discount">-32%</span>
-                    </div>
-                    <div class="nike nike-air-max-tw">
-                        <img src="./assets/img/4.png" alt="nike">
-                        <div class="product-name">
-                            <span>Nike Air Max TW SE</span>
-                        </div>
-                        <span class="cost">13 950 ₽</span>
-                        <span class="previous-cost">15 500 ₽</span>
-                        <span class="discount">-10%</span>
-                    </div>
-                    <div class="nike nike-defiy">
-                        <span class="rating green">Лучшая цена</span>
-                        <img src="./assets/img/1.png" alt="nike">
-                        <div class="product-name">
-                            <span>Nike Defy All Day</span>
-                        </div>
-                        <span class="cost">9 000 ₽</span>
-                        <span class="previous-cost">12 990 ₽</span>
-                        <span class="discount">-32%</span>
-                    </div>
-                    <div class="nike nike-air-max">
-                        <span class="rating red">Хит сезона</span>
-                        <img src="./assets/img/2.png" alt="nike">
-                        <div class="product-name">
-                            <span>Nike Air Max 97</span>
-                        </div>
-                        <span class="cost">20 500 ₽</span>
-                        <span class="previous-cost">22 000 ₽</span>
-                        <span class="discount">-17%</span>
-                    </div>
-                    <div class="nike nike-air-max-tw">
-                        <img src="./assets/img/4.png" alt="nike">
-                        <div class="product-name">
-                            <span>Nike Air Max TW SE</span>
-                        </div>
-                        <span class="cost">13 950 ₽</span>
-                        <span class="previous-cost">15 500 ₽</span>
-                        <span class="discount">-10%</span>
-                    </div>
-                    <div class="nike nike-varsity">
-                        <span class="rating blue">Топ продаж</span>
-                        <img src="./assets/img/3.png" alt="nike">
-                        <div class="product-name">
-                            <span>Nike Varsity Royal</span>
-                        </div>
-                        <span class="cost">24 000 ₽</span>
-                        <span class="previous-cost">29 990 ₽</span>
-                        <span class="discount">-32%</span>
-                    </div>
-                    <div class="nike nike-air-max">
-                        <span class="rating red">Хит сезона</span>
-                        <img src="./assets/img/2.png" alt="nike">
-                        <div class="product-name">
-                            <span>Nike Air Max 97</span>
-                        </div>
-                        <span class="cost">20 500 ₽</span>
-                        <span class="previous-cost">22 000 ₽</span>
-                        <span class="discount">-17%</span>
-                    </div>
-                    <div class="nike nike-defiy">
-                        <span class="rating green">Лучшая цена</span>
-                        <img src="./assets/img/1.png" alt="nike">
-                        <div class="product-name">
-                            <span>Nike Defy All Day</span>
-                        </div>
-                        <span class="cost">9 000 ₽</span>
-                        <span class="previous-cost">12 990 ₽</span>
-                        <span class="discount">-32%</span>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="result-of-search">
+          <p>Результаты поиска</p>
+          <div class="products">
+            <div class="nike nike-defiy">
+              <span class="rating green">Лучшая цена</span>
+              <img src="./assets/img/1.png" alt="nike" />
+              <div class="product-name">
+                <span>Nike Defy All Day</span>
+              </div>
+              <span class="cost">9 000 ₽</span>
+              <span class="previous-cost">12 990 ₽</span>
+              <span class="discount">-32%</span>
             </div>
+            <div class="nike nike-air-max">
+              <span class="rating red">Хит сезона</span>
+              <img src="./assets/img/2.png" alt="nike" />
+              <div class="product-name">
+                <span>Nike Air Max 97</span>
+              </div>
+              <span class="cost">20 500 ₽</span>
+              <span class="previous-cost">22 000 ₽</span>
+              <span class="discount">-17%</span>
+            </div>
+            <div class="nike nike-varsity">
+              <span class="rating blue">Топ продаж</span>
+              <img src="./assets/img/3.png" alt="nike" />
+              <div class="product-name">
+                <span>Nike Varsity Royal</span>
+              </div>
+              <span class="cost">24 000 ₽</span>
+              <span class="previous-cost">29 990 ₽</span>
+              <span class="discount">-32%</span>
+            </div>
+            <div class="nike nike-air-max-tw">
+              <img src="./assets/img/4.png" alt="nike" />
+              <div class="product-name">
+                <span>Nike Air Max TW SE</span>
+              </div>
+              <span class="cost">13 950 ₽</span>
+              <span class="previous-cost">15 500 ₽</span>
+              <span class="discount">-10%</span>
+            </div>
+            <div class="nike nike-varsity">
+              <span class="rating blue">Топ продаж</span>
+              <img src="./assets/img/3.png" alt="nike" />
+              <div class="product-name">
+                <span>Nike Varsity Royal</span>
+              </div>
+              <span class="cost">24 000 ₽</span>
+              <span class="previous-cost">29 990 ₽</span>
+              <span class="discount">-32%</span>
+            </div>
+            <div class="nike nike-air-max-tw">
+              <img src="./assets/img/4.png" alt="nike" />
+              <div class="product-name">
+                <span>Nike Air Max TW SE</span>
+              </div>
+              <span class="cost">13 950 ₽</span>
+              <span class="previous-cost">15 500 ₽</span>
+              <span class="discount">-10%</span>
+            </div>
+            <div class="nike nike-defiy">
+              <span class="rating green">Лучшая цена</span>
+              <img src="./assets/img/1.png" alt="nike" />
+              <div class="product-name">
+                <span>Nike Defy All Day</span>
+              </div>
+              <span class="cost">9 000 ₽</span>
+              <span class="previous-cost">12 990 ₽</span>
+              <span class="discount">-32%</span>
+            </div>
+            <div class="nike nike-air-max">
+              <span class="rating red">Хит сезона</span>
+              <img src="./assets/img/2.png" alt="nike" />
+              <div class="product-name">
+                <span>Nike Air Max 97</span>
+              </div>
+              <span class="cost">20 500 ₽</span>
+              <span class="previous-cost">22 000 ₽</span>
+              <span class="discount">-17%</span>
+            </div>
+            <div class="nike nike-air-max-tw">
+              <img src="./assets/img/4.png" alt="nike" />
+              <div class="product-name">
+                <span>Nike Air Max TW SE</span>
+              </div>
+              <span class="cost">13 950 ₽</span>
+              <span class="previous-cost">15 500 ₽</span>
+              <span class="discount">-10%</span>
+            </div>
+            <div class="nike nike-varsity">
+              <span class="rating blue">Топ продаж</span>
+              <img src="./assets/img/3.png" alt="nike" />
+              <div class="product-name">
+                <span>Nike Varsity Royal</span>
+              </div>
+              <span class="cost">24 000 ₽</span>
+              <span class="previous-cost">29 990 ₽</span>
+              <span class="discount">-32%</span>
+            </div>
+            <div class="nike nike-air-max">
+              <span class="rating red">Хит сезона</span>
+              <img src="./assets/img/2.png" alt="nike" />
+              <div class="product-name">
+                <span>Nike Air Max 97</span>
+              </div>
+              <span class="cost">20 500 ₽</span>
+              <span class="previous-cost">22 000 ₽</span>
+              <span class="discount">-17%</span>
+            </div>
+            <div class="nike nike-defiy">
+              <span class="rating green">Лучшая цена</span>
+              <img src="./assets/img/1.png" alt="nike" />
+              <div class="product-name">
+                <span>Nike Defy All Day</span>
+              </div>
+              <span class="cost">9 000 ₽</span>
+              <span class="previous-cost">12 990 ₽</span>
+              <span class="discount">-32%</span>
+            </div>
+          </div>
         </div>
+      </div>
     </main>
     <footer>
-        <div class="container">
-            <div class="footer__wrapper">
-                <ul class="footer__column__one">
-                    <div class="footer__logo">
-                        <img src="./assets/img/logo.png" alt="logo-img">
-                    </div>
-                    <li>
-                        <a class="footer-a" href="#">OGstyle - магазин по продаже оригинальной одежды и обуви мировых
-                            брендов</a>
-                    </li>
-                    <li>
-                        <a class="footer-a" href="#">+7 (902) 041-63-39</a>
-                    </li>
-                    <li>
-                        <a class="footer-a" href="#">admin@gmail.com</a>
-                    </li>
-                    <li class="footer-icon-wrapper">
-                        <a class="footer-a footer-icon" href="#"><i class="fa-brands fa-whatsapp"></i></a>
-                        <a class="footer-a footer-icon" href="#"><i class="fa-brands fa-telegram"></i></a>
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                        <a class="footer-a" href="#">Кроссовки</a>
-                    </li>
-                    <li>
-                        <a class="footer-a" href="#">Футболки</a>
-                    </li>
-                    <li>
-                        <a class="footer-a" href="#">Тапочки</a>
-                    </li>
-                    <li>
-                        <a class="footer-a" href="#">Куртки</a>
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                        <a class="footer-a" href="#">Кроссовки</a>
-                    </li>
-                    <li>
-                        <a class="footer-a" href="#">Футболки</a>
-                    </li>
-                    <li>
-                        <a class="footer-a" href="#">Тапочки</a>
-                    </li>
-                    <li>
-                        <a class="footer-a" href="#">Куртки</a>
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                        <a class="footer-a" href="#">Оплата и доставка</a>
-                    </li>
-                    <li>
-                        <a class="footer-a" href="#">Обмен и возврат</a>
-                    </li>
-                    <li>
-                        <a class="footer-a" href="#">Оригинал 100%</a>
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                        <a class="footer-a" href="#">О компании</a>
-                    </li>
-                    <li>
-                        <a class="footer-a" href="#">Контакты</a>
-                    </li>
-                </ul>
+      <div class="container">
+        <div class="footer__wrapper">
+          <ul class="footer__column__one">
+            <div class="footer__logo">
+              <img src="./assets/img/logo.png" alt="logo-img" />
             </div>
-            <div class="footer-last">
-                <p>© OGstyle 2023</p>
-                <p>Политика конфиденциальности</p>
-                <p>Разработано ООО “Maxocom”</p>
-            </div>
+            <li>
+              <a class="footer-a" href="#"
+                >OGstyle - магазин по продаже оригинальной одежды и обуви
+                мировых брендов</a
+              >
+            </li>
+            <li>
+              <a class="footer-a" href="#">+7 (902) 041-63-39</a>
+            </li>
+            <li>
+              <a class="footer-a" href="#">admin@gmail.com</a>
+            </li>
+            <li class="footer-icon-wrapper">
+              <a class="footer-a footer-icon" href="#"
+                ><i class="fa-brands fa-whatsapp"></i
+              ></a>
+              <a class="footer-a footer-icon" href="#"
+                ><i class="fa-brands fa-telegram"></i
+              ></a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a class="footer-a" href="#">Кроссовки</a>
+            </li>
+            <li>
+              <a class="footer-a" href="#">Футболки</a>
+            </li>
+            <li>
+              <a class="footer-a" href="#">Тапочки</a>
+            </li>
+            <li>
+              <a class="footer-a" href="#">Куртки</a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a class="footer-a" href="#">Кроссовки</a>
+            </li>
+            <li>
+              <a class="footer-a" href="#">Футболки</a>
+            </li>
+            <li>
+              <a class="footer-a" href="#">Тапочки</a>
+            </li>
+            <li>
+              <a class="footer-a" href="#">Куртки</a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a class="footer-a" href="#">Оплата и доставка</a>
+            </li>
+            <li>
+              <a class="footer-a" href="#">Обмен и возврат</a>
+            </li>
+            <li>
+              <a class="footer-a" href="#">Оригинал 100%</a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a class="footer-a" href="#">О компании</a>
+            </li>
+            <li>
+              <a class="footer-a" href="#">Контакты</a>
+            </li>
+          </ul>
         </div>
+        <div class="footer-last">
+          <p>© OGstyle 2023</p>
+          <p>Политика конфиденциальности</p>
+          <p>Разработано ООО “Maxocom”</p>
+        </div>
+      </div>
     </footer>
-
-
-</body>
-
+  </body>
 </html>

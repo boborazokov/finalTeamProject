@@ -22,6 +22,14 @@
   --phone: #4caf50;
   --grey: #464646;
   --white: #e1e1e1;
+  --link-c-grey: rgba(113, 105, 105, 1);
+  --link-c-black: rgba(43, 41, 41, 1);
+  --whatsup-c: #25d366;
+  --tg-c: #0088cc;
+  --sms-c: #ffcc00;
+  --phone: #4caf50;
+  --grey: #464646;
+  --white: #e1e1e1;
   --slash-c: #716969;
   --color-direction: #2b2929;
   --black: #464646;
@@ -96,18 +104,11 @@
 .fa-telegram,
 .fa-envelope,
 .fa-phone-flip,
-.menu-icon,
-.wrapper-li-bars {
+.menu-icon {
   border: 1px solid var(--link-c-grey);
   padding: 7px;
   border-radius: 50%;
   transition: 0.5s;
-}
-.wrapper-li-bars {
-  width: 34px;
-  text-align: center;
-  margin: 0 0 0 20px;
-  display: none;
 }
 .kategory-li {
   display: none;
@@ -170,12 +171,23 @@
   font-weight: 400;
   line-height: 18.2px;
 }
-.wrapper-li-bars a {
-  color: var(--link-c-grey);
-  border-color: var(--link-c-grey);
+.menu {
+  position: absolute;
+  right: 24px;
+  top: 30px;
+  cursor: pointer;
+  display: none;
+  z-index: 1;
 }
-.wrapper-li-bars {
-  border-color: var(--link-c-grey);
+.menu__background::after {
+  position: absolute;
+  top: 0;
+  padding: 0;
+  margin: 0;
+  content: ".";
+  width: 100%;
+  height: 300px;
+  background-color: var(--slash-c);
 }
 @media screen and (max-width: 1662px) {
   .wrapper-li-flex {
@@ -207,13 +219,9 @@
   }
 }
 @media screen and (max-width: 1291px) {
-  .wrapper-li-bars {
-    display: block;
-  }
   .header__logo-ul-li {
     transform: translateY(100px);
     font-size: 24px;
-    opacity: 0;
   }
   .active-menu {
     height: 300px;
@@ -230,14 +238,17 @@
     align-items: center;
     width: 100vw;
     transition: 0.5s;
+    display: none;
+    z-index: 1;
   }
   .header__logo-a {
     color: var(--white);
-    display: none;
   }
-  .wrapper-li-bars {
-    z-index: 1;
-    cursor: pointer;
+  .menu {
+    display: block;
+  }
+  .header__logo-ul.active {
+    display: flex;
   }
 }
 
@@ -261,10 +272,6 @@
   .wrapper-li {
     margin: 0 10px;
   }
-  .input,
-  .button {
-    width: 90%;
-  }
 }
 
 @media screen and (max-width: 600px) {
@@ -275,5 +282,11 @@
   }
   .classes__wrapper {
     margin: 10px 0;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    margin: 0 15px;
   }
 }

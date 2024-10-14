@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>exchange_and_return</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="../../templates/header/style/style.css">
+    <link rel="stylesheet" href="../../templates/footer/style/style.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="./css/stayl.css" />
+    <link rel="stylesheet" href="../../templates/header/style/style.css">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+          <nav class="navbar">
+              <div class="logo">
+                  <div class="classes__wrapper">
+                      <div class="logo__img__box">
+                          <a href="#">
+                              <img src="../contacts/imgs/image.png" alt="logo-img">
+                          </a>
+                      </div>
+                      <ul id="menu" class="header__logo-ul">
+                          <li class="header__logo-ul-li">
+                              <a class="header__logo-a hoverA" href="#">
+                                  Оплата и доставка
+                              </a>
+                          </li>
+                          <li class="header__logo-ul-li">
+                              <a class="header__logo-a hoverA" href="#">
+                                  Обмен и возврат
+                              </a>
+                          </li>
+                          <li class="header__logo-ul-li">
+                              <a class="header__logo-a hoverA" href="#">
+                                  О компании
+                              </a>
+                          </li>
+                          <li class="header__logo-ul-li">
+
+                              <a class="header__logo-a hoverA" href="#">
+                                  Контакты
+                              </a>
+                          </li>
+                          <li class="header__logo-ul-li">
+                              <a class="header__logo-a hoverA" href="#">
+                                  Оригинал 100%
+                              </a>
+                          </li>
+                      </ul>
+                  </div>
+                  <div class="header__wrapper__logos">
+                      <ul class="header__wrapper__ul">
+                          <li class="wrapper-li">
+                              <a class="wrapper-li-a" href="#">
+                                  <i class="fa-brands fa-whatsapp"></i>
+                              </a>
+                          </li>
+                          <li class="wrapper-li">
+                              <a class="wrapper-li-a" href="#">
+                                  <i class="fa-brands fa-telegram"></i>
+                              </a>
+                          </li>
+                          <li class="wrapper-li wrapper-li-sms none">
+                              <a class="wrapper-li-a" href="#">
+                                  <i class="fa-solid fa-envelope"></i>
+                              </a>
+                          </li>
+                          <li class="wrapper-li wrapper-li-mail">
+                              <a class="wrapper-li-a" href="#">
+                                  order@ogstyle.ru
+                              </a>
+                              <a class="wrapper-li-a" href="#">
+                                  <i class="fa-solid fa-chevron-down"></i>
+                              </a>
+                          </li>
+                          <li class="wrapper-li wrapper-li-flex none">
+                              <a class="wrapper-li-a" href="#">
+                                  <i class="fa-solid fa-phone-flip"></i>
+                              </a>
+                          </li>
+                          <li class="wrapper-li wrapper-li-number">
+                              <a class="wrapper-li-a" href="#">
+                                  +7 (902) 041-63-39
+                              </a>
+                              <a class="wrapper-li-a" href="#">
+                                  <i class="fa-solid fa-chevron-down"></i>
+                              </a>
+                          </li>
+                          <li class="menu-icon wrapper-li-a">
+                              <i class="fa-solid fa-bars"></i>
+                          </li>
+
+                          <li id="menu-icon" onclick="menuClick()" class="wrapper-li-bars">
+                              <a href="#">
+                                  <i class="fa-solid fa-bars"></i>
+                              </a>
+                          </li>
+
+                      </ul>
+
+                  </div>
+              </div>
+              <ul id="header-ul" class="header__logo-ul">
+                <li class="header__logo-ul-li">
+                  <a class="header__logo-a" href="../orders/index.html">
+                    Оплата и доставка
+                  </a>
+                </li>
+                <li class="header__logo-ul-li">
+                  <a
+                    class="header__logo-a"
+                    href="../exchangeAndReturn/index.html"
+                  >
+                    Обмен и возврат
+                  </a>
+                </li>
+                <li class="header__logo-ul-li">
+                  <a class="header__logo-a" href="../about us/index.html">
+                    О компании
+                  </a>
+                </li>
+                <li class="header__logo-ul-li">
+                  <a class="header__logo-a" href="../contacts/index.html">
+                    Контакты
+                  </a>
+                </li>
+                <li class="header__logo-ul-li">
+                  <a class="header__logo-a" href="../orginal/index.html">
+                    Оригинал 100%
+                  </a>
+                </li>
+              </ul>
+              <div onclick="menuClick()" class="menu">
+                <img src="../../svg/image.png" alt="" />
+              </div>
+            </div>
+            <div class="header__wrapper__logos">
+              <ul class="header__wrapper__ul">
+                <li class="wrapper-li">
+                  <a class="wrapper-li-a" href="#">
+                    <i class="fa-brands fa-whatsapp"></i>
+                  </a>
+                </li>
+                <li class="wrapper-li">
+                  <a class="wrapper-li-a" href="#">
+                    <i class="fa-brands fa-telegram"></i>
+                  </a>
+                </li>
+                <li class="wrapper-li wrapper-li-sms none">
+                  <a class="wrapper-li-a" href="#">
+                    <i class="fa-solid fa-envelope"></i>
+                  </a>
+                </li>
+                <li class="wrapper-li wrapper-li-mail">
+                  <a class="wrapper-li-a" href="#"> order@ogstyle.ru </a>
+                  <a class="wrapper-li-a" href="#">
+                    <i class="fa-solid fa-chevron-down"></i>
+                  </a>
+                </li>
+                <li class="wrapper-li wrapper-li-flex none">
+                  <a class="wrapper-li-a" href="#">
+                    <i class="fa-solid fa-phone-flip"></i>
+                  </a>
+                </li>
+                <li class="wrapper-li wrapper-li-number">
+                  <a class="wrapper-li-a" href="#"> +7 (902) 041-63-39 </a>
+                  <a class="wrapper-li-a" href="#">
+                    <i class="fa-solid fa-chevron-down"></i>
+                  </a>
+                </li>
+                <li class="menu-icon wrapper-li-a">
+                  <i class="fa-solid fa-bars"></i>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="categories">
+            <div>
+              <a class="kategory-li" href="#">Категории</a>
+              <ul class="categories-ul">
+                <li>
+                  <a class="categories-ul-a none-left-margin" href="#"
+                    >Кроссовки</a
+                  >
+                </li>
+                <li>
+                  <a class="categories-ul-a" href="../catalog/index.html"
+                    >Тапочки</a
+                  >
+                </li>
+                <li>
+                  <a class="categories-ul-a" href="../catalog/index.html"
+                    >Куртки</a
+                  >
+                </li>
+                <li>
+                  <a class="categories-ul-a" href="../catalog/index.html"
+                    >Футболки</a
+                  >
+                </li>
+                <li>
+                  <a class="categories-ul-a" href="../catalog/index.html"
+                    >Штаны</a
+                  >
+                </li>
+                <li>
+                  <a class="categories-ul-a" href="../catalog/index.html"
+                    >Шорты</a
+                  >
+                </li>
+                <li>
+                  <a class="categories-ul-a" href="../catalog/index.html"
+                    >Толстовки</a
+                  >
+                </li>
+                <li>
+                  <a class="categories-ul-a" href="../catalog/index.html"
+                    >Аксессуары</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <ul class="categories-ul-second">
+              <li>
+                <a class="categories-ul-second-a" href="#"
+                  ><i class="fa-solid fa-magnifying-glass"></i
+                ></a>
+              </li>
+              <li>
+                <a class="categories-ul-second-a" href="../favorite/index.html"
+                  ><i class="fa-regular fa-heart"></i
+                ></a>
+              </li>
+              <li>
+                <a class="categories-ul-second-a" href="#"
+                  ><i class="fa-solid fa-suitcase"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div id="menu" class="a"></div>
+    </header>
+    <main>
+      <section class="customers">
+        <div class="container">
+          <div class="wrapper__direction-a">
+            <a class="wrapper__direction-a-one" href="../home/index.html">Главная</a>
+            <span class="customers__icon__slash-span">/</span>
+            <a class="wrapper__direction-a-two" href="./index.html">Обмен и возврат</a>
+        </div>
+          <div>
+            <h1 class="customers__title">Обмен и возврат заказов</h1>
+          </div>
+          <div>
+            <p class="customers__text">
+              При онлайн покупке бывает так, что кроссовки или штаны не подошли.
+              В этом случае сразу после примерки вы можете заполнить заявку на
+              обмен и поменять на другой размер, модель или оформить возврат
+              средств
+            </p>
+          </div>
+          <div class="customers__wrapping">
+            <div class="send__stay">
+              <div class="send d-flex">
+                <div class="send__num"><h3 class="number">1</h3></div>
+                <div><h3 class="send__title-3">Сделать запрос</h3></div>
+              </div> 
+              <p class="send__texts"></p>
+                В течении 3-х дней с момента получения товара отправить запрос
+                на обмен с помощью Telegram +7 (999) 99-99-99, или написать нам
+                на электронную почту info@ogstyle.ru.
+              </p>
+            </div>
+            <div class="send__stay">
+               <div class="send d-flex">
+                 <div class="send__num"><h3 class="number">2</h3></div>
+                 <div> <h3 class="send__title-3">Прислать фото</h3></div>
+               </div>
+              <p class="send__texts">
+                На фото должно быть хорошо виден фотографируемый товар,
+                например если присутствует дефект то он должен быть чётко
+                виден
+              </p>
+            </div>
+            <div class="send__stay">
+              <div class="send d-flex">
+                <div class="send__num"><h3 class="number">3</h3></div>
+                <div> <h3 class="send__title-3">Отправить неподошедший товар</h3></div>
+              </div>
+              <p class="send__texts">
+                Отправить нужно по адресу: 410028, Россия, город Балашиха ,
+                ул. Кожедуба 8
+              </p>
+           </div>  
+          </div>
+          <div>
+            <p class="customers__text-2">
+              Важно! Обмен осуществляется только после фактического получения посылки и понимания, что товар прислали тот, который нужен в соответствующем виде - новый и со всеми бирками. Возврат недопустим при сорванной бирке, 
+              наличие следов стирки или носки товара. Все обмены происходят полностью за счет покупателяs
+            </p>
+          </div>   
+        </div>
+      </section>
+      <section class="attention">
+        <div class="container">
+          <div>
+            <h1 class="attention__title">ВНИМАНИЕ!</h1>
+            <p class="attention__text">
+              Оплата доставки до нас клиент осуществляет за собственные средства, отправка обмена в сторону клиента происходит за наш счет.
+              В случае если товар вам по всем параметрам подходит, но вам не понравились стилевые решения или иные указанные характеристики модели, то оплату доставки в ОБЕ стороны оплачиваете вы.
+              Если вы желаете отказаться от товаров без корректной причины по личному желанию то оплату доставки в ОБЕ стороны оплачиваете вы.
+            </p>
+          </div>
+          <div>
+            <h1 class="attention__title-1">МЫ НЕ ОСУЩЕСТВЛЯЕМ ОБМЕН И ВОЗВРАТ В СЛУЧАЕ:</h1>
+            <p class="attention__text-1">
+              1. Если Вы приобретали модели со скидкой выше 30%.
+            </p> 
+            <p class="attention__text-1">
+              2. Не сохранен товарный вид, потребительские свойства, ярлыки, бирки – любые изменения в товаре, свидетельствующие о его эксплуатации.
+            </p>  
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container">
+          <div class="email">
+            <div class="email_body">
+              <h2 class="email_title">Подпишись на рассылку</h2>
+              <sub class="sub_title">Чтобы всегда быть в курсе интересного</sub>
+              <input
+                type="email"
+                name="email"
+                id="email_input"
+                placeholder="Ваш email"
+              />
+              <button class="email_button">Подписаться</button>
+              <sub class="subscribe"
+                ><input type="checkbox" name="" id="email_check" /> Я согласен с
+                политикой обработки и политикой конфиденциальности</sub
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+          <div class="footer__wrapper">
+              <ul class="footer__column__one">
+                  <div class="footer__logo">
+                      <img src="./img/image copy.png" alt="logo-img">
+                  </div>
+                  <li>
+                      <a class="footer-a" href="#">OGstyle - магазин по продаже оригинальной одежды и обуви мировых
+                          брендов</a>
+                  </li>
+                  <li>
+                      <a class="footer-a" href="#">+7 (902) 041-63-39</a>
+                  </li>
+                  <li>
+                      <a class="footer-a" href="#">admin@gmail.com</a>
+                  </li>
+                  <li class="footer-icon-wrapper">
+                      <a class="footer-a footer-icon" href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                      <a class="footer-a footer-icon" href="#"><i class="fa-brands fa-telegram"></i></a>
+                  </li>
+              </ul>
+              <ul>
+                  <li>
+                      <a class="footer-a" href="#">Кроссовки</a>
+                  </li>
+                  <li>
+                      <a class="footer-a" href="#">Футболки</a>
+                  </li>
+                  <li>
+                      <a class="footer-a" href="#">Тапочки</a>
+                  </li>
+                  <li>
+                      <a class="footer-a" href="#">Куртки</a>
+                  </li>
+              </ul>
+              <ul>
+                  <li>
+                      <a class="footer-a" href="#">Кроссовки</a>
+                  </li>
+                  <li>
+                      <a class="footer-a" href="#">Футболки</a>
+                  </li>
+                  <li>
+                      <a class="footer-a" href="#">Тапочки</a>
+                  </li>
+                  <li>
+                      <a class="footer-a" href="#">Куртки</a>
+                  </li>
+              </ul>
+              <ul>
+                  <li>
+                      <a class="footer-a" href="#">Оплата и доставка</a>
+                  </li>
+                  <li>
+                      <a class="footer-a" href="#">Обмен и возврат</a>
+                  </li>
+                  <li>
+                      <a class="footer-a" href="#">Оригинал 100%</a>
+                  </li>
+              </ul>
+              <ul>
+                  <li>
+                      <a class="footer-a" href="#">О компании</a>
+                  </li>
+                  <li>
+                      <a class="footer-a" href="#">Контакты</a>
+                  </li>
+              </ul>
+          </div>
+          <div class="footer-last">   
+              <p>© OGstyle 2023</p>
+              <p>Политика конфиденциальности</p>
+              <p>Разработано ООО “Maxocom”</p>
+          </div>
+      </div>
+  </footer>
+    <script src="./script.js"></script>
+    <script src="../../templates/header/js/index.js"></script>
+  </body>
+</html>

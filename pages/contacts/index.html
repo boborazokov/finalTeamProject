@@ -1,286 +1,326 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shop</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="../../templates/header/style/style.css" />
+    <link rel="stylesheet" href="../../templates/footer/style/style.css" />
     <link
-        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./sytle.css">
-</head>
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./sytle.css" />
+  </head>
 
-<body>
-
+  <body>
     <header>
-        <div class="container">
-            <nav class="navbar">
-                <div class="logo">
-                    <div class="classes__wrapper">
-                        <div class="logo__img__box">
-                            <a href="#">
-                                <img src="./imgs/image.png" alt="logo-img">
-                            </a>
-                        </div>
-                        <ul id="menu" class="header__logo-ul">
-                            <li class="header__logo-ul-li">
-                                <a class="header__logo-a hoverA" href="#">
-                                    Оплата и доставка
-                                </a>
-                            </li>
-                            <li class="header__logo-ul-li">
-                                <a class="header__logo-a hoverA" href="#">
-                                    Обмен и возврат
-                                </a>
-                            </li>
-                            <li class="header__logo-ul-li">
-                                <a class="header__logo-a hoverA" href="#">
-                                    О компании
-                                </a>
-                            </li>
-                            <li class="header__logo-ul-li">
-
-                                <a class="header__logo-a hoverA" href="#">
-                                    Контакты
-                                </a>
-                            </li>
-                            <li class="header__logo-ul-li">
-                                <a class="header__logo-a hoverA" href="#">
-                                    Оригинал 100%
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="header__wrapper__logos">
-                        <ul class="header__wrapper__ul">
-                            <li class="wrapper-li">
-                                <a class="wrapper-li-a" href="#">
-                                    <i class="fa-brands fa-whatsapp"></i>
-                                </a>
-                            </li>
-                            <li class="wrapper-li">
-                                <a class="wrapper-li-a" href="#">
-                                    <i class="fa-brands fa-telegram"></i>
-                                </a>
-                            </li>
-                            <li class="wrapper-li wrapper-li-sms none">
-                                <a class="wrapper-li-a" href="#">
-                                    <i class="fa-solid fa-envelope"></i>
-                                </a>
-                            </li>
-                            <li class="wrapper-li wrapper-li-mail">
-                                <a class="wrapper-li-a" href="#">
-                                    order@ogstyle.ru
-                                </a>
-                                <a class="wrapper-li-a" href="#">
-                                    <i class="fa-solid fa-chevron-down"></i>
-                                </a>
-                            </li>
-                            <li class="wrapper-li wrapper-li-flex none">
-                                <a class="wrapper-li-a" href="#">
-                                    <i class="fa-solid fa-phone-flip"></i>
-                                </a>
-                            </li>
-                            <li class="wrapper-li wrapper-li-number">
-                                <a class="wrapper-li-a" href="#">
-                                    +7 (902) 041-63-39
-                                </a>
-                                <a class="wrapper-li-a" href="#">
-                                    <i class="fa-solid fa-chevron-down"></i>
-                                </a>
-                            </li>
-                            <li class="menu-icon wrapper-li-a">
-                                <i class="fa-solid fa-bars"></i>
-                            </li>
-
-                            <li id="menu-icon" onclick="menuClick()" class="wrapper-li-bars">
-                                <a href="#">
-                                    <i class="fa-solid fa-bars"></i>
-                                </a>
-                            </li>
-
-                        </ul>
-
-                    </div>
-                </div>
-                <div class="categories">
-                    <div>
-                        <a class="kategory-li" href="#">Категории</a>
-                        <ul class="categories-ul">
-                            <li><a class="categories-ul-a none-left-margin" href="#">Кроссовки</a></li>
-                            <li><a class="categories-ul-a" href="#">Тапочки</a></li>
-                            <li><a class="categories-ul-a" href="#">Куртки</a></li>
-                            <li><a class="categories-ul-a" href="#">Футболки</a></li>
-                            <li><a class="categories-ul-a" href="#">Штаны</a></li>
-                            <li><a class="categories-ul-a" href="#">Шорты</a></li>
-                            <li><a class="categories-ul-a" href="#">Толстовки</a></li>
-                            <li><a class="categories-ul-a" href="#">Аксессуары</a></li>
-                        </ul>
-                    </div>
-                    <ul class="categories-ul-second">
-                        <li><a class="categories-ul-second-a" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
-                        </li>
-                        <li><a class="categories-ul-second-a" href="#"><i class="fa-regular fa-heart"></i></a></li>
-                        <li><a class="categories-ul-second-a" href="#"><i class="fa-solid fa-suitcase"></i></a></li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
+      <div class="container">
+        <nav class="navbar">
+          <div class="logo">
+            <div class="classes__wrapper">
+              <div class="logo__img__box">
+                <a href="#">
+                  <img
+                    src="../../templates/header/imgs/image.png"
+                    alt="logo-img"
+                  />
+                </a>
+              </div>
+              <ul id="header-ul" class="header__logo-ul">
+                <li class="header__logo-ul-li">
+                  <a class="header__logo-a" href="../orders/index.html">
+                    Оплата и доставка
+                  </a>
+                </li>
+                <li class="header__logo-ul-li">
+                  <a
+                    class="header__logo-a"
+                    href="../exchangeAndReturn/index.html"
+                  >
+                    Обмен и возврат
+                  </a>
+                </li>
+                <li class="header__logo-ul-li">
+                  <a class="header__logo-a" href="../about us/index.html">
+                    О компании
+                  </a>
+                </li>
+                <li class="header__logo-ul-li">
+                  <a class="header__logo-a" href="../contacts/index.html">
+                    Контакты
+                  </a>
+                </li>
+                <li class="header__logo-ul-li">
+                  <a class="header__logo-a" href="../orginal/index.html">
+                    Оригинал 100%
+                  </a>
+                </li>
+              </ul>
+              <div onclick="menuClick()" class="menu">
+                <img src="../../svg/image.png" alt="" />
+              </div>
+            </div>
+            <div class="header__wrapper__logos">
+              <ul class="header__wrapper__ul">
+                <li class="wrapper-li">
+                  <a class="wrapper-li-a" href="#">
+                    <i class="fa-brands fa-whatsapp"></i>
+                  </a>
+                </li>
+                <li class="wrapper-li">
+                  <a class="wrapper-li-a" href="#">
+                    <i class="fa-brands fa-telegram"></i>
+                  </a>
+                </li>
+                <li class="wrapper-li wrapper-li-sms none">
+                  <a class="wrapper-li-a" href="#">
+                    <i class="fa-solid fa-envelope"></i>
+                  </a>
+                </li>
+                <li class="wrapper-li wrapper-li-mail">
+                  <a class="wrapper-li-a" href="#"> order@ogstyle.ru </a>
+                  <a class="wrapper-li-a" href="#">
+                    <i class="fa-solid fa-chevron-down"></i>
+                  </a>
+                </li>
+                <li class="wrapper-li wrapper-li-flex none">
+                  <a class="wrapper-li-a" href="#">
+                    <i class="fa-solid fa-phone-flip"></i>
+                  </a>
+                </li>
+                <li class="wrapper-li wrapper-li-number">
+                  <a class="wrapper-li-a" href="#"> +7 (902) 041-63-39 </a>
+                  <a class="wrapper-li-a" href="#">
+                    <i class="fa-solid fa-chevron-down"></i>
+                  </a>
+                </li>
+                <li class="menu-icon wrapper-li-a">
+                  <i class="fa-solid fa-bars"></i>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="categories">
+            <div>
+              <a class="kategory-li" href="#">Категории</a>
+              <ul class="categories-ul">
+                <li>
+                  <a class="categories-ul-a none-left-margin" href="#"
+                    >Кроссовки</a
+                  >
+                </li>
+                <li>
+                  <a class="categories-ul-a" href="../catalog/index.html"
+                    >Тапочки</a
+                  >
+                </li>
+                <li>
+                  <a class="categories-ul-a" href="../catalog/index.html"
+                    >Куртки</a
+                  >
+                </li>
+                <li>
+                  <a class="categories-ul-a" href="../catalog/index.html"
+                    >Футболки</a
+                  >
+                </li>
+                <li>
+                  <a class="categories-ul-a" href="../catalog/index.html"
+                    >Штаны</a
+                  >
+                </li>
+                <li>
+                  <a class="categories-ul-a" href="../catalog/index.html"
+                    >Шорты</a
+                  >
+                </li>
+                <li>
+                  <a class="categories-ul-a" href="../catalog/index.html"
+                    >Толстовки</a
+                  >
+                </li>
+                <li>
+                  <a class="categories-ul-a" href="../catalog/index.html"
+                    >Аксессуары</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <ul class="categories-ul-second">
+              <li>
+                <a class="categories-ul-second-a" href="#"
+                  ><i class="fa-solid fa-magnifying-glass"></i
+                ></a>
+              </li>
+              <li>
+                <a class="categories-ul-second-a" href="../favorite/index.html"
+                  ><i class="fa-regular fa-heart"></i
+                ></a>
+              </li>
+              <li>
+                <a class="categories-ul-second-a" href="#"
+                  ><i class="fa-solid fa-suitcase"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div id="menu" class="a"></div>
     </header>
 
-
-
     <main class="main">
-        <div class="container">
-            <div class="wrapper-direction-a">
-                <a class="wrapper-direction-a-one" href="../home/index.html">Главная</a>
-                <span class="main__icon__slash-span">/</span>
-                <a class="wrapper-direction-a-two" href="./index.html">Контакты</a>
-            </div>
-            <div class="main__part">
-                <div class="main__part__one">
-                    <div class="box__title__wrapper">
-                        <h1 class="main__part__one-h1">
-                            Контакты
-                        </h1>
-                        <h2 class="main__part__one-h2">
-                            Балашиха
-                        </h2>
-                        <span class="main__part__one-span">
-                            420000, Россия, город Балашиха , ул. Кожедуба 8
-                        </span>
-                    </div>
-                    <div class="main__box__in">
-                        <div class="mbox-one">
-                            <h3 class="mbox-one-h3">
-                                Телефон
-                            </h3>
-                            <h3 class="mbox-one-h3">
-                                E-mail
-                            </h3>
-                            <h3 class="mbox-one-h3">
-                                Режим работы
-                            </h3>
-                        </div>
-                        <div class="mbox-two">
-                            <span class="mbox-two-span">
-                                +7 (902) 041-63-39
-                            </span>
-                            <span class="mbox-two-span">
-                                info@ogstyle.ru.
-                            </span>
-                            <span class="mbox-two-span">
-                                Мы ждем вас ежедневно с 08:00 до 20:00 без перерывов и выходных
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div class="main__part__two">
-                    <img class="main__part__img" src="./imgs/000 1.png" alt="image">
-                </div>
-            </div>
-            <div class="rgb-background">
-                <h1 class="rgb-background-h1">
-                    Подпишись на рассылку
-                </h1>
-                <span class="rgb-background-span">
-                    Чтобы всегда быть в курсе интересного
-                </span><br>
-                <input class="input" type="text" placeholder="Ваш email"><br>
-                <input class="button" type="button" value="Подписаться" type="button">
-                <div class="checkbox">
-                    <input class="checkbox-input" type="checkbox">
-                    <p class="checkbox-input-p">
-                        Я согласен с политикой обработки и политикой конфиденциальности
-                    </p>
-                </div>
-            </div>
+      <div class="container">
+        <div class="wrapper-direction-a">
+          <a class="wrapper-direction-a-one" href="../home/index.html"
+            >Главная</a
+          >
+          <span class="main__icon__slash-span">/</span>
+          <a class="wrapper-direction-a-two" href="./index.html">Контакты</a>
         </div>
+        <div class="main__part">
+          <div class="main__part__one">
+            <div class="box__title__wrapper">
+              <h1 class="main__part__one-h1">Контакты</h1>
+              <h2 class="main__part__one-h2">Балашиха</h2>
+              <span class="main__part__one-span">
+                420000, Россия, город Балашиха , ул. Кожедуба 8
+              </span>
+            </div>
+            <div class="main__box__in">
+              <div class="mbox-one">
+                <h3 class="mbox-one-h3">Телефон</h3>
+                <h3 class="mbox-one-h3">E-mail</h3>
+                <h3 class="mbox-one-h3">Режим работы</h3>
+              </div>
+              <div class="mbox-two">
+                <span class="mbox-two-span"> +7 (902) 041-63-39 </span>
+                <span class="mbox-two-span"> info@ogstyle.ru. </span>
+                <span class="mbox-two-span">
+                  Мы ждем вас ежедневно с 08:00 до 20:00 без перерывов и
+                  выходных
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="main__part__two">
+            <img class="main__part__img" src="./imgs/000 1.png" alt="image" />
+          </div>
+        </div>
+        <div class="rgb-background">
+          <h1 class="rgb-background-h1">Подпишись на рассылку</h1>
+          <span class="rgb-background-span">
+            Чтобы всегда быть в курсе интересного </span
+          ><br />
+          <input class="input" type="text" placeholder="Ваш email" /><br />
+          <input
+            class="button"
+            type="button"
+            value="Подписаться"
+            type="button"
+          />
+          <div class="checkbox">
+            <input class="checkbox-input" type="checkbox" />
+            <p class="checkbox-input-p">
+              Я согласен с политикой обработки и политикой конфиденциальности
+            </p>
+          </div>
+        </div>
+      </div>
     </main>
     <footer>
-        <div class="container">
-            <div class="footer__wrapper">
-                <ul class="footer__column__one">
-                    <div class="footer__logo">
-                        <img src="./imgs/image.png" alt="logo-img">
-                    </div>
-                    <li>
-                        <a class="footer-a" href="#">OGstyle - магазин по продаже оригинальной одежды и обуви мировых
-                            брендов</a>
-                    </li>
-                    <li>
-                        <a class="footer-a" href="#">+7 (902) 041-63-39</a>
-                    </li>
-                    <li>
-                        <a class="footer-a" href="#">admin@gmail.com</a>
-                    </li>
-                    <li class="footer-icon-wrapper">
-                        <a class="footer-a footer-icon" href="#"><i class="fa-brands fa-whatsapp"></i></a>
-                        <a class="footer-a footer-icon" href="#"><i class="fa-brands fa-telegram"></i></a>
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                        <a class="footer-a" href="#">Кроссовки</a>
-                    </li>
-                    <li>
-                        <a class="footer-a" href="#">Футболки</a>
-                    </li>
-                    <li>
-                        <a class="footer-a" href="#">Тапочки</a>
-                    </li>
-                    <li>
-                        <a class="footer-a" href="#">Куртки</a>
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                        <a class="footer-a" href="#">Кроссовки</a>
-                    </li>
-                    <li>
-                        <a class="footer-a" href="#">Футболки</a>
-                    </li>
-                    <li>
-                        <a class="footer-a" href="#">Тапочки</a>
-                    </li>
-                    <li>
-                        <a class="footer-a" href="#">Куртки</a>
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                        <a class="footer-a" href="#">Оплата и доставка</a>
-                    </li>
-                    <li>
-                        <a class="footer-a" href="#">Обмен и возврат</a>
-                    </li>
-                    <li>
-                        <a class="footer-a" href="#">Оригинал 100%</a>
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                        <a class="footer-a" href="#">О компании</a>
-                    </li>
-                    <li>
-                        <a class="footer-a" href="#">Контакты</a>
-                    </li>
-                </ul>
+      <div class="container">
+        <div class="footer__wrapper">
+          <ul class="footer__column__one">
+            <div class="footer__logo">
+              <img src="./imgs/image.png" alt="logo-img" />
             </div>
-            <div class="footer-last">
-                <p>© OGstyle 2023</p>
-                <p>Политика конфиденциальности</p>
-                <p>Разработано ООО “Maxocom”</p>
-            </div>
+            <li>
+              <a class="footer-a" href="#"
+                >OGstyle - магазин по продаже оригинальной одежды и обуви
+                мировых брендов</a
+              >
+            </li>
+            <li>
+              <a class="footer-a" href="#">+7 (902) 041-63-39</a>
+            </li>
+            <li>
+              <a class="footer-a" href="#">admin@gmail.com</a>
+            </li>
+            <li class="footer-icon-wrapper">
+              <a class="footer-a footer-icon" href="#"
+                ><i class="fa-brands fa-whatsapp"></i
+              ></a>
+              <a class="footer-a footer-icon" href="#"
+                ><i class="fa-brands fa-telegram"></i
+              ></a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a class="footer-a" href="#">Кроссовки</a>
+            </li>
+            <li>
+              <a class="footer-a" href="#">Футболки</a>
+            </li>
+            <li>
+              <a class="footer-a" href="#">Тапочки</a>
+            </li>
+            <li>
+              <a class="footer-a" href="#">Куртки</a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a class="footer-a" href="#">Кроссовки</a>
+            </li>
+            <li>
+              <a class="footer-a" href="#">Футболки</a>
+            </li>
+            <li>
+              <a class="footer-a" href="#">Тапочки</a>
+            </li>
+            <li>
+              <a class="footer-a" href="#">Куртки</a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a class="footer-a" href="#">Оплата и доставка</a>
+            </li>
+            <li>
+              <a class="footer-a" href="#">Обмен и возврат</a>
+            </li>
+            <li>
+              <a class="footer-a" href="#">Оригинал 100%</a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a class="footer-a" href="#">О компании</a>
+            </li>
+            <li>
+              <a class="footer-a" href="#">Контакты</a>
+            </li>
+          </ul>
         </div>
+        <div class="footer-last">
+          <p>© OGstyle 2023</p>
+          <p>Политика конфиденциальности</p>
+          <p>Разработано ООО “Maxocom”</p>
+        </div>
+      </div>
     </footer>
-    <script src="./js/index.js"></script>
-</body>
-
+    <script src="../../templates/header/js/index.js"></script>
+  </body>
 </html>
