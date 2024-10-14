@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="../../templates/header/style/style.css">
+    <link rel="stylesheet" href="../../templates/footer/style/style.css">
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet" />
@@ -15,119 +17,159 @@
   <body>
     <header>
       <div class="container">
-          <nav class="navbar">
-              <div class="logo">
-                  <div class="classes__wrapper">
-                      <div class="logo__img__box">
-                          <a href="#">
-                              <img src="./img/image copy.png" alt="logo-img">
-                          </a>
-                      </div>
-                      <ul id="menu" class="header__logo-ul">
-                          <li class="header__logo-ul-li">
-                              <a class="header__logo-a hoverA" href="../payment/">
-                                  Оплата и доставка
-                              </a>
-                          </li>
-                          <li class="header__logo-ul-li">
-                              <a class="header__logo-a hoverA" href="#">
-                                  Обмен и возврат
-                              </a>
-                          </li>
-                          <li class="header__logo-ul-li">
-                              <a class="header__logo-a hoverA" href="#">
-                                  О компании
-                              </a>
-                          </li>
-                          <li class="header__logo-ul-li">
-
-                              <a class="header__logo-a hoverA" href="../contacts/">
-                                  Контакты
-                              </a>
-                          </li>
-                          <li class="header__logo-ul-li">
-                              <a class="header__logo-a hoverA" href="#">
-                                  Оригинал 100%
-                              </a>
-                          </li>
-                      </ul>
-                  </div>
-                  <div class="header__wrapper__logos">
-                      <ul class="header__wrapper__ul">
-                          <li class="wrapper-li">
-                              <a class="wrapper-li-a" href="#">
-                                  <i class="fa-brands fa-whatsapp"></i>
-                              </a>
-                          </li>
-                          <li class="wrapper-li">
-                              <a class="wrapper-li-a" href="#">
-                                  <i class="fa-brands fa-telegram"></i>
-                              </a>
-                          </li>
-                          <li class="wrapper-li wrapper-li-sms none">
-                              <a class="wrapper-li-a" href="#">
-                                  <i class="fa-solid fa-envelope"></i>
-                              </a>
-                          </li>
-                          <li class="wrapper-li wrapper-li-mail">
-                              <a class="wrapper-li-a" href="#">
-                                  order@ogstyle.ru
-                              </a>
-                              <a class="wrapper-li-a" href="#">
-                                  <i class="fa-solid fa-chevron-down"></i>
-                              </a>
-                          </li>
-                          <li class="wrapper-li wrapper-li-flex none">
-                              <a class="wrapper-li-a" href="#">
-                                  <i class="fa-solid fa-phone-flip"></i>
-                              </a>
-                          </li>
-                          <li class="wrapper-li wrapper-li-number">
-                              <a class="wrapper-li-a" href="#">
-                                  +7 (902) 041-63-39
-                              </a>
-                              <a class="wrapper-li-a" href="#">
-                                  <i class="fa-solid fa-chevron-down"></i>
-                              </a>
-                          </li>
-                          <li class="menu-icon wrapper-li-a">
-                              <i class="fa-solid fa-bars"></i>
-                          </li>
-
-                          <li id="menu-icon" onclick="menuClick()" class="wrapper-li-bars">
-                              <a href="#">
-                                  <i class="fa-solid fa-bars"></i>
-                              </a>
-                          </li>
-
-                      </ul>
-
-                  </div>
+        <nav class="navbar">
+          <div class="logo">
+            <div class="classes__wrapper">
+              <div class="logo__img__box">
+                <a href="#">
+                  <img
+                    src="../../templates/header/imgs/image.png"
+                    alt="logo-img"
+                  />
+                </a>
               </div>
-              <div class="categories">
-                  <div>
-                      <a class="kategory-li" href="#">Категории</a>
-                      <ul class="categories-ul">
-                          <li><a class="categories-ul-a none-left-margin" href="#">Кроссовки</a></li>
-                          <li><a class="categories-ul-a" href="#">Тапочки</a></li>
-                          <li><a class="categories-ul-a" href="#">Куртки</a></li>
-                          <li><a class="categories-ul-a" href="#">Футболки</a></li>
-                          <li><a class="categories-ul-a" href="#">Штаны</a></li>
-                          <li><a class="categories-ul-a" href="#">Шорты</a></li>
-                          <li><a class="categories-ul-a" href="#">Толстовки</a></li>
-                          <li><a class="categories-ul-a" href="#">Аксессуары</a></li>
-                      </ul>
-                  </div>
-                  <ul class="categories-ul-second">
-                      <li><a class="categories-ul-second-a" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
-                      </li>
-                      <li><a class="categories-ul-second-a" href="#"><i class="fa-regular fa-heart"></i></a></li>
-                      <li><a class="categories-ul-second-a" href="#"><i class="fa-solid fa-suitcase"></i></a></li>
-                  </ul>
+              <ul id="header-ul" class="header__logo-ul">
+                <li class="header__logo-ul-li">
+                  <a class="header__logo-a" href="../orders/index.html">
+                    Оплата и доставка
+                  </a>
+                </li>
+                <li class="header__logo-ul-li">
+                  <a
+                    class="header__logo-a"
+                    href="../exchangeAndReturn/index.html"
+                  >
+                    Обмен и возврат
+                  </a>
+                </li>
+                <li class="header__logo-ul-li">
+                  <a class="header__logo-a" href="../about us/index.html">
+                    О компании
+                  </a>
+                </li>
+                <li class="header__logo-ul-li">
+                  <a class="header__logo-a" href="../contacts/index.html">
+                    Контакты
+                  </a>
+                </li>
+                <li class="header__logo-ul-li">
+                  <a class="header__logo-a" href="../orginal/index.html">
+                    Оригинал 100%
+                  </a>
+                </li>
+              </ul>
+              <div onclick="menuClick()" class="menu">
+                <img src="../../svg/image.png" alt="" />
               </div>
-          </nav>
+            </div>
+            <div class="header__wrapper__logos">
+              <ul class="header__wrapper__ul">
+                <li class="wrapper-li">
+                  <a class="wrapper-li-a" href="#">
+                    <i class="fa-brands fa-whatsapp"></i>
+                  </a>
+                </li>
+                <li class="wrapper-li">
+                  <a class="wrapper-li-a" href="#">
+                    <i class="fa-brands fa-telegram"></i>
+                  </a>
+                </li>
+                <li class="wrapper-li wrapper-li-sms none">
+                  <a class="wrapper-li-a" href="#">
+                    <i class="fa-solid fa-envelope"></i>
+                  </a>
+                </li>
+                <li class="wrapper-li wrapper-li-mail">
+                  <a class="wrapper-li-a" href="#"> order@ogstyle.ru </a>
+                  <a class="wrapper-li-a" href="#">
+                    <i class="fa-solid fa-chevron-down"></i>
+                  </a>
+                </li>
+                <li class="wrapper-li wrapper-li-flex none">
+                  <a class="wrapper-li-a" href="#">
+                    <i class="fa-solid fa-phone-flip"></i>
+                  </a>
+                </li>
+                <li class="wrapper-li wrapper-li-number">
+                  <a class="wrapper-li-a" href="#"> +7 (902) 041-63-39 </a>
+                  <a class="wrapper-li-a" href="#">
+                    <i class="fa-solid fa-chevron-down"></i>
+                  </a>
+                </li>
+                <li class="menu-icon wrapper-li-a">
+                  <i class="fa-solid fa-bars"></i>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="categories">
+            <div>
+              <a class="kategory-li" href="#">Категории</a>
+              <ul class="categories-ul">
+                <li>
+                  <a class="categories-ul-a none-left-margin" href="#"
+                    >Кроссовки</a
+                  >
+                </li>
+                <li>
+                  <a class="categories-ul-a" href="../catalog/index.html"
+                    >Тапочки</a
+                  >
+                </li>
+                <li>
+                  <a class="categories-ul-a" href="../catalog/index.html"
+                    >Куртки</a
+                  >
+                </li>
+                <li>
+                  <a class="categories-ul-a" href="../catalog/index.html"
+                    >Футболки</a
+                  >
+                </li>
+                <li>
+                  <a class="categories-ul-a" href="../catalog/index.html"
+                    >Штаны</a
+                  >
+                </li>
+                <li>
+                  <a class="categories-ul-a" href="../catalog/index.html"
+                    >Шорты</a
+                  >
+                </li>
+                <li>
+                  <a class="categories-ul-a" href="../catalog/index.html"
+                    >Толстовки</a
+                  >
+                </li>
+                <li>
+                  <a class="categories-ul-a" href="../catalog/index.html"
+                    >Аксессуары</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <ul class="categories-ul-second">
+              <li>
+                <a class="categories-ul-second-a" href="#"
+                  ><i class="fa-solid fa-magnifying-glass"></i
+                ></a>
+              </li>
+              <li>
+                <a class="categories-ul-second-a" href="../favorite/index.html"
+                  ><i class="fa-regular fa-heart"></i
+                ></a>
+              </li>
+              <li>
+                <a class="categories-ul-second-a" href="#"
+                  ><i class="fa-solid fa-suitcase"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
       </div>
-  </header>
+      <div id="menu" class="a"></div>
+    </header>
     <main>
       <section class="customers">
         <div class="container">

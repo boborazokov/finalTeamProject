@@ -1,28 +1,11 @@
-<<<<<<< HEAD
 // Like (heart) ikonasi uchun kod
 const heartIcons = document.querySelectorAll(".recommendation_shoes .favorite");
-=======
-const toEnterShop = document.getElementById("toEnterShop");
-
-toEnterShop.addEventListener("click", () => {
-  var block = document.getElementsByClassName("basket_folder")[0];
-  block.style.display = "none";
-
-  var recommendations = document.getElementsByClassName("recommendations")[0];
-  recommendations.style.display = "block";
-});
-
-const heartIcons = document.querySelectorAll(".recommendation_shoes .favorite");
-console.log(heartIcons);
-
->>>>>>> c99449505c77401cd7538f0db8c53a2f60934a58
 heartIcons.forEach((icon) => {
   icon.addEventListener("click", function () {
     this.classList.toggle("active");
     this.classList.toggle("fas");
   });
 });
-<<<<<<< HEAD
 
 function updateSelectedCount() {
   const cards = document.querySelectorAll(".products_cards .product_card");
@@ -109,5 +92,3 @@ function deleteAllCard() {
   updateSelectedCount();
   checkProducts();
 }
-=======
->>>>>>> c99449505c77401cd7538f0db8c53a2f60934a58

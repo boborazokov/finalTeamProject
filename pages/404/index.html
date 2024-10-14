@@ -8,6 +8,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="../basket/style.css" />
+    <link rel="stylesheet" href="../../templates/header/style/style.css" />
+    <link rel="stylesheet" href="../../templates/footer/style/style.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet"
@@ -34,27 +36,39 @@
                   />
                 </a>
               </div>
-              <ul id="menu" class="header__logo-ul">
+              <ul id="header-ul" class="header__logo-ul">
                 <li class="header__logo-ul-li">
-                  <a class="header__logo-a hoverA" href="#">
+                  <a class="header__logo-a" href="../orders/index.html">
                     Оплата и доставка
                   </a>
                 </li>
                 <li class="header__logo-ul-li">
-                  <a class="header__logo-a hoverA" href="#">
+                  <a
+                    class="header__logo-a"
+                    href="../exchangeAndReturn/index.html"
+                  >
                     Обмен и возврат
                   </a>
                 </li>
                 <li class="header__logo-ul-li">
-                  <a class="header__logo-a hoverA" href="#"> О компании </a>
+                  <a class="header__logo-a" href="../about us/index.html">
+                    О компании
+                  </a>
                 </li>
                 <li class="header__logo-ul-li">
-                  <a class="header__logo-a hoverA" href="#"> Контакты </a>
+                  <a class="header__logo-a" href="../contacts/index.html">
+                    Контакты
+                  </a>
                 </li>
                 <li class="header__logo-ul-li">
-                  <a class="header__logo-a hoverA" href="#"> Оригинал 100% </a>
+                  <a class="header__logo-a" href="../orginal/index.html">
+                    Оригинал 100%
+                  </a>
                 </li>
               </ul>
+              <div onclick="menuClick()" class="menu">
+                <img src="../../svg/image.png" alt="" />
+              </div>
             </div>
             <div class="header__wrapper__logos">
               <ul class="header__wrapper__ul">
@@ -93,16 +107,6 @@
                 <li class="menu-icon wrapper-li-a">
                   <i class="fa-solid fa-bars"></i>
                 </li>
-
-                <li
-                  id="menu-icon"
-                  onclick="menuClick()"
-                  class="wrapper-li-bars"
-                >
-                  <a href="#">
-                    <i class="fa-solid fa-bars"></i>
-                  </a>
-                </li>
               </ul>
             </div>
           </div>
@@ -115,13 +119,41 @@
                     >Кроссовки</a
                   >
                 </li>
-                <li><a class="categories-ul-a" href="#">Тапочки</a></li>
-                <li><a class="categories-ul-a" href="#">Куртки</a></li>
-                <li><a class="categories-ul-a" href="#">Футболки</a></li>
-                <li><a class="categories-ul-a" href="#">Штаны</a></li>
-                <li><a class="categories-ul-a" href="#">Шорты</a></li>
-                <li><a class="categories-ul-a" href="#">Толстовки</a></li>
-                <li><a class="categories-ul-a" href="#">Аксессуары</a></li>
+                <li>
+                  <a class="categories-ul-a" href="../catalog/index.html"
+                    >Тапочки</a
+                  >
+                </li>
+                <li>
+                  <a class="categories-ul-a" href="../catalog/index.html"
+                    >Куртки</a
+                  >
+                </li>
+                <li>
+                  <a class="categories-ul-a" href="../catalog/index.html"
+                    >Футболки</a
+                  >
+                </li>
+                <li>
+                  <a class="categories-ul-a" href="../catalog/index.html"
+                    >Штаны</a
+                  >
+                </li>
+                <li>
+                  <a class="categories-ul-a" href="../catalog/index.html"
+                    >Шорты</a
+                  >
+                </li>
+                <li>
+                  <a class="categories-ul-a" href="../catalog/index.html"
+                    >Толстовки</a
+                  >
+                </li>
+                <li>
+                  <a class="categories-ul-a" href="../catalog/index.html"
+                    >Аксессуары</a
+                  >
+                </li>
               </ul>
             </div>
             <ul class="categories-ul-second">
@@ -131,7 +163,7 @@
                 ></a>
               </li>
               <li>
-                <a class="categories-ul-second-a" href="#"
+                <a class="categories-ul-second-a" href="../favorite/index.html"
                   ><i class="fa-regular fa-heart"></i
                 ></a>
               </li>
@@ -144,6 +176,7 @@
           </div>
         </nav>
       </div>
+      <div id="menu" class="a"></div>
     </header>
     <main>
       <section>

@@ -284,3 +284,9 @@
     margin: 10px 0;
   }
 }
+
+@media screen and (max-width: 576px) {
+  .container {
+    margin: 0 15px;
+  }
+}
