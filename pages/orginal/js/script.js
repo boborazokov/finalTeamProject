@@ -6,5 +6,3 @@ function menuClick() {
         hoverLinks[i].style.display = 'block';
     }
 }
-
-
