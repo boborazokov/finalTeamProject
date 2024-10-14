@@ -15,13 +15,8 @@ main {
     margin: auto;
     max-width: 1220px;
     width: 100%;
-    /* padding-top: 100px;
-    padding-left: 50px;
-    padding-right: 50px;
-    gap: 160px; */
 }
 
-/* Desktop Styles */
 .container_nike {
     box-sizing: border-box;
     display: flex;
@@ -111,7 +106,6 @@ main {
     width: 15%;
 }
 
-/* Mobile Styles */
 @media screen and (max-width: 768px) {
     .container_nike {
         flex-direction: column;
@@ -126,7 +120,6 @@ main {
         max-width: 380px;
         width: 100%;
         text-align: center;
-        /* gap: 12px; */
     }
 
     .nike_text h2 {
@@ -667,21 +660,9 @@ s{
 
 }
 
-/* @media screen and (max-width: 376px) {
-    .container {
-        margin: 0 18px;
-    }
-} */
-
 
 
 @media (max-width: 768px) {
-    /* body {
-        max-width: 360px;
-        width: 100%;
-        height: 997px;
-    } */
-
     .container_nike {
         max-width: 528px;
         width: 100%;
@@ -714,7 +695,6 @@ s{
     #more {
         max-width: 280px;
         width: 100%;
-        /* height: 42px; */
         padding: 12px 64px;
     }
 
@@ -812,9 +792,7 @@ s{
         margin: auto;
         max-width: 328px;
         width: 100%;
-        /* height: 376px; */
         position: relative;
-        /* left: 16px; */
         display: flex;
         flex-direction: column-reverse;
         justify-content: space-between;
@@ -865,7 +843,6 @@ s{
     }
 
     .sneakers,
-    /* .road, */
     .shoes,
     .shirt,
     .bottom_right {
@@ -936,8 +913,6 @@ s{
     }
 }
 
-/** sale **/
-
 
 
 .container_sale {
@@ -945,7 +920,6 @@ s{
     gap: 10px;
     padding: 20px;
     height: auto;
-    /* Убираем фиксированную высоту */
 }
 
 .left-column {
@@ -975,7 +949,6 @@ s{
     align-items: center;
     justify-content: space-between;
     overflow: hidden;
-    /* padding: 20px; */
     flex-grow: 1;
 }
 
@@ -1029,7 +1002,6 @@ s{
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    /* max-height: 150px; */
     flex-grow: 1;
 }
 
@@ -1106,7 +1078,6 @@ s{
         flex-direction: column;
         height: auto;
         padding: 10px;
-        /* height: auto; */
     }
     .block-title{
         font-size: 4vw;
