@@ -14,9 +14,11 @@
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./sytle.css">
+    <link rel="stylesheet" href="../../templates/header/style/style.css">
 </head>
 
 <body>
+
     <header>
         <div class="container">
             <nav class="navbar">
@@ -27,36 +29,37 @@
                                 <img src="./imgs/image.png" alt="logo-img">
                             </a>
                         </div>
-                        <ul class="header__logo-ul">
+                        <ul id="header-ul" class="header__logo-ul">
                             <li class="header__logo-ul-li">
-                                <a class="header__logo-a" href="#">
+                                <a class="header__logo-a " href="#">
                                     Оплата и доставка
                                 </a>
                             </li>
                             <li class="header__logo-ul-li">
-                                <a class="header__logo-a" href="#">
+                                <a class="header__logo-a " href="#">
                                     Обмен и возврат
                                 </a>
                             </li>
                             <li class="header__logo-ul-li">
-                                <a class="header__logo-a" href="#">
+                                <a class="header__logo-a " href="#">
                                     О компании
                                 </a>
                             </li>
                             <li class="header__logo-ul-li">
-
-                                <a class="header__logo-a" href="#">
+                                <a class="header__logo-a " href="#">
                                     Контакты
                                 </a>
                             </li>
                             <li class="header__logo-ul-li">
-                                <a class="header__logo-a" href="#">
+                                <a class="header__logo-a " href="#">
                                     Оригинал 100%
                                 </a>
                             </li>
                         </ul>
+                        <div onclick="menuClick()" class="menu">
+                            <img src="../../svg/image.png" alt="">
+                        </div>
                     </div>
-
                     <div class="header__wrapper__logos">
                         <ul class="header__wrapper__ul">
                             <li class="wrapper-li">
@@ -99,19 +102,23 @@
                                 <i class="fa-solid fa-bars"></i>
                             </li>
                         </ul>
+
                     </div>
                 </div>
                 <div class="categories">
-                    <ul class="categories-ul">
-                        <li><a class="categories-ul-a none-left-margin" href="#">Кроссовки</a></li>
-                        <li><a class="categories-ul-a" href="#">Тапочки</a></li>
-                        <li><a class="categories-ul-a" href="#">Куртки</a></li>
-                        <li><a class="categories-ul-a" href="#">Футболки</a></li>
-                        <li><a class="categories-ul-a" href="#">Штаны</a></li>
-                        <li><a class="categories-ul-a" href="#">Шорты</a></li>
-                        <li><a class="categories-ul-a" href="#">Толстовки</a></li>
-                        <li><a class="categories-ul-a" href="#">Аксессуары</a></li>
-                    </ul>
+                    <div>
+                        <a class="kategory-li" href="#">Категории</a>
+                        <ul class="categories-ul">
+                            <li><a class="categories-ul-a none-left-margin" href="#">Кроссовки</a></li>
+                            <li><a class="categories-ul-a" href="#">Тапочки</a></li>
+                            <li><a class="categories-ul-a" href="#">Куртки</a></li>
+                            <li><a class="categories-ul-a" href="#">Футболки</a></li>
+                            <li><a class="categories-ul-a" href="#">Штаны</a></li>
+                            <li><a class="categories-ul-a" href="#">Шорты</a></li>
+                            <li><a class="categories-ul-a" href="#">Толстовки</a></li>
+                            <li><a class="categories-ul-a" href="#">Аксессуары</a></li>
+                        </ul>
+                    </div>
                     <ul class="categories-ul-second">
                         <li><a class="categories-ul-second-a" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
                         </li>
@@ -121,7 +128,12 @@
                 </div>
             </nav>
         </div>
+        <div id="menu" class="a ">
+        </div>
     </header>
+
+
+
     <main class="main">
         <div class="container">
             <div class="wrapper-direction-a">
@@ -266,7 +278,7 @@
             </div>
         </div>
     </footer>
-    <script src="./js/index.js"></script>
+    <script src="../../templates/header/js/index.js"></script>
 </body>
 
 </html>
